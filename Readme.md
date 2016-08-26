@@ -24,7 +24,8 @@ Notes
 
 Changelog
 ---------
-
+_8/26/2016_
+- Changed all CreatureRoles in GROUND and UNDERWATER to PlayerPredator.  Everything should try to kill you now pretty much.
 _8\25\16_
 
 ###Make Ship Launcher use more resources to prevent overuse.
