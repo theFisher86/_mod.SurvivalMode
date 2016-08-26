@@ -21,6 +21,10 @@ Notes
   3. Then once the `TriggerValue` is hit the `DAMAGETABLE` kicks in and deals the amount of damage for the type.
     - This might only happen once the `HAZARDTABLE` reaches it's `CriticalValue`
 
+## :earth-america: Biomes
+- Can unpack the biome mbins in `\METADATA\SIMULATION\SOLARSYSTEM\BIOMES` using the [1.0.98 version of MBINCompiler](https://ci.appveyor.com/project/emoose/mbincompiler/build/1.0.98-mqbltbva/artifacts) 
+- Making a table of the Biome stats [here](https://docs.google.com/spreadsheets/d/1eTZg6Qh98Js6816mKw_83bQ-SxndrTyQ4oXe3vy_JBU/edit?usp=sharing)
+- [ ] Looks like there's a lot of settings to change the intensity of the waves in water and stuff.  Seems like this could be really cool.
 
 :memo: Changelog
 ---------
