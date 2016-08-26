@@ -1,16 +1,16 @@
-Changelog
+#Changelog
 
 _8/25/16_
 
 ###Make Ship Launcher use more resources to prevent overuse.
-	* NMS_REALITY_GCTECHNOLOGYTABLE.exml *
-	- Ship_Launcher
-	  - Raised ChargeAmount to 1000 (from 600)
-	  - Raised Ship_Launcher_TakeOffCost to 500 (from 150)
-	  - Added COMMODITY6 (Antimatter) as a charge source
-	  - [ ] TODO: Need to add this to the Description
-	    - This also required editing NMS_REALITY_GCPRODUCTTABLE.exml
-	      - Increased ChargeValue of COMMODITY6 to 500 (from 0)
+* NMS_REALITY_GCTECHNOLOGYTABLE.exml *
+  - Ship_Launcher
+    - Raised ChargeAmount to 1000 (from 600)
+    - Raised Ship_Launcher_TakeOffCost to 500 (from 150)
+    - Added COMMODITY6 (Antimatter) as a charge source
+    - [ ] TODO: Need to add this to the Description
+      - This also required editing NMS_REALITY_GCPRODUCTTABLE.exml
+	  - Increased ChargeValue of COMMODITY6 to 500 (from 0)
 				
 ###Make Ship Shields hold dramatically more charge so you're not recharging your ship shields mid-battle all the time.  Can't charge shields with just plain Iron.
 -  Will need to craft it into a Shield Fuel product or use Titanium or Zinc.  However Iron is now inefficient when crafting into fuel (125FE = 100 charge, 250FE = 200 charge, etc).	 This makes inventory efficiency have some differences (most efficient woudl be TI or ZN as they are worth 2x charge and can hold 250 (500 charge) in an exosuit slot).
@@ -25,12 +25,12 @@ _8/25/16_
       - SHIELDFUEL3 now requires 500 COM1 (iron) but produces 400 charge
 		
 ###Environmental Shields hold more charge as they're upgraded.
-	- [ ] TODO: Add to language files.	
-	- COLD2, HOT2, RAD2 & TOX2 ChargeAmount increased to 150
-	- COLD3, HOT3, RAD3 & TOX3 ChargeAmount increased to 250
+- [ ] TODO: Add to language files.	
+- COLD2, HOT2, RAD2 & TOX2 ChargeAmount increased to 150
+- COLD3, HOT3, RAD3 & TOX3 ChargeAmount increased to 250
 	
 ###Weaken the Scanner dramatically.  Make the Scanner much less powerful so that if you want the scanner to actually be useful you need both of the upgrades for it (thus sacrificing inventory space).
-	* NMS_REALITY_GCTECHNOLOGYTABLE.exml *
+* NMS_REALITY_GCTECHNOLOGYTABLE.exml *
 - Reduce Weapon_Scan_Radius of Scan1 to 0.2 (from 1)
 - Reduce Weapon_Scan_Radius of Scan2 to 0.8 (from 1.4)
 - Reduce Weapon_Scan_Radius of Scan3 to 1.5 (from 1.8)
