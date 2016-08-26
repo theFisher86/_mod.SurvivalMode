@@ -1,6 +1,31 @@
-#Changelog
+NMS Survival Mode Mod
+=====================
+If you're reading this and you aren't me then you probably don't want this yet.  This is **very much** a work in progress mod for *No Man's Sky.*
 
-_8/25/16_
+Notes
+-----
+
+##Weather Damage
+- Might want to get rid of most of the `HazardTable` changes and just mess with the `TriggerValue` in `HazardTable` (maybe the `Increases` thing too if you can figure out how it works).  Then use the different WeatherValues from `\METADATA\SIMULATION\SOLARSYSTEM\WEATHER\` and my [weather table](https:\\drive.google.com\open?id=1uFutA2O6o5lY_qkIYukqoCL2Sp227v41eKzXbehU8B4) to change the temps, toxs, & rads of each weather style.  I feel like this would be the *better* way to go about it than just arbitrarily changing the `HAZARDTABLE` values. 
+
+- Looks like the way this whole weather damage thing works is this:
+  1. The weather file in `\METADATA\SIMULATION\SOLARSYSTEM\WEATHER\` defines the temp, tox & rad levels of the particular weather feature (5 features in each planet type).
+  2. the `HAZARDTABLE` defines at what point the temp, tox or rad levels start actually dealing damage.
+    - This would be the `TriggerValue`
+	- Need to figure out what the items below do in `HAZARDTABLE`
+	  [ ] ProtectionTime
+	  [ ] DamageRate
+      [ ] WoundRate
+	  [ ] Increases
+      [ ] CriticalValue
+  3. Then once the `TriggerValue` is hit the `DAMAGETABLE` kicks in and deals the amount of damage for the type.
+    - This might only happen once the `HAZARDTABLE` reaches it's `CriticalValue`
+
+
+Changelog
+---------
+
+_8\25\16_
 
 ###Make Ship Launcher use more resources to prevent overuse.
 * NMS_REALITY_GCTECHNOLOGYTABLE.exml *
