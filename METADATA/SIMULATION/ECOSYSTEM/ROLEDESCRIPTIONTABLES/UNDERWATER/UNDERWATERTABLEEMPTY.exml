@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data template="GcCreatureRoleDescriptionTable">
+  <Property name="RoleDescription" />
+  <Property name="MinScaleVariance" value="0" />
+  <Property name="MaxScaleVariance" value="0" />
+  <Data name="TileType" template="GcTerrainTileType">
+    <Property name="TileType" value="Underwater" />
+  </Data>
+</Data>
