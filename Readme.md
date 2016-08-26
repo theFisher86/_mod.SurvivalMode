@@ -2,15 +2,14 @@ Changelog
 
 8/25/16
 
->>Make Ship Launcher use more resources to prevent overuse.
-
+Make Ship Launcher use more resources to prevent overuse.
 	NMS_REALITY_GCTECHNOLOGYTABLE.exml
-	>Ship_Launcher
+	* Ship_Launcher
 		* Raised ChargeAmount to 1000 (from 600)
 		* Raised Ship_Launcher_TakeOffCost to 500 (from 150)
 		* Added COMMODITY6 (Antimatter) as a charge source
-		!!! TODO: Need to add this to the Description
-			>This also required editing NMS_REALITY_GCPRODUCTTABLE.exml
+		* !!! TODO: Need to add this to the Description
+			* This also required editing NMS_REALITY_GCPRODUCTTABLE.exml
 				* Increased ChargeValue of COMMODITY6 to 500 (from 0)
 				
 >>Make Ship Shields hold dramatically more charge so you're not recharging your ship shields mid-battle all the time.  Can't charge shields with just plain Iron.
