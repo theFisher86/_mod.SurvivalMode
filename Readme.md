@@ -13,11 +13,11 @@ Notes
   2. the `HAZARDTABLE` defines at what point the temp, tox or rad levels start actually dealing damage.
     - This would be the `TriggerValue`
 	- Need to figure out what the items below do in `HAZARDTABLE`
-	  [ ] ProtectionTime
-	  [ ] DamageRate
-      [ ] WoundRate
-	  [ ] Increases
-      [ ] CriticalValue
+	- [ ] ProtectionTime
+	- [ ] DamageRate
+	- [ ] WoundRate
+	- [ ] Increases
+	- [ ] CriticalValue
   3. Then once the `TriggerValue` is hit the `DAMAGETABLE` kicks in and deals the amount of damage for the type.
     - This might only happen once the `HAZARDTABLE` reaches it's `CriticalValue`
 
