@@ -27,7 +27,7 @@ If you're reading this and you aren't me then you probably don't want this yet. 
 - [ ] Looks like there's a lot of settings to change the intensity of the waves in water and stuff.  Seems like this could be really cool.
 
 ## :heavy_check_mark: ToDo
-- [ ] edit `\METADATA\SIMULATION\ENVIRONMENT\PLANETBUILDINGTABLE` to reduce the number of buildings.  
+- [x] edit `\METADATA\SIMULATION\ENVIRONMENT\PLANETBUILDINGTABLE` to reduce the number of buildings.  
 - [ ] edit `\METADATA\SIMULATION\SOLARSYSTEM\BIOMES\PLACEMENTVALUES\SPAWNDENSITYLIST` PatchSize on the Crystals to reduce the total number of crystals showing up (same concept as [Denser Forests](http://nomansskymods.com/mods/denser-forests-packed/) but in reverse)  
 - [ ] consider editing `\METADATA\SIMULATION\ECOSYSTEM\CREATUREDATATABLE` MaxScale values for some (or all) creatures so that they can appear much larger (like in [Bigger Creatures](http://nomansskymods.com/mods/bigger-creatures-packed/)  
 - [ ] consider requesting permission and adding in functionality from [LowFlight](http://nomansskymods.com/mods/lowflight-by-hytek-packed/) [BigThings](http://nomansskymods.com/mods/bigthings/) [Denser Forests](http://nomansskymods.com/mods/denser-forests-packed/) and [Level of Detail](http://nomansskymods.com/mods/level-of-detail/) into this mod for simplicty sake.
