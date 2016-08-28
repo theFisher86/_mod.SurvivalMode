@@ -18,6 +18,7 @@
     <Data template="GcBuildingDensity">
       <Property name="BuildingSpacing" value="500" />
       <Property name="BuildingClusterChance1" value="1" />
+	  
       <Property name="BuildingClusterChance2" value="3" />
       <Property name="BuildingClusterChance3" value="10" />
       <Property name="BuildingClusterChance4" value="0" />
@@ -32,6 +33,7 @@
     <Data template="GcBuildingDensity">
       <Property name="BuildingSpacing" value="800" />
       <Property name="BuildingClusterChance1" value="0" />
+	  
       <Property name="BuildingClusterChance2" value="1" />
       <Property name="BuildingClusterChance3" value="10" />
       <Property name="BuildingClusterChance4" value="0" />
