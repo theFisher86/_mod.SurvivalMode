@@ -3,7 +3,7 @@
   <Property name="RoleDescription">
     <Data template="GcCreatureRoleDescription">
       <Data name="CreatureRole" template="GcCreatureRoles">
-        <Property name="CreatureRole" value="PlayerPredator" />
+        <Property name="CreatureRole" value="Passive" />
       </Data>
       <Data name="CreatureType" template="GcCreatureTypes">
         <Property name="CreatureType" value="None" />
@@ -39,7 +39,7 @@
     </Data>
     <Data template="GcCreatureRoleDescription">
       <Data name="CreatureRole" template="GcCreatureRoles">
-        <Property name="CreatureRole" value="Predator" />
+        <Property name="CreatureRole" value="Prey" />
       </Data>
       <Data name="CreatureType" template="GcCreatureTypes">
         <Property name="CreatureType" value="None" />
