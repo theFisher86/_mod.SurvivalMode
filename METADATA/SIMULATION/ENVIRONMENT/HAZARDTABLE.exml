@@ -72,7 +72,7 @@
         <Property name="y" value="20" />
       </Data>
       <Property name="RechargeInitialTime" value="1" />
-      <Property name="RechargeTime" value="30" />
+      <Property name="RechargeTime" value="15" />
       <Property name="Damage" value="EXTREMEHEATDMG" />
       <Property name="Increases" value="True" />
       <Data name="Curve" template="TkCurveType">
@@ -81,9 +81,9 @@
       <Property name="TriggerValue" value="37" />
       <Property name="CapValue" value="100" />
       <Property name="CriticalValue" value="48" />
-      <Property name="OutputMultiplier" value="1.2" />
+      <Property name="OutputMultiplier" value="1.4" />
       <Property name="OutputMinAddition" value="-20" />
-      <Property name="OutputMaxAddition" value="30" />
+      <Property name="OutputMaxAddition" value="40" />
     </Data>
     <Data template="GcPlayerHazardData">
       <Property name="ProtectionInitialTime" value="2" />
@@ -100,7 +100,7 @@
         <Property name="y" value="20" />
       </Data>
       <Property name="RechargeInitialTime" value="1" />
-      <Property name="RechargeTime" value="15" />
+      <Property name="RechargeTime" value="35" />
       <Property name="Damage" value="EXTREMECOLDDMG" />
       <Property name="Increases" value="True" />
       <Data name="Curve" template="TkCurveType">
@@ -111,7 +111,7 @@
       <Property name="CriticalValue" value="-48" />
       <Property name="OutputMultiplier" value="1.2" />
       <Property name="OutputMinAddition" value="-20" />
-      <Property name="OutputMaxAddition" value="30" />
+      <Property name="OutputMaxAddition" value="25" />
     </Data>
     <Data template="GcPlayerHazardData">
       <Property name="ProtectionInitialTime" value="2" />
@@ -158,7 +158,7 @@
       <Property name="RechargeInitialTime" value="1" />
       <Property name="RechargeTime" value="15" />
       <Property name="Damage" value="RADIATIONDMG" />
-      <Property name="Increases" value="True" />
+      <Property name="Increases" value="False" />
       <Data name="Curve" template="TkCurveType">
         <Property name="Curve" value="Linear" />
       </Data>
