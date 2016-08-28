@@ -6,7 +6,7 @@ If you're reading this and you aren't me then you probably don't want this yet. 
 -----
 
 ## :umbrella: Weather Damage
-- Might want to get rid of most of the `HazardTable` changes and just mess with the `TriggerValue` in `HazardTable` (maybe the `Increases` thing too if you can figure out how it works).  Then use the different WeatherValues from `\METADATA\SIMULATION\SOLARSYSTEM\WEATHER\` and my [weather table](https:\\drive.google.com\open?id=1uFutA2O6o5lY_qkIYukqoCL2Sp227v41eKzXbehU8B4) to change the temps, toxs, & rads of each weather style.  I feel like this would be the *better* way to go about it than just arbitrarily changing the `HAZARDTABLE` values. 
+-[x] Might want to get rid of most of the `HazardTable` changes and just mess with the `TriggerValue` in `HazardTable` (maybe the `Increases` thing too if you can figure out how it works).  Then use the different WeatherValues from `\METADATA\SIMULATION\SOLARSYSTEM\WEATHER\` and my [weather table](https:\\drive.google.com\open?id=1uFutA2O6o5lY_qkIYukqoCL2Sp227v41eKzXbehU8B4) to change the temps, toxs, & rads of each weather style.  I feel like this would be the *better* way to go about it than just arbitrarily changing the `HAZARDTABLE` values. 
 
 - Looks like the way this whole weather damage thing works is this:
   1. The weather file in `\METADATA\SIMULATION\SOLARSYSTEM\WEATHER\` defines the temp, tox & rad levels of the particular weather feature (5 features in each planet type).
@@ -28,13 +28,12 @@ If you're reading this and you aren't me then you probably don't want this yet. 
 
 ## :heavy_check_mark: ToDo
 - [x] edit `\METADATA\SIMULATION\ENVIRONMENT\PLANETBUILDINGTABLE` to reduce the number of buildings.  
-- [ ] edit `\METADATA\SIMULATION\SOLARSYSTEM\BIOMES\PLACEMENTVALUES\SPAWNDENSITYLIST` PatchSize on the Crystals to reduce the total number of crystals showing up (same concept as [Denser Forests](http://nomansskymods.com/mods/denser-forests-packed/) but in reverse)  
-- [ ] consider editing `\METADATA\SIMULATION\ECOSYSTEM\CREATUREDATATABLE` MaxScale values for some (or all) creatures so that they can appear much larger (like in [Bigger Creatures](http://nomansskymods.com/mods/bigger-creatures-packed/)  
-- [ ] consider requesting permission and adding in functionality from:
-  - [ ] [LowFlight](http://nomansskymods.com/mods/lowflight-by-hytek-packed/) 
-  - [ ] [BigThings](http://nomansskymods.com/mods/bigthings/) 
+- [x] edit `\METADATA\SIMULATION\SOLARSYSTEM\BIOMES\PLACEMENTVALUES\SPAWNDENSITYLIST` PatchSize on the Crystals to reduce the total number of crystals showing up (same concept as [Denser Forests](http://nomansskymods.com/mods/denser-forests-packed/) but in reverse)  
+- [x] consider editing `\METADATA\SIMULATION\ECOSYSTEM\CREATUREDATATABLE` MaxScale values for some (or all) creatures so that they can appear much larger (like in [Bigger Creatures](http://nomansskymods.com/mods/bigger-creatures-packed/)  
+- [x] consider requesting permission and adding in functionality from:
   - [x] [Denser Forests](http://nomansskymods.com/mods/denser-forests-packed/) 
-  - [ ] [Level of Detail](http://nomansskymods.com/mods/level-of-detail/) into this mod for simplicty sake.
+- [ ] Update Changelog and description giving credit to Denser Forests
+- [ ] Make swarms happen more often?
 - [ ] write easy installer for choosing options and creating PAK file.  
 
 :memo: Changelog
@@ -43,6 +42,7 @@ _8/27/2016_
 - Reduced total number of buildings with the PlanetBuildingTable
 - Received permission from madvillain5 to add in [Denser Forests](http://nomansskymods.com/mods/denser-forests-packed/) so added the 10x version of his mod.
 - Also reduced the total appearance of crystals by about 1/2 and appearance of resources by 1/3
+- Updated Creature generation settings to make predators faster, increase the maximum size of most animals (but not force extra large) and make swarms faster pretty much across the board.
 _8/26/2016_
 - Changed all CreatureRoles in GROUND and UNDERWATER to PlayerPredator.  Everything should try to kill you now pretty much. :warning: this is temporary.  Won't leave it so *everything* is trying to kill you, just most things.
 _8\25\16_
