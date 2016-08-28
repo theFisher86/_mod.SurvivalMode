@@ -6,8 +6,7 @@ If you're reading this and you aren't me then you probably don't want this yet. 
 -----
 
 ## :umbrella: Weather Damage
--[x] Might want to get rid of most of the `HazardTable` changes and just mess with the `TriggerValue` in `HazardTable` (maybe the `Increases` thing too if you can figure out how it works).  Then use the different WeatherValues from `\METADATA\SIMULATION\SOLARSYSTEM\WEATHER\` and my [weather table](https:\\drive.google.com\open?id=1uFutA2O6o5lY_qkIYukqoCL2Sp227v41eKzXbehU8B4) to change the temps, toxs, & rads of each weather style.  I feel like this would be the *better* way to go about it than just arbitrarily changing the `HAZARDTABLE` values. 
-
+-[weather table](https:\\drive.google.com\open?id=1uFutA2O6o5lY_qkIYukqoCL2Sp227v41eKzXbehU8B4)
 - Looks like the way this whole weather damage thing works is this:
   1. The weather file in `\METADATA\SIMULATION\SOLARSYSTEM\WEATHER\` defines the temp, tox & rad levels of the particular weather feature (5 features in each planet type).
   2. the `HAZARDTABLE` defines at what point the temp, tox or rad levels start actually dealing damage.
