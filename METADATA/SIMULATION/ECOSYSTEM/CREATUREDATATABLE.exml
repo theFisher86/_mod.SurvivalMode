@@ -93,7 +93,7 @@
               <Property name="AnimSpeed" value="1" />
               <Property name="MinSpeedScale" value="1" />
               <Property name="MaxSpeedScale" value="1" />
-              <Property name="MaxPredatorSpeedScale" value="2.5" /> />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
             </Data>
             <Data template="GcCreatureMoveAnimData">
               <Property name="Anim" value="RUN" />
@@ -120,7 +120,7 @@
               <Property name="AnimSpeed" value="1" />
               <Property name="MinSpeedScale" value="1" />
               <Property name="MaxSpeedScale" value="1" />
-              <Property name="MaxPredatorSpeedScale" value="2.5" /> />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
             </Data>
             <Data template="GcCreatureMoveAnimData">
               <Property name="Anim" value="FASTWALK" />
@@ -129,7 +129,7 @@
               <Property name="AnimSpeed" value="1" />
               <Property name="MinSpeedScale" value="1" />
               <Property name="MaxSpeedScale" value="1" />
-              <Property name="MaxPredatorSpeedScale" value="2.5" /> />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
             </Data>
           </Property>
           <Property name="MoveRange" value="50" />
@@ -496,7 +496,7 @@
               <Property name="AnimSpeed" value="1" />
               <Property name="MinSpeedScale" value="1" />
               <Property name="MaxSpeedScale" value="1" />
-              <Property name="MaxPredatorSpeedScale" value="2.5" /> />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
             </Data>
             <Data template="GcCreatureMoveAnimData">
               <Property name="Anim" value="RUN" />
@@ -523,7 +523,7 @@
               <Property name="AnimSpeed" value="1" />
               <Property name="MinSpeedScale" value="1" />
               <Property name="MaxSpeedScale" value="1" />
-              <Property name="MaxPredatorSpeedScale" value="2.5" /> />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
             </Data>
             <Data template="GcCreatureMoveAnimData">
               <Property name="Anim" value="FASTWALK" />
@@ -532,7 +532,7 @@
               <Property name="AnimSpeed" value="1" />
               <Property name="MinSpeedScale" value="1" />
               <Property name="MaxSpeedScale" value="1" />
-              <Property name="MaxPredatorSpeedScale" value="2.5" /> />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
             </Data>
           </Property>
           <Property name="MoveRange" value="100" />
@@ -615,7 +615,7 @@
               <Property name="AnimSpeed" value="1" />
               <Property name="MinSpeedScale" value="1" />
               <Property name="MaxSpeedScale" value="1" />
-              <Property name="MaxPredatorSpeedScale" value="2.5" /> />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
             </Data>
             <Data template="GcCreatureMoveAnimData">
               <Property name="Anim" value="RUN" />
@@ -642,7 +642,7 @@
               <Property name="AnimSpeed" value="1" />
               <Property name="MinSpeedScale" value="1" />
               <Property name="MaxSpeedScale" value="1" />
-              <Property name="MaxPredatorSpeedScale" value="2.5" /> />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
             </Data>
             <Data template="GcCreatureMoveAnimData">
               <Property name="Anim" value="FASTWALK" />
@@ -651,7 +651,7 @@
               <Property name="AnimSpeed" value="1" />
               <Property name="MinSpeedScale" value="1" />
               <Property name="MaxSpeedScale" value="1" />
-              <Property name="MaxPredatorSpeedScale" value="2.5" /> />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
             </Data>
           </Property>
           <Property name="MoveRange" value="100" />
@@ -791,7 +791,7 @@
               <Property name="AnimSpeed" value="1" />
               <Property name="MinSpeedScale" value="1" />
               <Property name="MaxSpeedScale" value="1" />
-              <Property name="MaxPredatorSpeedScale" value="2.5" /> />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
             </Data>
             <Data template="GcCreatureMoveAnimData">
               <Property name="Anim" value="FASTWALK" />
@@ -800,7 +800,7 @@
               <Property name="AnimSpeed" value="1" />
               <Property name="MinSpeedScale" value="1" />
               <Property name="MaxSpeedScale" value="1" />
-              <Property name="MaxPredatorSpeedScale" value="2.5" /> />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
             </Data>
           </Property>
           <Property name="MoveRange" value="100" />
@@ -883,7 +883,7 @@
               <Property name="AnimSpeed" value="1" />
               <Property name="MinSpeedScale" value="1" />
               <Property name="MaxSpeedScale" value="1" />
-              <Property name="MaxPredatorSpeedScale" value="2.5" /> />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
             </Data>
             <Data template="GcCreatureMoveAnimData">
               <Property name="Anim" value="WALK" />
@@ -892,7 +892,7 @@
               <Property name="AnimSpeed" value="1" />
               <Property name="MinSpeedScale" value="1" />
               <Property name="MaxSpeedScale" value="1" />
-              <Property name="MaxPredatorSpeedScale" value="2.5" /> />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
             </Data>
             <Data template="GcCreatureMoveAnimData">
               <Property name="Anim" value="FASTWALK" />
@@ -901,7 +901,7 @@
               <Property name="AnimSpeed" value="1" />
               <Property name="MinSpeedScale" value="1" />
               <Property name="MaxSpeedScale" value="1" />
-              <Property name="MaxPredatorSpeedScale" value="2.5" /> />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
             </Data>
             <Data template="GcCreatureMoveAnimData">
               <Property name="Anim" value="RUN" />
@@ -1002,7 +1002,7 @@
               <Property name="AnimSpeed" value="1" />
               <Property name="MinSpeedScale" value="1" />
               <Property name="MaxSpeedScale" value="1" />
-              <Property name="MaxPredatorSpeedScale" value="2.5" /> />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
             </Data>
             <Data template="GcCreatureMoveAnimData">
               <Property name="Anim" value="WALK" />
@@ -1011,7 +1011,7 @@
               <Property name="AnimSpeed" value="1" />
               <Property name="MinSpeedScale" value="1" />
               <Property name="MaxSpeedScale" value="1" />
-              <Property name="MaxPredatorSpeedScale" value="2.5" /> />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
             </Data>
             <Data template="GcCreatureMoveAnimData">
               <Property name="Anim" value="FASTWALK" />
@@ -1020,7 +1020,7 @@
               <Property name="AnimSpeed" value="1" />
               <Property name="MinSpeedScale" value="1" />
               <Property name="MaxSpeedScale" value="1" />
-              <Property name="MaxPredatorSpeedScale" value="2.5" /> />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
             </Data>
             <Data template="GcCreatureMoveAnimData">
               <Property name="Anim" value="TROT" />
@@ -1121,7 +1121,7 @@
               <Property name="AnimSpeed" value="1" />
               <Property name="MinSpeedScale" value="1" />
               <Property name="MaxSpeedScale" value="1" />
-              <Property name="MaxPredatorSpeedScale" value="2.5" /> />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
             </Data>
             <Data template="GcCreatureMoveAnimData">
               <Property name="Anim" value="WALK" />
@@ -1130,7 +1130,7 @@
               <Property name="AnimSpeed" value="1" />
               <Property name="MinSpeedScale" value="1" />
               <Property name="MaxSpeedScale" value="1" />
-              <Property name="MaxPredatorSpeedScale" value="2.5" /> />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
             </Data>
             <Data template="GcCreatureMoveAnimData">
               <Property name="Anim" value="FASTWALK" />
@@ -1139,7 +1139,7 @@
               <Property name="AnimSpeed" value="1" />
               <Property name="MinSpeedScale" value="1" />
               <Property name="MaxSpeedScale" value="1" />
-              <Property name="MaxPredatorSpeedScale" value="2.5" /> />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
             </Data>
             <Data template="GcCreatureMoveAnimData">
               <Property name="Anim" value="TROT" />
@@ -1317,7 +1317,7 @@
               <Property name="AnimSpeed" value="1" />
               <Property name="MinSpeedScale" value="1" />
               <Property name="MaxSpeedScale" value="1" />
-              <Property name="MaxPredatorSpeedScale" value="2.5" /> />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
             </Data>
             <Data template="GcCreatureMoveAnimData">
               <Property name="Anim" value="RUN" />
@@ -1344,7 +1344,7 @@
               <Property name="AnimSpeed" value="1" />
               <Property name="MinSpeedScale" value="1" />
               <Property name="MaxSpeedScale" value="1" />
-              <Property name="MaxPredatorSpeedScale" value="2.5" /> />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
             </Data>
             <Data template="GcCreatureMoveAnimData">
               <Property name="Anim" value="FASTWALK" />
@@ -1353,7 +1353,7 @@
               <Property name="AnimSpeed" value="1" />
               <Property name="MinSpeedScale" value="1" />
               <Property name="MaxSpeedScale" value="1" />
-              <Property name="MaxPredatorSpeedScale" value="2.5" /> />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
             </Data>
           </Property>
           <Property name="MoveRange" value="50" />
@@ -1513,7 +1513,7 @@
               <Property name="AnimSpeed" value="1" />
               <Property name="MinSpeedScale" value="1" />
               <Property name="MaxSpeedScale" value="1" />
-              <Property name="MaxPredatorSpeedScale" value="2.5" /> />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
             </Data>
             <Data template="GcCreatureMoveAnimData">
               <Property name="Anim" value="RUN" />
@@ -1540,7 +1540,7 @@
               <Property name="AnimSpeed" value="1" />
               <Property name="MinSpeedScale" value="1" />
               <Property name="MaxSpeedScale" value="1" />
-              <Property name="MaxPredatorSpeedScale" value="2.5" /> />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
             </Data>
             <Data template="GcCreatureMoveAnimData">
               <Property name="Anim" value="FASTWALK" />
@@ -1549,7 +1549,7 @@
               <Property name="AnimSpeed" value="1" />
               <Property name="MinSpeedScale" value="1" />
               <Property name="MaxSpeedScale" value="1" />
-              <Property name="MaxPredatorSpeedScale" value="2.5" /> />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
             </Data>
           </Property>
           <Property name="MoveRange" value="100" />
@@ -1632,7 +1632,7 @@
               <Property name="AnimSpeed" value="1" />
               <Property name="MinSpeedScale" value="1" />
               <Property name="MaxSpeedScale" value="1" />
-              <Property name="MaxPredatorSpeedScale" value="2.5" /> />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
             </Data>
             <Data template="GcCreatureMoveAnimData">
               <Property name="Anim" value="WALK" />
@@ -1641,7 +1641,7 @@
               <Property name="AnimSpeed" value="1" />
               <Property name="MinSpeedScale" value="1" />
               <Property name="MaxSpeedScale" value="1" />
-              <Property name="MaxPredatorSpeedScale" value="2.5" /> />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
             </Data>
             <Data template="GcCreatureMoveAnimData">
               <Property name="Anim" value="FASTWALK" />
@@ -1650,7 +1650,7 @@
               <Property name="AnimSpeed" value="1" />
               <Property name="MinSpeedScale" value="1" />
               <Property name="MaxSpeedScale" value="1" />
-              <Property name="MaxPredatorSpeedScale" value="2.5" /> />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
             </Data>
             <Data template="GcCreatureMoveAnimData">
               <Property name="Anim" value="RUN" />
@@ -1751,7 +1751,7 @@
               <Property name="AnimSpeed" value="1" />
               <Property name="MinSpeedScale" value="1" />
               <Property name="MaxSpeedScale" value="1" />
-              <Property name="MaxPredatorSpeedScale" value="2.5" /> />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
             </Data>
             <Data template="GcCreatureMoveAnimData">
               <Property name="Anim" value="RUN" />
@@ -1778,7 +1778,7 @@
               <Property name="AnimSpeed" value="1" />
               <Property name="MinSpeedScale" value="1" />
               <Property name="MaxSpeedScale" value="1" />
-              <Property name="MaxPredatorSpeedScale" value="2.5" /> />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
             </Data>
             <Data template="GcCreatureMoveAnimData">
               <Property name="Anim" value="SLOWWALK" />
@@ -1787,7 +1787,7 @@
               <Property name="AnimSpeed" value="1" />
               <Property name="MinSpeedScale" value="1" />
               <Property name="MaxSpeedScale" value="1" />
-              <Property name="MaxPredatorSpeedScale" value="2.5" /> />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
             </Data>
           </Property>
           <Property name="MoveRange" value="50" />
@@ -1909,7 +1909,7 @@
               <Property name="AnimSpeed" value="1" />
               <Property name="MinSpeedScale" value="1" />
               <Property name="MaxSpeedScale" value="1" />
-              <Property name="MaxPredatorSpeedScale" value="2.5" /> />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
             </Data>
             <Data template="GcCreatureMoveAnimData">
               <Property name="Anim" value="TROT" />
@@ -1936,7 +1936,7 @@
               <Property name="AnimSpeed" value="1" />
               <Property name="MinSpeedScale" value="1" />
               <Property name="MaxSpeedScale" value="1" />
-              <Property name="MaxPredatorSpeedScale" value="2.5" /> />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
             </Data>
             <Data template="GcCreatureMoveAnimData">
               <Property name="Anim" value="FASTWALK" />
@@ -1945,7 +1945,7 @@
               <Property name="AnimSpeed" value="1" />
               <Property name="MinSpeedScale" value="1" />
               <Property name="MaxSpeedScale" value="1" />
-              <Property name="MaxPredatorSpeedScale" value="2.5" /> />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
             </Data>
           </Property>
           <Property name="MoveRange" value="100" />
@@ -1989,7 +1989,7 @@
               <Property name="AnimSpeed" value="1" />
               <Property name="MinSpeedScale" value="1" />
               <Property name="MaxSpeedScale" value="1" />
-              <Property name="MaxPredatorSpeedScale" value="2.5" /> />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
             </Data>
             <Data template="GcCreatureMoveAnimData">
               <Property name="Anim" value="TROT" />
@@ -2016,7 +2016,7 @@
               <Property name="AnimSpeed" value="1" />
               <Property name="MinSpeedScale" value="1" />
               <Property name="MaxSpeedScale" value="1" />
-              <Property name="MaxPredatorSpeedScale" value="2.5" /> />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
             </Data>
             <Data template="GcCreatureMoveAnimData">
               <Property name="Anim" value="SLOWWALK" />
@@ -2025,7 +2025,7 @@
               <Property name="AnimSpeed" value="1" />
               <Property name="MinSpeedScale" value="1" />
               <Property name="MaxSpeedScale" value="1" />
-              <Property name="MaxPredatorSpeedScale" value="2.5" /> />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
             </Data>
           </Property>
           <Property name="MoveRange" value="100" />
@@ -2069,7 +2069,7 @@
               <Property name="AnimSpeed" value="1" />
               <Property name="MinSpeedScale" value="1" />
               <Property name="MaxSpeedScale" value="1" />
-              <Property name="MaxPredatorSpeedScale" value="2.5" /> />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
             </Data>
             <Data template="GcCreatureMoveAnimData">
               <Property name="Anim" value="TROT" />
@@ -2096,7 +2096,7 @@
               <Property name="AnimSpeed" value="1" />
               <Property name="MinSpeedScale" value="1" />
               <Property name="MaxSpeedScale" value="1" />
-              <Property name="MaxPredatorSpeedScale" value="2.5" /> />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
             </Data>
             <Data template="GcCreatureMoveAnimData">
               <Property name="Anim" value="SLOWWALK" />
@@ -2105,7 +2105,7 @@
               <Property name="AnimSpeed" value="1" />
               <Property name="MinSpeedScale" value="1" />
               <Property name="MaxSpeedScale" value="1" />
-              <Property name="MaxPredatorSpeedScale" value="2.5" /> />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
             </Data>
           </Property>
           <Property name="MoveRange" value="100" />
