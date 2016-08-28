@@ -134,7 +134,7 @@
       <Data name="Curve" template="TkCurveType">
         <Property name="Curve" value="Linear" />
       </Data>
-      <Property name="TriggerValue" value="30" />
+      <Property name="TriggerValue" value="25" />
       <Property name="CapValue" value="100" />
       <Property name="CriticalValue" value="70" />
       <Property name="OutputMultiplier" value="1.5" />
@@ -162,7 +162,7 @@
       <Data name="Curve" template="TkCurveType">
         <Property name="Curve" value="Linear" />
       </Data>
-      <Property name="TriggerValue" value="35" />
+      <Property name="TriggerValue" value="30" />
       <Property name="CapValue" value="100" />
       <Property name="CriticalValue" value="50" />
       <Property name="OutputMultiplier" value="0.5" />
