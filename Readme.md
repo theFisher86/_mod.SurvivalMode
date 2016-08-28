@@ -4,7 +4,7 @@ If you're reading this and you aren't me then you probably don't want this yet. 
 
 :computer: Install
 -----
-If you were directed here from NoMansSkyMods.com then you probably just want to download the .pak file and save it into your PCBANKS folder.  If you don't know what that means this mod is probably *wayy* to unpolished for you just yet.  Wait until version 1.0 comes out and there'll be a direct download. 
+If you were directed here from NoMansSkyMods.com then you probably just want to download (right-click the file above and click "Save As") the .pak file and save it into your PCBANKS folder.  If you don't know what that means this mod is probably *wayy* to unpolished for you just yet.  Wait until version 1.0 comes out and there'll be a direct download. 
 
 :notebook: Notes
 -----
