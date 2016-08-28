@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data template="GcWeatherTable">
+  <Property name="Table">
+    <Data template="NMSString0x80">
+      <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/WEATHER/CLEARWEATHER.MXML" />
+    </Data>
+    <Data template="NMSString0x80">
+      <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/WEATHER/DUSTWEATHER.MXML" />
+    </Data>
+    <Data template="NMSString0x80">
+      <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/WEATHER/HUMIDWEATHER.MXML" />
+    </Data>
+    <Data template="NMSString0x80">
+      <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/WEATHER/SNOWWEATHER.MXML" />
+    </Data>
+    <Data template="NMSString0x80">
+      <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/WEATHER/TOXIC.MXML" />
+    </Data>
+    <Data template="NMSString0x80">
+      <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/WEATHER/SCORCHED.MXML" />
+    </Data>
+    <Data template="NMSString0x80">
+      <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/WEATHER/RADIOACTIVE.MXML" />
+    </Data>
+  </Property>
+  <Property name="DefaultTemperature">
+    <Data template="GcHazardValues">
+      <Property name="Min" value="0" />
+      <Property name="Max" value="0" />
+    </Data>
+    <Data template="GcHazardValues">
+      <Property name="Min" value="0" />
+      <Property name="Max" value="0" />
+    </Data>
+    <Data template="GcHazardValues">
+      <Property name="Min" value="0" />
+      <Property name="Max" value="0" />
+    </Data>
+    <Data template="GcHazardValues">
+      <Property name="Min" value="0" />
+      <Property name="Max" value="0" />
+    </Data>
+    <Data template="GcHazardValues">
+      <Property name="Min" value="0" />
+      <Property name="Max" value="0" />
+    </Data>
+  </Property>
+  <Property name="DefaultToxicity">
+    <Data template="GcHazardValues">
+      <Property name="Min" value="0" />
+      <Property name="Max" value="0" />
+    </Data>
+    <Data template="GcHazardValues">
+      <Property name="Min" value="0" />
+      <Property name="Max" value="0" />
+    </Data>
+    <Data template="GcHazardValues">
+      <Property name="Min" value="0" />
+      <Property name="Max" value="0" />
+    </Data>
+    <Data template="GcHazardValues">
+      <Property name="Min" value="0" />
+      <Property name="Max" value="0" />
+    </Data>
+    <Data template="GcHazardValues">
+      <Property name="Min" value="0" />
+      <Property name="Max" value="0" />
+    </Data>
+  </Property>
+  <Property name="DefaultRadiation">
+    <Data template="GcHazardValues">
+      <Property name="Min" value="0" />
+      <Property name="Max" value="0" />
+    </Data>
+    <Data template="GcHazardValues">
+      <Property name="Min" value="0" />
+      <Property name="Max" value="0" />
+    </Data>
+    <Data template="GcHazardValues">
+      <Property name="Min" value="0" />
+      <Property name="Max" value="0" />
+    </Data>
+    <Data template="GcHazardValues">
+      <Property name="Min" value="0" />
+      <Property name="Max" value="0" />
+    </Data>
+    <Data template="GcHazardValues">
+      <Property name="Min" value="0" />
+      <Property name="Max" value="0" />
+    </Data>
+  </Property>
+</Data>
