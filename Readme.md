@@ -6,29 +6,6 @@ If you're reading this and you aren't me then you probably don't want this yet. 
 -----
 If you were directed here from NoMansSkyMods.com then you probably just want to download (right-click the file above and click "Save As") the .pak file and save it into your PCBANKS folder.  If you don't know what that means this mod is probably *wayy* to unpolished for you just yet.  Wait until version 1.0 comes out and there'll be a direct download. 
 
-:notebook: Notes
------
-
-## :umbrella: Weather Damage
--[weather table](https:\\drive.google.com\open?id=1uFutA2O6o5lY_qkIYukqoCL2Sp227v41eKzXbehU8B4)
-- Looks like the way this whole weather damage thing works is this:
-  1. The weather file in `\METADATA\SIMULATION\SOLARSYSTEM\WEATHER\` defines the temp, tox & rad levels of the particular weather feature (5 features in each planet type).
-  2. the `HAZARDTABLE` defines at what point the temp, tox or rad levels start actually dealing damage.
-    - This would be the `TriggerValue`
-	- Need to figure out what the items below do in `HAZARDTABLE`
-	- [ ] ProtectionTime
-	- [ ] DamageRate
-	- [ ] WoundRate
-	- [ ] Increases
-	- [ ] CriticalValue
-  3. Then once the `TriggerValue` is hit the `DAMAGETABLE` kicks in and deals the amount of damage for the type.
-    - This might only happen once the `HAZARDTABLE` reaches it's `CriticalValue`
-
-## :earth_americas:  Biomes
-- Can unpack the biome mbins in `\METADATA\SIMULATION\SOLARSYSTEM\BIOMES` using the [1.0.98 version of MBINCompiler](https://ci.appveyor.com/project/emoose/mbincompiler/build/1.0.98-mqbltbva/artifacts) 
-- Making a table of the Biome stats [here](https://docs.google.com/spreadsheets/d/1eTZg6Qh98Js6816mKw_83bQ-SxndrTyQ4oXe3vy_JBU/edit?usp=sharing)
-- [ ] Looks like there's a lot of settings to change the intensity of the waves in water and stuff.  Seems like this could be really cool.
-
 ## :heavy_check_mark: ToDo
 - [x] edit `\METADATA\SIMULATION\ENVIRONMENT\PLANETBUILDINGTABLE` to reduce the number of buildings.  
 - [x] edit `\METADATA\SIMULATION\SOLARSYSTEM\BIOMES\PLACEMENTVALUES\SPAWNDENSITYLIST` PatchSize on the Crystals to reduce the total number of crystals showing up (same concept as [Denser Forests](http://nomansskymods.com/mods/denser-forests-packed/) but in reverse)  
@@ -46,6 +23,7 @@ _8/27/2016_
 - Received permission from madvillain5 to add in [Denser Forests](http://nomansskymods.com/mods/denser-forests-packed/) so added the 10x version of his mod.
 - Also reduced the total appearance of crystals by about 1/2 and appearance of resources by 1/3
 - Updated Creature generation settings to make predators faster, increase the maximum size of most animals (but not force extra large) and make swarms faster pretty much across the board.
+- Redid weather system and enviro damage.
 _8/26/2016_
 - Changed all CreatureRoles in GROUND and UNDERWATER to PlayerPredator.  Everything should try to kill you now pretty much. :warning: this is temporary.  Won't leave it so *everything* is trying to kill you, just most things.
 _8\25\16_
