@@ -2,6 +2,10 @@
 =====================
 If you're reading this and you aren't me then you probably don't want this yet.  This is **very much** a work in progress mod for *No Man's Sky.*
 
+:computer: Install
+-----
+If you were directed here from NoMansSkyMods.com then you probably just want to download the .pak file and save it into your PCBANKS folder.  If you don't know what that means this mod is probably *wayy* to unpolished for you just yet.  Wait until version 1.0 comes out and there'll be a direct download. 
+
 :notebook: Notes
 -----
 
