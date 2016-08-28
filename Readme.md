@@ -39,8 +39,12 @@ If you're reading this and you aren't me then you probably don't want this yet. 
 
 :memo: Changelog
 ---------
+_8/27/2016_
+- Reduced total number of buildings with the PlanetBuildingTable
+- Received permission from madvillain5 to add in [Denser Forests](http://nomansskymods.com/mods/denser-forests-packed/) so added the 10x version of his mod.
+- Also reduced the total appearance of crystals by about 1/2 and appearance of resources by 1/3
 _8/26/2016_
-- Changed all CreatureRoles in GROUND and UNDERWATER to PlayerPredator.  Everything should try to kill you now pretty much.
+- Changed all CreatureRoles in GROUND and UNDERWATER to PlayerPredator.  Everything should try to kill you now pretty much. :warning: this is temporary.  Won't leave it so *everything* is trying to kill you, just most things.
 _8\25\16_
 
 ###Make Ship Launcher use more resources to prevent overuse.
