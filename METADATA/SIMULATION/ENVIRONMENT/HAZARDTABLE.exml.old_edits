@@ -46,7 +46,7 @@
       <Property name="RechargeInitialTime" value="1" />
       <Property name="RechargeTime" value="10" />
       <Property name="Damage" value="NOOXYDAMAGE" />
-      <Property name="Increases" value="True" />
+      <Property name="Increases" value="False" />
       <Data name="Curve" template="TkCurveType">
         <Property name="Curve" value="Linear" />
       </Data>
@@ -64,8 +64,8 @@
         <Property name="y" value="40" />
       </Data>
       <Data name="DamageRate" template="Vector2f">
-        <Property name="x" value="50" />
-        <Property name="y" value="20" />
+        <Property name="x" value="75" />
+        <Property name="y" value="30" />
       </Data>
       <Data name="WoundRate" template="Vector2f">
         <Property name="x" value="50" />
@@ -78,10 +78,10 @@
       <Data name="Curve" template="TkCurveType">
         <Property name="Curve" value="Linear" />
       </Data>
-      <Property name="TriggerValue" value="37" />
-      <Property name="CapValue" value="100" />
-      <Property name="CriticalValue" value="48" />
-      <Property name="OutputMultiplier" value="1.2" />
+      <Property name="TriggerValue" value="49" />
+      <Property name="CapValue" value="200" />
+      <Property name="CriticalValue" value="70" />
+      <Property name="OutputMultiplier" value="1" />
       <Property name="OutputMinAddition" value="-20" />
       <Property name="OutputMaxAddition" value="30" />
     </Data>
@@ -92,8 +92,8 @@
         <Property name="y" value="40" />
       </Data>
       <Data name="DamageRate" template="Vector2f">
-        <Property name="x" value="50" />
-        <Property name="y" value="20" />
+        <Property name="x" value="75" />
+        <Property name="y" value="30" />
       </Data>
       <Data name="WoundRate" template="Vector2f">
         <Property name="x" value="50" />
@@ -106,10 +106,10 @@
       <Data name="Curve" template="TkCurveType">
         <Property name="Curve" value="Linear" />
       </Data>
-      <Property name="TriggerValue" value="-37" />
-      <Property name="CapValue" value="-100" />
-      <Property name="CriticalValue" value="-48" />
-      <Property name="OutputMultiplier" value="1.2" />
+      <Property name="TriggerValue" value="-49" />
+      <Property name="CapValue" value="-200" />
+      <Property name="CriticalValue" value="-70" />
+      <Property name="OutputMultiplier" value="1" />
       <Property name="OutputMinAddition" value="-20" />
       <Property name="OutputMaxAddition" value="30" />
     </Data>
@@ -124,8 +124,8 @@
         <Property name="y" value="20" />
       </Data>
       <Data name="WoundRate" template="Vector2f">
-        <Property name="x" value="50" />
-        <Property name="y" value="20" />
+        <Property name="x" value="75" />
+        <Property name="y" value="30" />
       </Data>
       <Property name="RechargeInitialTime" value="1" />
       <Property name="RechargeTime" value="15" />
@@ -134,12 +134,12 @@
       <Data name="Curve" template="TkCurveType">
         <Property name="Curve" value="Linear" />
       </Data>
-      <Property name="TriggerValue" value="30" />
-      <Property name="CapValue" value="100" />
+      <Property name="TriggerValue" value="49" />
+      <Property name="CapValue" value="200" />
       <Property name="CriticalValue" value="70" />
-      <Property name="OutputMultiplier" value="1.5" />
+      <Property name="OutputMultiplier" value="1" />
       <Property name="OutputMinAddition" value="0" />
-      <Property name="OutputMaxAddition" value="50" />
+      <Property name="OutputMaxAddition" value="20" />
     </Data>
     <Data template="GcPlayerHazardData">
       <Property name="ProtectionInitialTime" value="2" />
@@ -152,8 +152,8 @@
         <Property name="y" value="20" />
       </Data>
       <Data name="WoundRate" template="Vector2f">
-        <Property name="x" value="50" />
-        <Property name="y" value="20" />
+        <Property name="x" value="75" />
+        <Property name="y" value="30" />
       </Data>
       <Property name="RechargeInitialTime" value="1" />
       <Property name="RechargeTime" value="15" />
@@ -162,12 +162,12 @@
       <Data name="Curve" template="TkCurveType">
         <Property name="Curve" value="Linear" />
       </Data>
-      <Property name="TriggerValue" value="35" />
-      <Property name="CapValue" value="100" />
-      <Property name="CriticalValue" value="50" />
-      <Property name="OutputMultiplier" value="0.5" />
+      <Property name="TriggerValue" value="49" />
+      <Property name="CapValue" value="200" />
+      <Property name="CriticalValue" value="70" />
+      <Property name="OutputMultiplier" value="0.1" />
       <Property name="OutputMinAddition" value="0" />
-      <Property name="OutputMaxAddition" value="10" />
+      <Property name="OutputMaxAddition" value="2" />
     </Data>
   </Property>
 </Data>
