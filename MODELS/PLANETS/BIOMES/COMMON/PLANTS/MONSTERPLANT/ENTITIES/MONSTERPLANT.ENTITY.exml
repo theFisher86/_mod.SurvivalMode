@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data template="TkAttachmentData">
+  <Property name="Components">
+    <Data template="GcTriggerActionComponentData">
+      <Property name="HideModel" value="False" />
+      <Property name="StartInactive" value="False" />
+      <Property name="States">
+        <Data template="GcActionTriggerState">
+          <Property name="StateID" value="BEGIN" />
+          <Property name="Triggers">
+            <Data template="GcActionTrigger">
+              <Data name="Trigger" template="GcPlayerNearbyEvent">
+                <Property name="RequirePlayerAction" value="OnFoot" />
+                <Property name="Distance" value="4" />
+                <Property name="Angle" value="360" />
+                <Property name="AnglePlayerRelative" value="False" />
+                <Property name="AngleOffset" value="0" />
+                <Property name="AngleReflected" value="False" />
+                <Property name="AngleMinDistance" value="1" />
+                <Property name="DistanceCheckType" value="Radius" />
+                <Property name="Inverse" value="False" />
+              </Data>
+              <Property name="Action">
+                <Data template="GcPlayAudioAction">
+                  <Property name="Sound" value="Plant_Attack" />
+                </Data>
+                <Data template="GcPlayAnimAction">
+                  <Property name="Anim" value="OPEN" />
+                </Data>
+                <Data template="GcGoToStateAction">
+                  <Property name="State" value="OPEN" />
+                  <Property name="Broadcast" value="False" />
+                  <Property name="BroadcastLevel" value="Scene" />
+                </Data>
+              </Property>
+            </Data>
+          </Property>
+        </Data>
+        <Data template="GcActionTriggerState">
+          <Property name="StateID" value="OPEN" />
+          <Property name="Triggers">
+            <Data template="GcActionTrigger">
+              <Data name="Trigger" template="GcAnimFrameEvent">
+                <Property name="Anim" value="OPEN" />
+                <Property name="FrameStart" value="34" />
+                <Property name="StartFromEnd" value="False" />
+              </Data>
+              <Property name="Action">
+                <Data template="GcScareCreaturesAction">
+                  <Property name="HearRadius" value="15" />
+                  <Property name="FleeRadius" value="7" />
+                </Data>
+                <Data template="GcParticleAction">
+                  <Property name="Effect" value="SPORES" />
+                  <Property name="Joint" value="RootTongue" />
+                  <Property name="Exact" value="True" />
+                </Data>
+              </Property>
+            </Data>
+            <Data template="GcActionTrigger">
+              <Data name="Trigger" template="GcStateTimeEvent">
+                <Property name="Seconds" value="5" />
+              </Data>
+              <Property name="Action">
+                <Data template="GcPlayAnimAction">
+                  <Property name="Anim" value="CLOSE" />
+                </Data>
+                <Data template="GcGoToStateAction">
+                  <Property name="State" value="CLOSED" />
+                  <Property name="Broadcast" value="False" />
+                  <Property name="BroadcastLevel" value="Scene" />
+                </Data>
+                <Data template="GcPlayAudioAction">
+                  <Property name="Sound" value="Plant_Close" />
+                </Data>
+              </Property>
+            </Data>
+          </Property>
+        </Data>
+        <Data template="GcActionTriggerState">
+          <Property name="StateID" value="CLOSED" />
+          <Property name="Triggers">
+            <Data template="GcActionTrigger">
+              <Data name="Trigger" template="GcStateTimeEvent">
+                <Property name="Seconds" value="3" />
+              </Data>
+              <Property name="Action">
+                <Data template="GcGoToStateAction">
+                  <Property name="State" value="BEGIN" />
+                  <Property name="Broadcast" value="False" />
+                  <Property name="BroadcastLevel" value="Scene" />
+                </Data>
+              </Property>
+            </Data>
+          </Property>
+        </Data>
+      </Property>
+      <Property name="Persistent" value="False" />
+      <Property name="PersistentState" value="" />
+    </Data>
+    <Data template="TkPhysicsComponentData">
+      <Data name="Data" template="TkPhysicsData">
+        <Property name="Mass" value="0" />
+        <Property name="Friction" value="0.5" />
+        <Property name="RollingFriction" value="0.2" />
+        <Property name="AngularDamping" value="0.2" />
+        <Property name="LinearDamping" value="0.1" />
+        <Property name="Gravity" value="20" />
+      </Data>
+    </Data>
+    <Data template="TkAnimationComponentData">
+      <Data name="Idle" template="TkAnimationData">
+        <Property name="Anim" value="" />
+        <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/PLANTS/ANIMS/MONSTERIDLE.ANIM.MBIN" />
+        <Property name="AnimType" value="Loop" />
+        <Property name="FrameStart" value="0" />
+        <Property name="FrameEnd" value="0" />
+        <Property name="StartNode" value="" />
+        <Property name="ExtraStartNodes" />
+        <Property name="Priority" value="0" />
+        <Property name="LoopOffsetMin" value="0" />
+        <Property name="LoopOffsetMax" value="0" />
+        <Property name="ControlDelay" value="0" />
+        <Property name="ControlSpeed" value="1" />
+        <Property name="ControlActionFrame" value="-1" />
+        <Property name="ControlCreatureSize" value="AllSizes" />
+        <Property name="FlagsAdditive" value="False" />
+        <Property name="FlagsMirrored" value="False" />
+        <Property name="FlagsActive" value="True" />
+      </Data>
+      <Property name="Anims">
+        <Data template="TkAnimationData">
+          <Property name="Anim" value="OPEN" />
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/PLANTS/ANIMS/MONSTEROPEN.ANIM.MBIN" />
+          <Property name="AnimType" value="OneShot" />
+          <Property name="FrameStart" value="0" />
+          <Property name="FrameEnd" value="0" />
+          <Property name="StartNode" value="" />
+          <Property name="ExtraStartNodes" />
+          <Property name="Priority" value="0" />
+          <Property name="LoopOffsetMin" value="0" />
+          <Property name="LoopOffsetMax" value="0" />
+          <Property name="ControlDelay" value="0" />
+          <Property name="ControlSpeed" value="1" />
+          <Property name="ControlActionFrame" value="-1" />
+          <Property name="ControlCreatureSize" value="AllSizes" />
+          <Property name="FlagsAdditive" value="False" />
+          <Property name="FlagsMirrored" value="False" />
+          <Property name="FlagsActive" value="True" />
+        </Data>
+        <Data template="TkAnimationData">
+          <Property name="Anim" value="CLOSE" />
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/PLANTS/ANIMS/MONSTERCLOSE.ANIM.MBIN" />
+          <Property name="AnimType" value="OneShot" />
+          <Property name="FrameStart" value="0" />
+          <Property name="FrameEnd" value="0" />
+          <Property name="StartNode" value="" />
+          <Property name="ExtraStartNodes" />
+          <Property name="Priority" value="0" />
+          <Property name="LoopOffsetMin" value="0" />
+          <Property name="LoopOffsetMax" value="0" />
+          <Property name="ControlDelay" value="0" />
+          <Property name="ControlSpeed" value="1" />
+          <Property name="ControlActionFrame" value="-1" />
+          <Property name="ControlCreatureSize" value="AllSizes" />
+          <Property name="FlagsAdditive" value="False" />
+          <Property name="FlagsMirrored" value="False" />
+          <Property name="FlagsActive" value="True" />
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcScannableComponentData">
+      <Property name="ScanRange" value="50" />
+      <Property name="ScanName" value="SCAN_FLORA" />
+      <Property name="ScanTime" value="5" />
+      <Data name="IconType" template="GcScannerIconTypes">
+        <Property name="ScanIconType" value="None" />
+      </Data>
+      <Property name="PermanentIcon" value="False" />
+      <Property name="PermanentIconRadius" value="0" />
+    </Data>
+  </Property>
+</Data>
