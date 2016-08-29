@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data template="GcScanEventTable">
+  <Property name="Events">
+    <Data template="GcScanEventData">
+      <Property name="Name" value="MONOLITH" />
+      <Property name="NextOption" value="" />
+      <Property name="TriggerEventStartType" value="Timer" />
+      <Property name="TriggerEventEndType" value="Interact" />
+      <Property name="TriggerEventPriority" value="Regular" />
+      <Property name="MessagesStartTime" value="0" />
+      <Property name="MessagesMessageTime" value="0" />
+      <Property name="MessagesMessageDisplayTime" value="4" />
+      <Data name="MessagesAkEvent" template="GcAudioWwiseEvents">
+        <Property name="AkEvent" value="0" />
+      </Data>
+      <Property name="MessagesIconTime" value="4" />
+      <Property name="MessagesTooltipTime" value="10" />
+      <Property name="MessagesTooltipRepeats" value="True" />
+      <Property name="MessagesShowEndTooltip" value="True" />
+      <Property name="MessagesOSDMessage" value="SIGNAL_MONOLITH" />
+      <Property name="MessagesTooltipMessage" value="TIP_MONOLITH" />
+      <Property name="TargetBuildingLocation" value="Nearest" />
+      <Property name="TargetBuildingType" value="BuildingClass" />
+      <Data name="TargetBuildingClassification" template="GcBuildingClassification">
+        <Property name="BuildingClass" value="Monolith" />
+      </Data>
+      <Data name="TargetSpecificBuildingLoc" template="Vector4f">
+        <Property name="x" value="0" />
+        <Property name="y" value="0" />
+        <Property name="z" value="0" />
+        <Property name="t" value="0" />
+      </Data>
+      <Property name="TargetForceInteraction" value="" />
+      <Data name="TargetInterationType" template="GcInteractionType">
+        <Property name="InteractionType" value="Monolith" />
+      </Data>
+    </Data>
+    <Data template="GcScanEventData">
+      <Property name="Name" value="RADIOTOWER" />
+      <Property name="NextOption" value="" />
+      <Property name="TriggerEventStartType" value="Timer" />
+      <Property name="TriggerEventEndType" value="Interact" />
+      <Property name="TriggerEventPriority" value="Regular" />
+      <Property name="MessagesStartTime" value="0" />
+      <Property name="MessagesMessageTime" value="0" />
+      <Property name="MessagesMessageDisplayTime" value="4" />
+      <Data name="MessagesAkEvent" template="GcAudioWwiseEvents">
+        <Property name="AkEvent" value="0" />
+      </Data>
+      <Property name="MessagesIconTime" value="4" />
+      <Property name="MessagesTooltipTime" value="10" />
+      <Property name="MessagesTooltipRepeats" value="True" />
+      <Property name="MessagesShowEndTooltip" value="True" />
+      <Property name="MessagesOSDMessage" value="SIGNAL_RADIOTOWER" />
+      <Property name="MessagesTooltipMessage" value="TIP_RADIOTOWER" />
+      <Property name="TargetBuildingLocation" value="Nearest" />
+      <Property name="TargetBuildingType" value="BuildingClass" />
+      <Data name="TargetBuildingClassification" template="GcBuildingClassification">
+        <Property name="BuildingClass" value="RadioTower" />
+      </Data>
+      <Data name="TargetSpecificBuildingLoc" template="Vector4f">
+        <Property name="x" value="0" />
+        <Property name="y" value="0" />
+        <Property name="z" value="0" />
+        <Property name="t" value="0" />
+      </Data>
+      <Property name="TargetForceInteraction" value="" />
+      <Data name="TargetInterationType" template="GcInteractionType">
+        <Property name="InteractionType" value="RadioTower" />
+      </Data>
+    </Data>
+    <Data template="GcScanEventData">
+      <Property name="Name" value="FACTORY" />
+      <Property name="NextOption" value="" />
+      <Property name="TriggerEventStartType" value="Timer" />
+      <Property name="TriggerEventEndType" value="Interact" />
+      <Property name="TriggerEventPriority" value="Regular" />
+      <Property name="MessagesStartTime" value="0" />
+      <Property name="MessagesMessageTime" value="0" />
+      <Property name="MessagesMessageDisplayTime" value="4" />
+      <Data name="MessagesAkEvent" template="GcAudioWwiseEvents">
+        <Property name="AkEvent" value="0" />
+      </Data>
+      <Property name="MessagesIconTime" value="4" />
+      <Property name="MessagesTooltipTime" value="10" />
+      <Property name="MessagesTooltipRepeats" value="True" />
+      <Property name="MessagesShowEndTooltip" value="True" />
+      <Property name="MessagesOSDMessage" value="SIGNAL_FACTORY" />
+      <Property name="MessagesTooltipMessage" value="TIP_FACTORY" />
+      <Property name="TargetBuildingLocation" value="RandomOnNearPlanet" />
+      <Property name="TargetBuildingType" value="BuildingClass" />
+      <Data name="TargetBuildingClassification" template="GcBuildingClassification">
+        <Property name="BuildingClass" value="Factory" />
+      </Data>
+      <Data name="TargetSpecificBuildingLoc" template="Vector4f">
+        <Property name="x" value="0" />
+        <Property name="y" value="0" />
+        <Property name="z" value="0" />
+        <Property name="t" value="0" />
+      </Data>
+      <Property name="TargetForceInteraction" value="" />
+      <Data name="TargetInterationType" template="GcInteractionType">
+        <Property name="InteractionType" value="Factory" />
+      </Data>
+    </Data>
+    <Data template="GcScanEventData">
+      <Property name="Name" value="SHOP" />
+      <Property name="NextOption" value="" />
+      <Property name="TriggerEventStartType" value="Timer" />
+      <Property name="TriggerEventEndType" value="Interact" />
+      <Property name="TriggerEventPriority" value="Regular" />
+      <Property name="MessagesStartTime" value="0" />
+      <Property name="MessagesMessageTime" value="0" />
+      <Property name="MessagesMessageDisplayTime" value="4" />
+      <Data name="MessagesAkEvent" template="GcAudioWwiseEvents">
+        <Property name="AkEvent" value="0" />
+      </Data>
+      <Property name="MessagesIconTime" value="4" />
+      <Property name="MessagesTooltipTime" value="10" />
+      <Property name="MessagesTooltipRepeats" value="True" />
+      <Property name="MessagesShowEndTooltip" value="True" />
+      <Property name="MessagesOSDMessage" value="SIGNAL_SHOP" />
+      <Property name="MessagesTooltipMessage" value="TIP_SHOP" />
+      <Property name="TargetBuildingLocation" value="Nearest" />
+      <Property name="TargetBuildingType" value="BuildingClass" />
+      <Data name="TargetBuildingClassification" template="GcBuildingClassification">
+        <Property name="BuildingClass" value="Shop" />
+      </Data>
+      <Data name="TargetSpecificBuildingLoc" template="Vector4f">
+        <Property name="x" value="0" />
+        <Property name="y" value="0" />
+        <Property name="z" value="0" />
+        <Property name="t" value="0" />
+      </Data>
+      <Property name="TargetForceInteraction" value="" />
+      <Data name="TargetInterationType" template="GcInteractionType">
+        <Property name="InteractionType" value="NPC" />
+      </Data>
+    </Data>
+    <Data template="GcScanEventData">
+      <Property name="Name" value="SHELTER" />
+      <Property name="NextOption" value="" />
+      <Property name="TriggerEventStartType" value="Timer" />
+      <Property name="TriggerEventEndType" value="Interact" />
+      <Property name="TriggerEventPriority" value="Regular" />
+      <Property name="MessagesStartTime" value="0" />
+      <Property name="MessagesMessageTime" value="0" />
+      <Property name="MessagesMessageDisplayTime" value="4" />
+      <Data name="MessagesAkEvent" template="GcAudioWwiseEvents">
+        <Property name="AkEvent" value="0" />
+      </Data>
+      <Property name="MessagesIconTime" value="4" />
+      <Property name="MessagesTooltipTime" value="10" />
+      <Property name="MessagesTooltipRepeats" value="True" />
+      <Property name="MessagesShowEndTooltip" value="True" />
+      <Property name="MessagesOSDMessage" value="SIGNAL_SIGNAL" />
+      <Property name="MessagesTooltipMessage" value="TIP_SIGNAL" />
+      <Property name="TargetBuildingLocation" value="RandomOnNearPlanet" />
+      <Property name="TargetBuildingType" value="BuildingClass" />
+      <Data name="TargetBuildingClassification" template="GcBuildingClassification">
+        <Property name="BuildingClass" value="Abandoned" />
+      </Data>
+      <Data name="TargetSpecificBuildingLoc" template="Vector4f">
+        <Property name="x" value="0" />
+        <Property name="y" value="0" />
+        <Property name="z" value="0" />
+        <Property name="t" value="0" />
+      </Data>
+      <Property name="TargetForceInteraction" value="" />
+      <Data name="TargetInterationType" template="GcInteractionType">
+        <Property name="InteractionType" value="SignalScanner" />
+      </Data>
+    </Data>
+    <Data template="GcScanEventData">
+      <Property name="Name" value="OUTPOST" />
+      <Property name="NextOption" value="" />
+      <Property name="TriggerEventStartType" value="Timer" />
+      <Property name="TriggerEventEndType" value="Proximity" />
+      <Property name="TriggerEventPriority" value="Regular" />
+      <Property name="MessagesStartTime" value="0" />
+      <Property name="MessagesMessageTime" value="0" />
+      <Property name="MessagesMessageDisplayTime" value="4" />
+      <Data name="MessagesAkEvent" template="GcAudioWwiseEvents">
+        <Property name="AkEvent" value="0" />
+      </Data>
+      <Property name="MessagesIconTime" value="4" />
+      <Property name="MessagesTooltipTime" value="10" />
+      <Property name="MessagesTooltipRepeats" value="True" />
+      <Property name="MessagesShowEndTooltip" value="True" />
+      <Property name="MessagesOSDMessage" value="SIGNAL_OUTPOST" />
+      <Property name="MessagesTooltipMessage" value="TIP_OUTPOST" />
+      <Property name="TargetBuildingLocation" value="Nearest" />
+      <Property name="TargetBuildingType" value="BuildingClass" />
+      <Data name="TargetBuildingClassification" template="GcBuildingClassification">
+        <Property name="BuildingClass" value="Outpost" />
+      </Data>
+      <Data name="TargetSpecificBuildingLoc" template="Vector4f">
+        <Property name="x" value="0" />
+        <Property name="y" value="0" />
+        <Property name="z" value="0" />
+        <Property name="t" value="0" />
+      </Data>
+      <Property name="TargetForceInteraction" value="" />
+      <Data name="TargetInterationType" template="GcInteractionType">
+        <Property name="InteractionType" value="None" />
+      </Data>
+    </Data>
+    <Data template="GcScanEventData">
+      <Property name="Name" value="OBSERVATORY" />
+      <Property name="NextOption" value="" />
+      <Property name="TriggerEventStartType" value="Timer" />
+      <Property name="TriggerEventEndType" value="Interact" />
+      <Property name="TriggerEventPriority" value="Regular" />
+      <Property name="MessagesStartTime" value="0" />
+      <Property name="MessagesMessageTime" value="0" />
+      <Property name="MessagesMessageDisplayTime" value="4" />
+      <Data name="MessagesAkEvent" template="GcAudioWwiseEvents">
+        <Property name="AkEvent" value="0" />
+      </Data>
+      <Property name="MessagesIconTime" value="4" />
+      <Property name="MessagesTooltipTime" value="10" />
+      <Property name="MessagesTooltipRepeats" value="True" />
+      <Property name="MessagesShowEndTooltip" value="True" />
+      <Property name="MessagesOSDMessage" value="SIGNAL_OBSERVATORY" />
+      <Property name="MessagesTooltipMessage" value="TIP_OBSERVATORY" />
+      <Property name="TargetBuildingLocation" value="RandomOnNearPlanet" />
+      <Property name="TargetBuildingType" value="BuildingClass" />
+      <Data name="TargetBuildingClassification" template="GcBuildingClassification">
+        <Property name="BuildingClass" value="Observatory" />
+      </Data>
+      <Data name="TargetSpecificBuildingLoc" template="Vector4f">
+        <Property name="x" value="0" />
+        <Property name="y" value="0" />
+        <Property name="z" value="0" />
+        <Property name="t" value="0" />
+      </Data>
+      <Property name="TargetForceInteraction" value="" />
+      <Data name="TargetInterationType" template="GcInteractionType">
+        <Property name="InteractionType" value="Observatory" />
+      </Data>
+    </Data>
+    <Data template="GcScanEventData">
+      <Property name="Name" value="HARVESTER" />
+      <Property name="NextOption" value="" />
+      <Property name="TriggerEventStartType" value="Timer" />
+      <Property name="TriggerEventEndType" value="Interact" />
+      <Property name="TriggerEventPriority" value="Regular" />
+      <Property name="MessagesStartTime" value="15" />
+      <Property name="MessagesMessageTime" value="0" />
+      <Property name="MessagesMessageDisplayTime" value="4" />
+      <Data name="MessagesAkEvent" template="GcAudioWwiseEvents">
+        <Property name="AkEvent" value="0" />
+      </Data>
+      <Property name="MessagesIconTime" value="4" />
+      <Property name="MessagesTooltipTime" value="10" />
+      <Property name="MessagesTooltipRepeats" value="True" />
+      <Property name="MessagesShowEndTooltip" value="True" />
+      <Property name="MessagesOSDMessage" value="SIGNAL_HARVESTER" />
+      <Property name="MessagesTooltipMessage" value="TIP_HARVESTER" />
+      <Property name="TargetBuildingLocation" value="Nearest" />
+      <Property name="TargetBuildingType" value="BuildingClass" />
+      <Data name="TargetBuildingClassification" template="GcBuildingClassification">
+        <Property name="BuildingClass" value="Harvester" />
+      </Data>
+      <Data name="TargetSpecificBuildingLoc" template="Vector4f">
+        <Property name="x" value="0" />
+        <Property name="y" value="0" />
+        <Property name="z" value="0" />
+        <Property name="t" value="0" />
+      </Data>
+      <Property name="TargetForceInteraction" value="" />
+      <Data name="TargetInterationType" template="GcInteractionType">
+        <Property name="InteractionType" value="Harvester" />
+      </Data>
+    </Data>
+  </Property>
+</Data>
