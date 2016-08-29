@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data template="TkAttachmentData">
+  <Property name="Components">
+    <Data template="GcInteractionComponentData">
+      <Property name="InteractionAction" value="PressButton" />
+      <Data name="InteractionType" template="GcInteractionType">
+        <Property name="InteractionType" value="SignalScanner" />
+      </Data>
+      <Data name="Renderer" template="TkModelRendererData">
+        <Data name="Camera" template="TkModelRendererCameraData">
+          <Property name="Distance" value="6.599997" />
+          <Data name="Offset" template="Vector4f">
+            <Property name="x" value="1.73" />
+            <Property name="y" value="2.3" />
+            <Property name="z" value="0" />
+            <Property name="t" value="0" />
+          </Data>
+          <Property name="Pitch" value="9.400002" />
+          <Property name="Rotate" value="-3.2" />
+          <Property name="LightPitch" value="45" />
+          <Property name="LightRotate" value="45" />
+          <Data name="Wander" template="TkCameraWanderData">
+            <Property name="CamWander" value="False" />
+            <Property name="CamWanderPhase" value="0.003" />
+            <Property name="CamWanderAmplitude" value="0.5" />
+          </Data>
+        </Data>
+        <Property name="Fov" value="30" />
+        <Property name="AspectRatio" value="1.7777" />
+        <Property name="ThumbnailMode" value="None" />
+        <Property name="FocusType" value="ResourceBounds" />
+        <Property name="Anim" value="" />
+        <Property name="HeightOffset" value="0.005" />
+      </Data>
+      <Data name="AlienRace" template="GcAlienRace">
+        <Property name="AlienRace" value="None" />
+      </Data>
+      <Property name="AttractDistanceSq" value="9" />
+      <Property name="RepeatInteraction" value="True" />
+      <Property name="UseInteractCamera" value="True" />
+      <Property name="BlendToCameraTime" value="1.5" />
+      <Property name="BlendFromCameraTime" value="-1" />
+      <Data name="ActivationCost" template="GcInteractionActivationCost">
+        <Property name="SubstanceId" value="" />
+        <Property name="AltIds" />
+        <Property name="Cost" value="1" />
+        <Property name="Repeat" value="True" />
+      </Data>
+      <Property name="TriggerAction" value="SIGNALSCAN" />
+      <Property name="BroadcastTriggerAction" value="False" />
+      <Property name="InteractAngle" value="360" />
+      <Property name="InteractDistance" value="5" />
+      <Property name="InteractInvertFace" value="False" />
+      <Data name="SecondaryInteractionType" template="GcInteractionType">
+        <Property name="InteractionType" value="None" />
+      </Data>
+      <Data name="SecondaryActivationCost" template="GcInteractionActivationCost">
+        <Property name="SubstanceId" value="" />
+        <Property name="AltIds" />
+        <Property name="Cost" value="0" />
+        <Property name="Repeat" value="False" />
+      </Data>
+      <Property name="EventRenderers" />
+      <Property name="SecondaryCameraTransitionTime" value="1" />
+      <Property name="DoInteractionsInOrder" value="False" />
+    </Data>
+    <Data template="TkAudioComponentData">
+      <Property name="Ambient" value="Bld_DamagedMach_Beam" />
+      <Property name="MaxDistance" value="90" />
+      <Property name="AnimTriggers">
+        <Data template="TkAudioAnimTrigger">
+          <Property name="Sound" value="Capsule_Panel_Open" />
+          <Property name="Anim" value="OPEN" />
+          <Property name="FrameStart" value="0" />
+        </Data>
+      </Property>
+    </Data>
+    <Data template="TkPhysicsComponentData">
+      <Data name="Data" template="TkPhysicsData">
+        <Property name="Mass" value="0" />
+        <Property name="Friction" value="0.5" />
+        <Property name="RollingFriction" value="0.2" />
+        <Property name="AngularDamping" value="0.2" />
+        <Property name="LinearDamping" value="0.1" />
+        <Property name="Gravity" value="20" />
+      </Data>
+    </Data>
+    <Data template="TkAnimationComponentData">
+      <Data name="Idle" template="TkAnimationData">
+        <Property name="Anim" value="OPEN" />
+        <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/SIGNALSCANNER/SIGNALSCANNER.ANIM.MBIN" />
+        <Property name="AnimType" value="OneShot" />
+        <Property name="FrameStart" value="0" />
+        <Property name="FrameEnd" value="120" />
+        <Property name="StartNode" value="" />
+        <Property name="ExtraStartNodes" />
+        <Property name="Priority" value="0" />
+        <Property name="LoopOffsetMin" value="0" />
+        <Property name="LoopOffsetMax" value="0" />
+        <Property name="ControlDelay" value="0" />
+        <Property name="ControlSpeed" value="1" />
+        <Property name="ControlActionFrame" value="-1" />
+        <Property name="ControlCreatureSize" value="AllSizes" />
+        <Property name="FlagsAdditive" value="False" />
+        <Property name="FlagsMirrored" value="False" />
+        <Property name="FlagsActive" value="False" />
+      </Data>
+      <Property name="Anims" />
+    </Data>
+    <Data template="GcTriggerActionComponentData">
+      <Property name="HideModel" value="False" />
+      <Property name="StartInactive" value="False" />
+      <Property name="States">
+        <Data template="GcActionTriggerState">
+          <Property name="StateID" value="BOOT" />
+          <Property name="Triggers" />
+        </Data>
+        <Data template="GcActionTriggerState">
+          <Property name="StateID" value="SIGNALSCAN" />
+          <Property name="Triggers">
+            <Data template="GcActionTrigger">
+              <Data name="Trigger" template="GcStateTimeEvent">
+                <Property name="Seconds" value="0" />
+              </Data>
+              <Property name="Action">
+                <Data template="GcPlayAudioAction">
+                  <Property name="Sound" value="SignalScanner" />
+                </Data>
+              </Property>
+            </Data>
+          </Property>
+        </Data>
+      </Property>
+      <Property name="Persistent" value="False" />
+      <Property name="PersistentState" value="" />
+    </Data>
+    <Data template="GcScannableComponentData">
+      <Property name="ScanRange" value="150" />
+      <Property name="ScanName" value="SCAN_SIGNAL_SCANNER" />
+      <Property name="ScanTime" value="15" />
+      <Data name="IconType" template="GcScannerIconTypes">
+        <Property name="ScanIconType" value="Signal" />
+      </Data>
+      <Property name="PermanentIcon" value="False" />
+      <Property name="PermanentIconRadius" value="0" />
+    </Data>
+  </Property>
+</Data>
