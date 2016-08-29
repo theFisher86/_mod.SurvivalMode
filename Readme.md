@@ -1,23 +1,46 @@
 :skull: NMS Survival Mode Mod :skull:
 =====================
-If you're reading this and you aren't me then you probably don't want this yet.  This is **very much** a work in progress mod for *No Man's Sky.*
+Survival Mode has reached 1.0!  It is still in BETA but should be okay to use for most players.  **It will still require extensive tweaking so _I NEED FEEDBACK_**  Please report Issues using the [Issue tab on my Github](https://github.com/theFisher86/_mod.SurvivalMode/issues) or send me a DM on [Discord](http://discordapp.com) my user name is theFisher86.
+
+This is an overhaul of as many systems and stats that I could get my hands on aimed at making the game much harder and forcing the player to explore planets on foot more.
+
+:stars2: Features
+-----
+- Reduced number of buildings
+- Reduced Resources and Crystals
+- More animals are Predators and they're after you!
+- Faster Predators
+- Creatures can get BIGGER
+- Weather is dramatically more dangerous.  This is probably the change you'll notice first.  Exploring alien planets is now dangerous.  You'll have a hard time.
+- Ship Launcher requires dramatically more resources and should only be able to take off twice before being refilled.
+- Ship shields hold more shield resources so you don't need to recharge them mid-battle as much.  However you can't charge them with just Iron anymore.  You'll need to make Shield Resources
+- Environmental shields now only increase your damage reduction but now the higher shield level the more charge the shield can hold.
+- Scanner is dramatically weakened in it's default state.  If you want the scanner to serve any purpose at all you'll need to upgrade it and sacrifice the inventory space.
+- Pretty much everything does more damage now except for you.  Player damage modifiers are unchanged.
+- Contains the 10x version of [Denser Forests](http://nomansskymods.com/mods/denser-forests-packed/) built in so as not to create compatibility issues.
+- Customized Intro and Title Screens
 
 :computer: Install
 -----
 If you were directed here from NoMansSkyMods.com then you probably just want to download (right-click the file above and click "Save As") the .pak file and save it into your PCBANKS folder.  If you don't know what that means this mod is probably *wayy* to unpolished for you just yet.  Wait until version 1.0 comes out and there'll be a direct download. 
 
 ## :heavy_check_mark: ToDo
-- [x] edit `\METADATA\SIMULATION\ENVIRONMENT\PLANETBUILDINGTABLE` to reduce the number of buildings.  
-- [x] edit `\METADATA\SIMULATION\SOLARSYSTEM\BIOMES\PLACEMENTVALUES\SPAWNDENSITYLIST` PatchSize on the Crystals to reduce the total number of crystals showing up (same concept as [Denser Forests](http://nomansskymods.com/mods/denser-forests-packed/) but in reverse)  
-- [x] consider editing `\METADATA\SIMULATION\ECOSYSTEM\CREATUREDATATABLE` MaxScale values for some (or all) creatures so that they can appear much larger (like in [Bigger Creatures](http://nomansskymods.com/mods/bigger-creatures-packed/)  
-- [x] consider requesting permission and adding in functionality from:
-  - [x] [Denser Forests](http://nomansskymods.com/mods/denser-forests-packed/) 
-- [ ] Update Changelog and description giving credit to Denser Forests
-- [ ] Make swarms happen more often?
-- [ ] write easy installer for choosing options and creating PAK file.  
+- [ ] Further tweaks across the board to add polish to everything.  The damage and stats increases right now were made with very little playability testing, basically just to see if it would work.
+  - **Requires Feedback from Community**
+- [ ] Spend more time making space battles epic.  I have personally spent most of my in-game time on planets exploring.  I'll need to get into more space battles and tweak those stats more.
+- [ ] Increase the amount of Sentinels that spawn when you piss them off.
+- [ ] Once we're able to change more stuff with how the Scanner finds stuff I want to heavily edit that.
+  - Looks like we can decompile the tables in `\METADATA\SIMULATION\SCANNING` now!  Should happen sooner than later!
+- [ ] Make Wanted Level stick around longer.
+- [ ] Make Sentinels call for re-enforcements sooner.
+- [ ] Ultimately I would like the Sentinels that spawn when you illegally mine resources or kill animals to be an actual deterrent from doing so.  You should be scared to harvest Plutonium with a drone hovering nearby.
+- [ ] AI Improvements *far-off*
 
 :memo: Changelog
 ---------
+_8/29/2016_
+- Added startup logo and title.
+- Prepared for beta release.
 _8/27/2016_
 - Reduced total number of buildings with the PlanetBuildingTable
 - Received permission from madvillain5 to add in [Denser Forests](http://nomansskymods.com/mods/denser-forests-packed/) so added the 10x version of his mod.
@@ -27,70 +50,3 @@ _8/27/2016_
 _8/26/2016_
 - Changed all CreatureRoles in GROUND and UNDERWATER to PlayerPredator.  Everything should try to kill you now pretty much. :warning: this is temporary.  Won't leave it so *everything* is trying to kill you, just most things.
 _8\25\16_
-
-###Make Ship Launcher use more resources to prevent overuse.
-* NMS_REALITY_GCTECHNOLOGYTABLE.exml *
-  - Ship_Launcher
-    - Raised ChargeAmount to 1000 (from 600)
-    - Raised Ship_Launcher_TakeOffCost to 500 (from 150)
-    - Added COMMODITY6 (Antimatter) as a charge source
-    - [ ] TODO: Need to add this to the Description
-      - This also required editing NMS_REALITY_GCPRODUCTTABLE.exml
-	  - Increased ChargeValue of COMMODITY6 to 500 (from 0)
-				
-###Make Ship Shields hold dramatically more charge so you're not recharging your ship shields mid-battle all the time.  Can't charge shields with just plain Iron.
--  Will need to craft it into a Shield Fuel product or use Titanium or Zinc.  However Iron is now inefficient when crafting into fuel (125FE = 100 charge, 250FE = 200 charge, etc).	 This makes inventory efficiency have some differences (most efficient woudl be TI or ZN as they are worth 2x charge and can hold 250 (500 charge) in an exosuit slot).
-- [ ] TODO: All of this needs added to the descriptions and language files.
-* NMS_REALITY_GCTECHNOLOGYTABLE.exml *
--SHIPSHIELD
-  - Increased ChargeAmount to 800 so that shields can hold more charge.  Also makes Shield products essentially double the shield output when used. 
-  -Added SHIELDFUEL1, SHIELDFUEL2, SHIELDFUEL3, COMRARE1 & COMUNCOMMON1 to ChargeBy
-    - Changed NMS_REALITY_GCPRODUCTTABLE.exml 
-      - SHIELDFUEL1 now requires 125 COM1 (iron) but produces 100 charge
-      - SHIELDFUEL2 now requires 250 COM1 (iron) but produces 200 charge
-      - SHIELDFUEL3 now requires 500 COM1 (iron) but produces 400 charge
-		
-###Environmental Shields hold more charge as they're upgraded.
-- [ ] TODO: Add to language files.	
-- COLD2, HOT2, RAD2 & TOX2 ChargeAmount increased to 150
-- COLD3, HOT3, RAD3 & TOX3 ChargeAmount increased to 250
-	
-###Weaken the Scanner dramatically.  Make the Scanner much less powerful so that if you want the scanner to actually be useful you need both of the upgrades for it (thus sacrificing inventory space).
-* NMS_REALITY_GCTECHNOLOGYTABLE.exml *
-- Reduce Weapon_Scan_Radius of Scan1 to 0.2 (from 1)
-- Reduce Weapon_Scan_Radius of Scan2 to 0.8 (from 1.4)
-- Reduce Weapon_Scan_Radius of Scan3 to 1.5 (from 1.8)
-		
-###Increase the overall damage done by everything
-- Enviromental Damage increased to 56 (from 28) on EXTREMEHEATDMG, EXTREMECOLDDMG, TOXICGASDMG & RADIATIONDMG
-- No oxygen damage doubled (from 10 to 20)
-- Impact Damage increased to 15 (from 10) and PushForce of 10 added so it knocks you down.
-- RobotGunDMG increased to 15 (from 3!!!) and a PushForce of 10 was added, so Sentinels are a legit problem now.
-- LaserDamage increased to 30 (from 4!!!) and a PushForce of 20 was added, pretty sure this applies to Sentinel elite forces.
-- SmallCreatureDmg increased to 30 (from 20), PushForce unchanged.
-- MedCreatureDmg increased to 50 (from 30), PushForce upped to 15 (from 10)
-- LrgCreatureDmg increased to 85 (from 50), PushForce upped to 20 (from 15).
-- HugeCreatureDmg increased to 100 (from 80), PushForce upped to 35 (from 20)
-- PlayerPredDmg increased to 65 (from 40), PushForce unchanged
-- PlantDmg increased to 50 (from 7), PushForce upped to 25 (from 0)
-- WalkerLaser increased to 15 (from 5), PushForce unchanged
-	
-###Messing with Robots and Animals
-* ROBOTDATATABLE.exml *
-- Increased Drone MaxScale to 2 (from 1) hopefully this will change the size of the drones flying around (big ones could generate)
-- [ ] TODO: If the above works there's QUAD and WALKER files in ROBOTDATATABLE which could be edited too!
-	
-* CAVETABLECOMMON.exml *
-- Changed CreatureRole to PlayerPredator for Blobs & Spiders, Rodents are just Predators now (previously Blobs & Rodents were Prey and Spiders were Predators).
-- Increased MaxGroupScale for Blobs to 2.8 (from 1.8)
-- Upped MinGroupSize to 5 (from 1) and MaxGroupSize to 12 (from 3)for Blobs
-- Increased ProbablityOfBeingEnabled to 1.25 (from 0.25)
-	
-###HazardTable Edits
-* EXTREMEHEATDMG, EXTREMECOLDDMG, TOXICGASDMG & RADIATIONDMG *
-  -Changed Increase to True
-  -CapValue up to 200 (from 100), except on EXTREMECOLDDMG it was changed to -200
-  -DAMAGERATE X increased to 75 (from 50) and y increased to 30 (from 20)for EXTREMEHEATDMG & EXTREMECOLDDMG
-  -WOUNDRATE X increased to 75 (from 50) and y increased to 30 (from 20) for TOXICGASDMG & RADIATIONDMG
-	
-		
