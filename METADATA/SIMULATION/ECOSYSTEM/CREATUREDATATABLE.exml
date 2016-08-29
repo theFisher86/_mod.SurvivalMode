@@ -351,6 +351,7 @@
       </Data>
       <Property name="MoveArea" value="Air" />
       <Property name="MinScale" value="0.3" />
+	  
       <Property name="MaxScale" value="5" />
       <Data name="Rarity" template="GcRarity">
         <Property name="Rarity" value="Common" />

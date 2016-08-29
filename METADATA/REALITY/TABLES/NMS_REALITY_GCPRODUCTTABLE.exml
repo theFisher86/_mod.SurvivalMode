@@ -2160,6 +2160,7 @@
         <Property name="Legality" value="Legal" />
       </Data>
       <Property name="Consumable" value="True" />
+	  
       <Property name="ChargeValue" value="100" />
       <Property name="Requirements">
         <Data template="GcTechnologyRequirement">
@@ -2278,6 +2279,7 @@
         <Property name="Legality" value="Legal" />
       </Data>
       <Property name="Consumable" value="True" />
+	  
       <Property name="ChargeValue" value="400" />
       <Property name="Requirements">
         <Data template="GcTechnologyRequirement">
