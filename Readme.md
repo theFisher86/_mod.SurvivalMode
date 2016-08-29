@@ -4,7 +4,7 @@ Survival Mode has reached 1.0!  It is still in BETA but should be okay to use fo
 
 This is an overhaul of as many systems and stats that I could get my hands on aimed at making the game much harder and forcing the player to explore planets on foot more.
 
-:stars2: Features
+:star2: Features
 -----
 - Reduced number of buildings
 - Reduced Resources and Crystals
