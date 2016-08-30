@@ -1,0 +1,2239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data template="GcCreatureDataTable">
+  <Property name="Table">
+    <Data template="GcCreatureData">
+      <Property name="Id" value="FISH" />
+      <Property name="Genus" value="ICTALORIS" />
+      <Data name="CreatureType" template="GcCreatureTypes">
+        <Property name="CreatureType" value="Fish" />
+      </Data>
+      <Property name="MoveArea" value="Water" />
+      <Property name="MinScale" value="0.5" />
+      <Property name="MaxScale" value="5" />
+      <Data name="Rarity" template="GcRarity">
+        <Property name="Rarity" value="Common" />
+      </Data>
+      <Property name="Data">
+        <Data template="GcCreatureMovementData">
+          <Property name="Anims">
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="WALK" />
+              <Property name="AnimLeft" value="LEFT" />
+              <Property name="AnimRight" value="RIGHT" />
+              <Property name="AnimSpeed" value="0.5" />
+              <Property name="MinSpeedScale" value="0.3" />
+              <Property name="MaxSpeedScale" value="1.3" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="WALK" />
+              <Property name="AnimLeft" value="LEFT" />
+              <Property name="AnimRight" value="RIGHT" />
+              <Property name="AnimSpeed" value="0.5" />
+              <Property name="MinSpeedScale" value="0.3" />
+              <Property name="MaxSpeedScale" value="1.3" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="WALK" />
+              <Property name="AnimLeft" value="LEFT" />
+              <Property name="AnimRight" value="RIGHT" />
+              <Property name="AnimSpeed" value="0.5" />
+              <Property name="MinSpeedScale" value="0.3" />
+              <Property name="MaxSpeedScale" value="1.3" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+          </Property>
+          <Property name="MoveRange" value="100" />
+          <Property name="MoveSpeedScale" value="1" />
+          <Property name="HeightMin" value="0" />
+          <Property name="HeightMax" value="256" />
+          <Property name="HeightTime" value="3" />
+        </Data>
+        <Data template="GcCreatureSwarmData">
+          <Property name="MinCount" value="8" />
+          <Property name="MaxCount" value="10" />
+          <Property name="SwarmMovementSpeed" value="1" />
+          <Property name="SwarmMovementRadius" value="40" />
+          <Property name="SwarmMovementType" value="Random" />
+          <Property name="Coherence" value="0.2" />
+          <Property name="Alignment" value="0.1" />
+          <Property name="Spacing" value="20" />
+          <Property name="Follow" value="0.3" />
+          <Property name="Range" value="30" />
+          <Property name="MaxSpeed" value="20" />
+          <Property name="AlignTime" value="0.2" />
+          <Property name="RepelList">
+            <Data template="NMSString0x10">
+              <Property name="Value" value="" />
+            </Data>
+          </Property>
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcCreatureData">
+      <Property name="Id" value="ANTELOPE" />
+      <Property name="Genus" value="TETRACERIS" />
+      <Data name="CreatureType" template="GcCreatureTypes">
+        <Property name="CreatureType" value="None" />
+      </Data>
+      <Property name="MoveArea" value="Ground" />
+      <Property name="MinScale" value="0.4" />
+      <Property name="MaxScale" value="12" />
+      <Data name="Rarity" template="GcRarity">
+        <Property name="Rarity" value="Common" />
+      </Data>
+      <Property name="Data">
+        <Data template="GcCreatureMovementData">
+          <Property name="Anims">
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="WALK" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="RUN" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1.5" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="TROT" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1.5" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="SLOWWALK" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="FASTWALK" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+          </Property>
+          <Property name="MoveRange" value="50" />
+          <Property name="MoveSpeedScale" value="1" />
+          <Property name="HeightMin" value="5" />
+          <Property name="HeightMax" value="256" />
+          <Property name="HeightTime" value="1" />
+        </Data>
+        <Data template="GcCreatureVocalData">
+          <Property name="ScaleBias" value="1" />
+          <Data name="IdleVocal" template="GcCreatureVocalSoundData">
+            <Property name="Id" value="" />
+            <Property name="VocalEmote" value="EmoteIdle" />
+            <Property name="PlayFrequency" value="0.35" />
+            <Property name="MinCooldown" value="5" />
+            <Property name="MaxCooldown" value="15" />
+            <Property name="PlayImmediately" value="False" />
+            <Property name="PlayOnlyOnce" value="False" />
+          </Data>
+          <Data name="FleeVocal" template="GcCreatureVocalSoundData">
+            <Property name="Id" value="" />
+            <Property name="VocalEmote" value="EmoteFlee" />
+            <Property name="PlayFrequency" value="0.15" />
+            <Property name="MinCooldown" value="2.5" />
+            <Property name="MaxCooldown" value="10" />
+            <Property name="PlayImmediately" value="True" />
+            <Property name="PlayOnlyOnce" value="False" />
+          </Data>
+          <Data name="DeathVocal" template="GcCreatureVocalSoundData">
+            <Property name="Id" value="" />
+            <Property name="VocalEmote" value="EmoteDie" />
+            <Property name="PlayFrequency" value="1" />
+            <Property name="MinCooldown" value="5" />
+            <Property name="MaxCooldown" value="15" />
+            <Property name="PlayImmediately" value="True" />
+            <Property name="PlayOnlyOnce" value="True" />
+          </Data>
+          <Data name="AttackVocal" template="GcCreatureVocalSoundData">
+            <Property name="Id" value="" />
+            <Property name="VocalEmote" value="EmoteAttack" />
+            <Property name="PlayFrequency" value="1" />
+            <Property name="MinCooldown" value="5" />
+            <Property name="MaxCooldown" value="15" />
+            <Property name="PlayImmediately" value="True" />
+            <Property name="PlayOnlyOnce" value="True" />
+          </Data>
+        </Data>
+        <Data template="GcCreatureFootParticleData">
+          <Property name="ParticleData">
+            <Data template="GcCreatureFootParticleSingleData">
+              <Property name="EffectName" value="FOOTFROZEN" />
+              <Property name="Scale" value="1" />
+              <Property name="MinCreatureSize" value="0.5" />
+              <Property name="MaxCreatureSize" value="100" />
+              <Property name="MoveSpeed" value="Run" />
+            </Data>
+          </Property>
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcCreatureData">
+      <Property name="Id" value="BIRD" />
+      <Property name="Genus" value="AGNELIS" />
+      <Data name="CreatureType" template="GcCreatureTypes">
+        <Property name="CreatureType" value="Bird" />
+      </Data>
+      <Property name="MoveArea" value="Air" />
+      <Property name="MinScale" value="0.3" />
+      <Property name="MaxScale" value="10" />
+      <Data name="Rarity" template="GcRarity">
+        <Property name="Rarity" value="Common" />
+      </Data>
+      <Property name="Data">
+        <Data template="GcCreatureHealthData">
+          <Property name="HurtAnim" value="" />
+          <Property name="DeathAnim" value="" />
+          <Property name="DeathEffect" value="" />
+          <Property name="HurtAudio" value="" />
+          <Property name="DeathAudio" value="" />
+        </Data>
+        <Data template="GcCreatureMovementData">
+          <Property name="Anims">
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="WALK" />
+              <Property name="AnimLeft" value="LEFT" />
+              <Property name="AnimRight" value="RIGHT" />
+              <Property name="AnimSpeed" value="0.5" />
+              <Property name="MinSpeedScale" value="0.3" />
+              <Property name="MaxSpeedScale" value="1.3" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="WALK" />
+              <Property name="AnimLeft" value="LEFT" />
+              <Property name="AnimRight" value="RIGHT" />
+              <Property name="AnimSpeed" value="0.5" />
+              <Property name="MinSpeedScale" value="0.3" />
+              <Property name="MaxSpeedScale" value="1.3" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="WALK" />
+              <Property name="AnimLeft" value="LEFT" />
+              <Property name="AnimRight" value="RIGHT" />
+              <Property name="AnimSpeed" value="0.5" />
+              <Property name="MinSpeedScale" value="0.3" />
+              <Property name="MaxSpeedScale" value="1.3" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+          </Property>
+          <Property name="MoveRange" value="150" />
+          <Property name="MoveSpeedScale" value="1" />
+          <Property name="HeightMin" value="30" />
+          <Property name="HeightMax" value="40" />
+          <Property name="HeightTime" value="2" />
+        </Data>
+        <Data template="GcCreatureSwarmData">
+          <Property name="MinCount" value="3" />
+          <Property name="MaxCount" value="6" />
+          <Property name="SwarmMovementSpeed" value="15" />
+          <Property name="SwarmMovementRadius" value="120" />
+          <Property name="SwarmMovementType" value="Circle" />
+          <Property name="Coherence" value="0.1" />
+          <Property name="Alignment" value="0.12" />
+          <Property name="Spacing" value="10" />
+          <Property name="Follow" value="1.5" />
+          <Property name="Range" value="1" />
+          <Property name="MaxSpeed" value="15" />
+          <Property name="AlignTime" value="0.2" />
+          <Property name="RepelList" />
+        </Data>
+        <Data template="GcBirdData">
+          <Property name="FlapSpeedMax" value="0.6" />
+          <Property name="FlapSpeedMin" value="5" />
+          <Property name="FlapSpeed" value="15" />
+          <Property name="FlapAccel" value="5" />
+          <Property name="CircleAttractor" value="" />
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcCreatureData">
+      <Property name="Id" value="FLYINGSNAKE" />
+      <Property name="Genus" value="OXYACTA" />
+      <Data name="CreatureType" template="GcCreatureTypes">
+        <Property name="CreatureType" value="FlyingSnake" />
+      </Data>
+      <Property name="MoveArea" value="Air" />
+      <Property name="MinScale" value="3.5" />
+      <Property name="MaxScale" value="7" />
+      <Data name="Rarity" template="GcRarity">
+        <Property name="Rarity" value="Rare" />
+      </Data>
+      <Property name="Data">
+        <Data template="GcCreatureMovementData">
+          <Property name="Anims">
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="WALK" />
+              <Property name="AnimLeft" value="LEFT" />
+              <Property name="AnimRight" value="RIGHT" />
+              <Property name="AnimSpeed" value="0.5" />
+              <Property name="MinSpeedScale" value="0.3" />
+              <Property name="MaxSpeedScale" value="1.3" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="WALK" />
+              <Property name="AnimLeft" value="LEFT" />
+              <Property name="AnimRight" value="RIGHT" />
+              <Property name="AnimSpeed" value="0.5" />
+              <Property name="MinSpeedScale" value="0.3" />
+              <Property name="MaxSpeedScale" value="1.3" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="WALK" />
+              <Property name="AnimLeft" value="LEFT" />
+              <Property name="AnimRight" value="RIGHT" />
+              <Property name="AnimSpeed" value="0.5" />
+              <Property name="MinSpeedScale" value="0.3" />
+              <Property name="MaxSpeedScale" value="1.3" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+          </Property>
+          <Property name="MoveRange" value="100" />
+          <Property name="MoveSpeedScale" value="1" />
+          <Property name="HeightMin" value="25" />
+          <Property name="HeightMax" value="45" />
+          <Property name="HeightTime" value="2" />
+        </Data>
+        <Data template="GcCreatureSwarmData">
+          <Property name="MinCount" value="2" />
+          <Property name="MaxCount" value="3" />
+          <Property name="SwarmMovementSpeed" value="10" />
+          <Property name="SwarmMovementRadius" value="100" />
+          <Property name="SwarmMovementType" value="Circle" />
+          <Property name="Coherence" value="0.1" />
+          <Property name="Alignment" value="0.12" />
+          <Property name="Spacing" value="40" />
+          <Property name="Follow" value="1" />
+          <Property name="Range" value="1" />
+          <Property name="MaxSpeed" value="15" />
+          <Property name="AlignTime" value="0.8" />
+          <Property name="RepelList" />
+        </Data>
+        <Data template="GcBirdData">
+          <Property name="FlapSpeedMax" value="0.4" />
+          <Property name="FlapSpeedMin" value="1" />
+          <Property name="FlapSpeed" value="20" />
+          <Property name="FlapAccel" value="5" />
+          <Property name="CircleAttractor" value="STARGATE" />
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcCreatureData">
+      <Property name="Id" value="FLYINGLIZARD" />
+      <Property name="Genus" value="CYCROMYS" />
+      <Data name="CreatureType" template="GcCreatureTypes">
+        <Property name="CreatureType" value="FlyingLizard" />
+      </Data>
+      <Property name="MoveArea" value="Air" />
+      <Property name="MinScale" value="0.3" />
+	  
+      <Property name="MaxScale" value="5" />
+      <Data name="Rarity" template="GcRarity">
+        <Property name="Rarity" value="Common" />
+      </Data>
+      <Property name="Data">
+        <Data template="GcCreatureHealthData">
+          <Property name="HurtAnim" value="" />
+          <Property name="DeathAnim" value="" />
+          <Property name="DeathEffect" value="" />
+          <Property name="HurtAudio" value="" />
+          <Property name="DeathAudio" value="" />
+        </Data>
+        <Data template="GcCreatureMovementData">
+          <Property name="Anims">
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="WALK" />
+              <Property name="AnimLeft" value="LEFT" />
+              <Property name="AnimRight" value="RIGHT" />
+              <Property name="AnimSpeed" value="0.5" />
+              <Property name="MinSpeedScale" value="0.3" />
+              <Property name="MaxSpeedScale" value="1.3" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="WALK" />
+              <Property name="AnimLeft" value="LEFT" />
+              <Property name="AnimRight" value="RIGHT" />
+              <Property name="AnimSpeed" value="0.5" />
+              <Property name="MinSpeedScale" value="0.3" />
+              <Property name="MaxSpeedScale" value="1.3" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="WALK" />
+              <Property name="AnimLeft" value="LEFT" />
+              <Property name="AnimRight" value="RIGHT" />
+              <Property name="AnimSpeed" value="0.5" />
+              <Property name="MinSpeedScale" value="0.3" />
+              <Property name="MaxSpeedScale" value="1.3" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+          </Property>
+          <Property name="MoveRange" value="100" />
+          <Property name="MoveSpeedScale" value="1" />
+          <Property name="HeightMin" value="25" />
+          <Property name="HeightMax" value="45" />
+          <Property name="HeightTime" value="2" />
+        </Data>
+        <Data template="GcCreatureSwarmData">
+          <Property name="MinCount" value="2" />
+          <Property name="MaxCount" value="3" />
+          <Property name="SwarmMovementSpeed" value="6" />
+          <Property name="SwarmMovementRadius" value="200" />
+          <Property name="SwarmMovementType" value="Circle" />
+          <Property name="Coherence" value="0.1" />
+          <Property name="Alignment" value="0.12" />
+          <Property name="Spacing" value="40" />
+          <Property name="Follow" value="1" />
+          <Property name="Range" value="1" />
+          <Property name="MaxSpeed" value="20" />
+          <Property name="AlignTime" value="0.2" />
+          <Property name="RepelList" />
+        </Data>
+        <Data template="GcBirdData">
+          <Property name="FlapSpeedMax" value="0.4" />
+          <Property name="FlapSpeedMin" value="1" />
+          <Property name="FlapSpeed" value="20" />
+          <Property name="FlapAccel" value="5" />
+          <Property name="CircleAttractor" value="" />
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcCreatureData">
+      <Property name="Id" value="DIPLO" />
+      <Property name="Genus" value="RANGIFAE" />
+      <Data name="CreatureType" template="GcCreatureTypes">
+        <Property name="CreatureType" value="None" />
+      </Data>
+      <Property name="MoveArea" value="Ground" />
+      <Property name="MinScale" value="0.4" />
+      <Property name="MaxScale" value="12" />
+      <Data name="Rarity" template="GcRarity">
+        <Property name="Rarity" value="Uncommon" />
+      </Data>
+      <Property name="Data">
+        <Data template="GcCreatureMovementData">
+          <Property name="Anims">
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="WALK" />
+              <Property name="AnimLeft" value="LEFT" />
+              <Property name="AnimRight" value="RIGHT" />
+              <Property name="AnimSpeed" value="0.5" />
+              <Property name="MinSpeedScale" value="0.3" />
+              <Property name="MaxSpeedScale" value="1.3" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="WALK" />
+              <Property name="AnimLeft" value="LEFT" />
+              <Property name="AnimRight" value="RIGHT" />
+              <Property name="AnimSpeed" value="0.4" />
+              <Property name="MinSpeedScale" value="0.3" />
+              <Property name="MaxSpeedScale" value="1.3" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="WALK" />
+              <Property name="AnimLeft" value="LEFT" />
+              <Property name="AnimRight" value="RIGHT" />
+              <Property name="AnimSpeed" value="0.5" />
+              <Property name="MinSpeedScale" value="0.3" />
+              <Property name="MaxSpeedScale" value="1.3" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+          </Property>
+          <Property name="MoveRange" value="10" />
+          <Property name="MoveSpeedScale" value="1" />
+          <Property name="HeightMin" value="0" />
+          <Property name="HeightMax" value="128" />
+          <Property name="HeightTime" value="1" />
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcCreatureData">
+      <Property name="Id" value="TRICERATOPS" />
+      <Property name="Genus" value="THEROMA" />
+      <Data name="CreatureType" template="GcCreatureTypes">
+        <Property name="CreatureType" value="None" />
+      </Data>
+      <Property name="MoveArea" value="Ground" />
+      <Property name="MinScale" value="0.4" />
+      <Property name="MaxScale" value="12" />
+      <Data name="Rarity" template="GcRarity">
+        <Property name="Rarity" value="Uncommon" />
+      </Data>
+      <Property name="Data">
+        <Data template="GcCreatureMovementData">
+          <Property name="Anims">
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="WALK" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="RUN" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1.5" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="TROT" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="RIGHT" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1.5" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="SLOWWALK" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="FASTWALK" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+          </Property>
+          <Property name="MoveRange" value="100" />
+          <Property name="MoveSpeedScale" value="1" />
+          <Property name="HeightMin" value="0" />
+          <Property name="HeightMax" value="256" />
+          <Property name="HeightTime" value="1" />
+        </Data>
+        <Data template="GcCreatureVocalData">
+          <Property name="ScaleBias" value="1" />
+          <Data name="IdleVocal" template="GcCreatureVocalSoundData">
+            <Property name="Id" value="" />
+            <Property name="VocalEmote" value="EmoteIdle" />
+            <Property name="PlayFrequency" value="0.35" />
+            <Property name="MinCooldown" value="2" />
+            <Property name="MaxCooldown" value="6" />
+            <Property name="PlayImmediately" value="False" />
+            <Property name="PlayOnlyOnce" value="False" />
+          </Data>
+          <Data name="FleeVocal" template="GcCreatureVocalSoundData">
+            <Property name="Id" value="" />
+            <Property name="VocalEmote" value="EmoteFlee" />
+            <Property name="PlayFrequency" value="0.15" />
+            <Property name="MinCooldown" value="2" />
+            <Property name="MaxCooldown" value="6" />
+            <Property name="PlayImmediately" value="True" />
+            <Property name="PlayOnlyOnce" value="False" />
+          </Data>
+          <Data name="DeathVocal" template="GcCreatureVocalSoundData">
+            <Property name="Id" value="" />
+            <Property name="VocalEmote" value="EmoteDie" />
+            <Property name="PlayFrequency" value="1" />
+            <Property name="MinCooldown" value="5" />
+            <Property name="MaxCooldown" value="15" />
+            <Property name="PlayImmediately" value="True" />
+            <Property name="PlayOnlyOnce" value="True" />
+          </Data>
+          <Data name="AttackVocal" template="GcCreatureVocalSoundData">
+            <Property name="Id" value="" />
+            <Property name="VocalEmote" value="EmoteAttack" />
+            <Property name="PlayFrequency" value="1" />
+            <Property name="MinCooldown" value="5" />
+            <Property name="MaxCooldown" value="15" />
+            <Property name="PlayImmediately" value="True" />
+            <Property name="PlayOnlyOnce" value="True" />
+          </Data>
+        </Data>
+        <Data template="GcCreatureFootParticleData">
+          <Property name="ParticleData">
+            <Data template="GcCreatureFootParticleSingleData">
+              <Property name="EffectName" value="FOOTFROZEN" />
+              <Property name="Scale" value="1" />
+              <Property name="MinCreatureSize" value="0.5" />
+              <Property name="MaxCreatureSize" value="100" />
+              <Property name="MoveSpeed" value="Run" />
+            </Data>
+          </Property>
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcCreatureData">
+      <Property name="Id" value="RODENT" />
+      <Property name="Genus" value="PROCAVYA" />
+      <Data name="CreatureType" template="GcCreatureTypes">
+        <Property name="CreatureType" value="None" />
+      </Data>
+      <Property name="MoveArea" value="Ground" />
+      <Property name="MinScale" value="0.4" />
+      <Property name="MaxScale" value="12" />
+      <Data name="Rarity" template="GcRarity">
+        <Property name="Rarity" value="Common" />
+      </Data>
+      <Property name="Data">
+        <Data template="GcCreatureMovementData">
+          <Property name="Anims">
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="WALK" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="RUN" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1.5" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="TROT" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1.5" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="SLOWWALK" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="FASTWALK" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+          </Property>
+          <Property name="MoveRange" value="100" />
+          <Property name="MoveSpeedScale" value="1" />
+          <Property name="HeightMin" value="5" />
+          <Property name="HeightMax" value="256" />
+          <Property name="HeightTime" value="5" />
+        </Data>
+        <Data template="GcCreatureVocalData">
+          <Property name="ScaleBias" value="1" />
+          <Data name="IdleVocal" template="GcCreatureVocalSoundData">
+            <Property name="Id" value="" />
+            <Property name="VocalEmote" value="EmoteIdle" />
+            <Property name="PlayFrequency" value="0.05" />
+            <Property name="MinCooldown" value="5" />
+            <Property name="MaxCooldown" value="15" />
+            <Property name="PlayImmediately" value="False" />
+            <Property name="PlayOnlyOnce" value="False" />
+          </Data>
+          <Data name="FleeVocal" template="GcCreatureVocalSoundData">
+            <Property name="Id" value="" />
+            <Property name="VocalEmote" value="EmoteFlee" />
+            <Property name="PlayFrequency" value="0.15" />
+            <Property name="MinCooldown" value="2.5" />
+            <Property name="MaxCooldown" value="10" />
+            <Property name="PlayImmediately" value="True" />
+            <Property name="PlayOnlyOnce" value="False" />
+          </Data>
+          <Data name="DeathVocal" template="GcCreatureVocalSoundData">
+            <Property name="Id" value="" />
+            <Property name="VocalEmote" value="EmoteDie" />
+            <Property name="PlayFrequency" value="1" />
+            <Property name="MinCooldown" value="5" />
+            <Property name="MaxCooldown" value="15" />
+            <Property name="PlayImmediately" value="True" />
+            <Property name="PlayOnlyOnce" value="True" />
+          </Data>
+          <Data name="AttackVocal" template="GcCreatureVocalSoundData">
+            <Property name="Id" value="" />
+            <Property name="VocalEmote" value="EmoteAttack" />
+            <Property name="PlayFrequency" value="1" />
+            <Property name="MinCooldown" value="5" />
+            <Property name="MaxCooldown" value="15" />
+            <Property name="PlayImmediately" value="True" />
+            <Property name="PlayOnlyOnce" value="True" />
+          </Data>
+        </Data>
+        <Data template="GcCreatureFootParticleData">
+          <Property name="ParticleData">
+            <Data template="GcCreatureFootParticleSingleData">
+              <Property name="EffectName" value="FOOTFROZEN" />
+              <Property name="Scale" value="1" />
+              <Property name="MinCreatureSize" value="0.5" />
+              <Property name="MaxCreatureSize" value="100" />
+              <Property name="MoveSpeed" value="Run" />
+            </Data>
+          </Property>
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcCreatureData">
+      <Property name="Id" value="BEETLE" />
+      <Property name="Genus" value="CONOKINIS" />
+      <Data name="CreatureType" template="GcCreatureTypes">
+        <Property name="CreatureType" value="Beetle" />
+      </Data>
+      <Property name="MoveArea" value="Ground" />
+      <Property name="MinScale" value="1" />
+      <Property name="MaxScale" value="10" />
+      <Data name="Rarity" template="GcRarity">
+        <Property name="Rarity" value="Common" />
+      </Data>
+      <Property name="Data">
+        <Data template="GcCreatureSwarmData">
+          <Property name="MinCount" value="10" />
+          <Property name="MaxCount" value="10" />
+          <Property name="SwarmMovementSpeed" value="10" />
+          <Property name="SwarmMovementRadius" value="10" />
+          <Property name="SwarmMovementType" value="Circle" />
+          <Property name="Coherence" value="0.2" />
+          <Property name="Alignment" value="0.4" />
+          <Property name="Spacing" value="2" />
+          <Property name="Follow" value="1" />
+          <Property name="Range" value="30" />
+          <Property name="MaxSpeed" value="15" />
+          <Property name="AlignTime" value="0.2" />
+          <Property name="RepelList" />
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcCreatureData">
+      <Property name="Id" value="COW" />
+      <Property name="Genus" value="UNGULATUS" />
+      <Data name="CreatureType" template="GcCreatureTypes">
+        <Property name="CreatureType" value="None" />
+      </Data>
+      <Property name="MoveArea" value="Ground" />
+      <Property name="MinScale" value="0.4" />
+      <Property name="MaxScale" value="12" />
+      <Data name="Rarity" template="GcRarity">
+        <Property name="Rarity" value="Common" />
+      </Data>
+      <Property name="Data">
+        <Data template="GcCreatureMovementData">
+          <Property name="Anims">
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="WALK" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="0.9" />
+              <Property name="MaxSpeedScale" value="1.1" />
+              <Property name="MaxPredatorSpeedScale" value="1.1" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="RUN" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="0.9" />
+              <Property name="MaxSpeedScale" value="1.5" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="TROT" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="0.9" />
+              <Property name="MaxSpeedScale" value="1.5" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="SLOWWALK" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="FASTWALK" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+          </Property>
+          <Property name="MoveRange" value="100" />
+          <Property name="MoveSpeedScale" value="1" />
+          <Property name="HeightMin" value="0" />
+          <Property name="HeightMax" value="256" />
+          <Property name="HeightTime" value="5" />
+        </Data>
+        <Data template="GcCreatureVocalData">
+          <Property name="ScaleBias" value="1" />
+          <Data name="IdleVocal" template="GcCreatureVocalSoundData">
+            <Property name="Id" value="" />
+            <Property name="VocalEmote" value="EmoteIdle" />
+            <Property name="PlayFrequency" value="0.7" />
+            <Property name="MinCooldown" value="4" />
+            <Property name="MaxCooldown" value="8" />
+            <Property name="PlayImmediately" value="False" />
+            <Property name="PlayOnlyOnce" value="False" />
+          </Data>
+          <Data name="FleeVocal" template="GcCreatureVocalSoundData">
+            <Property name="Id" value="" />
+            <Property name="VocalEmote" value="EmoteFlee" />
+            <Property name="PlayFrequency" value="0.15" />
+            <Property name="MinCooldown" value="2.5" />
+            <Property name="MaxCooldown" value="10" />
+            <Property name="PlayImmediately" value="True" />
+            <Property name="PlayOnlyOnce" value="False" />
+          </Data>
+          <Data name="DeathVocal" template="GcCreatureVocalSoundData">
+            <Property name="Id" value="" />
+            <Property name="VocalEmote" value="EmoteDie" />
+            <Property name="PlayFrequency" value="1" />
+            <Property name="MinCooldown" value="5" />
+            <Property name="MaxCooldown" value="15" />
+            <Property name="PlayImmediately" value="True" />
+            <Property name="PlayOnlyOnce" value="True" />
+          </Data>
+          <Data name="AttackVocal" template="GcCreatureVocalSoundData">
+            <Property name="Id" value="" />
+            <Property name="VocalEmote" value="EmoteAttack" />
+            <Property name="PlayFrequency" value="1" />
+            <Property name="MinCooldown" value="5" />
+            <Property name="MaxCooldown" value="15" />
+            <Property name="PlayImmediately" value="True" />
+            <Property name="PlayOnlyOnce" value="True" />
+          </Data>
+        </Data>
+        <Data template="GcCreatureFootParticleData">
+          <Property name="ParticleData">
+            <Data template="GcCreatureFootParticleSingleData">
+              <Property name="EffectName" value="FOOTFROZEN" />
+              <Property name="Scale" value="1" />
+              <Property name="MinCreatureSize" value="0.5" />
+              <Property name="MaxCreatureSize" value="100" />
+              <Property name="MoveSpeed" value="Run" />
+            </Data>
+          </Property>
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcCreatureData">
+      <Property name="Id" value="CAT" />
+      <Property name="Genus" value="FELIDAE" />
+      <Data name="CreatureType" template="GcCreatureTypes">
+        <Property name="CreatureType" value="None" />
+      </Data>
+      <Property name="MoveArea" value="Ground" />
+      <Property name="MinScale" value="0.4" />
+      <Property name="MaxScale" value="12" />
+      <Data name="Rarity" template="GcRarity">
+        <Property name="Rarity" value="Common" />
+      </Data>
+      <Property name="Data">
+        <Data template="GcCreatureMovementData">
+          <Property name="Anims">
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="SLOWWALK" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="WALK" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="FASTWALK" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="RUN" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1.7" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="TROT" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1.5" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+          </Property>
+          <Property name="MoveRange" value="100" />
+          <Property name="MoveSpeedScale" value="1" />
+          <Property name="HeightMin" value="0" />
+          <Property name="HeightMax" value="256" />
+          <Property name="HeightTime" value="5" />
+        </Data>
+        <Data template="GcCreatureVocalData">
+          <Property name="ScaleBias" value="1" />
+          <Data name="IdleVocal" template="GcCreatureVocalSoundData">
+            <Property name="Id" value="" />
+            <Property name="VocalEmote" value="EmoteIdle" />
+            <Property name="PlayFrequency" value="0.65" />
+            <Property name="MinCooldown" value="3" />
+            <Property name="MaxCooldown" value="6" />
+            <Property name="PlayImmediately" value="False" />
+            <Property name="PlayOnlyOnce" value="False" />
+          </Data>
+          <Data name="FleeVocal" template="GcCreatureVocalSoundData">
+            <Property name="Id" value="" />
+            <Property name="VocalEmote" value="EmoteFlee" />
+            <Property name="PlayFrequency" value="0.5" />
+            <Property name="MinCooldown" value="3" />
+            <Property name="MaxCooldown" value="5" />
+            <Property name="PlayImmediately" value="True" />
+            <Property name="PlayOnlyOnce" value="False" />
+          </Data>
+          <Data name="DeathVocal" template="GcCreatureVocalSoundData">
+            <Property name="Id" value="" />
+            <Property name="VocalEmote" value="EmoteDie" />
+            <Property name="PlayFrequency" value="1" />
+            <Property name="MinCooldown" value="5" />
+            <Property name="MaxCooldown" value="15" />
+            <Property name="PlayImmediately" value="True" />
+            <Property name="PlayOnlyOnce" value="True" />
+          </Data>
+          <Data name="AttackVocal" template="GcCreatureVocalSoundData">
+            <Property name="Id" value="" />
+            <Property name="VocalEmote" value="EmoteAttack" />
+            <Property name="PlayFrequency" value="1" />
+            <Property name="MinCooldown" value="5" />
+            <Property name="MaxCooldown" value="15" />
+            <Property name="PlayImmediately" value="True" />
+            <Property name="PlayOnlyOnce" value="True" />
+          </Data>
+        </Data>
+        <Data template="GcCreatureFootParticleData">
+          <Property name="ParticleData">
+            <Data template="GcCreatureFootParticleSingleData">
+              <Property name="EffectName" value="FOOTFROZEN" />
+              <Property name="Scale" value="1" />
+              <Property name="MinCreatureSize" value="0.5" />
+              <Property name="MaxCreatureSize" value="100" />
+              <Property name="MoveSpeed" value="Run" />
+            </Data>
+          </Property>
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcCreatureData">
+      <Property name="Id" value="STRIDER" />
+      <Property name="Genus" value="ANASTOMUS" />
+      <Data name="CreatureType" template="GcCreatureTypes">
+        <Property name="CreatureType" value="None" />
+      </Data>
+      <Property name="MoveArea" value="Ground" />
+      <Property name="MinScale" value="0.4" />
+      <Property name="MaxScale" value="12" />
+      <Data name="Rarity" template="GcRarity">
+        <Property name="Rarity" value="Uncommon" />
+      </Data>
+      <Property name="Data">
+        <Data template="GcCreatureMovementData">
+          <Property name="Anims">
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="SLOWWALK" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="WALK" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="FASTWALK" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="TROT" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1.5" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="RUN" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1.5" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+          </Property>
+          <Property name="MoveRange" value="100" />
+          <Property name="MoveSpeedScale" value="1" />
+          <Property name="HeightMin" value="0" />
+          <Property name="HeightMax" value="256" />
+          <Property name="HeightTime" value="1" />
+        </Data>
+        <Data template="GcCreatureVocalData">
+          <Property name="ScaleBias" value="1" />
+          <Data name="IdleVocal" template="GcCreatureVocalSoundData">
+            <Property name="Id" value="" />
+            <Property name="VocalEmote" value="EmoteIdle" />
+            <Property name="PlayFrequency" value="0.35" />
+            <Property name="MinCooldown" value="5" />
+            <Property name="MaxCooldown" value="15" />
+            <Property name="PlayImmediately" value="False" />
+            <Property name="PlayOnlyOnce" value="False" />
+          </Data>
+          <Data name="FleeVocal" template="GcCreatureVocalSoundData">
+            <Property name="Id" value="" />
+            <Property name="VocalEmote" value="EmoteFlee" />
+            <Property name="PlayFrequency" value="0.15" />
+            <Property name="MinCooldown" value="2.5" />
+            <Property name="MaxCooldown" value="10" />
+            <Property name="PlayImmediately" value="True" />
+            <Property name="PlayOnlyOnce" value="False" />
+          </Data>
+          <Data name="DeathVocal" template="GcCreatureVocalSoundData">
+            <Property name="Id" value="" />
+            <Property name="VocalEmote" value="EmoteDie" />
+            <Property name="PlayFrequency" value="1" />
+            <Property name="MinCooldown" value="5" />
+            <Property name="MaxCooldown" value="15" />
+            <Property name="PlayImmediately" value="True" />
+            <Property name="PlayOnlyOnce" value="True" />
+          </Data>
+          <Data name="AttackVocal" template="GcCreatureVocalSoundData">
+            <Property name="Id" value="" />
+            <Property name="VocalEmote" value="EmoteAttack" />
+            <Property name="PlayFrequency" value="1" />
+            <Property name="MinCooldown" value="5" />
+            <Property name="MaxCooldown" value="15" />
+            <Property name="PlayImmediately" value="True" />
+            <Property name="PlayOnlyOnce" value="True" />
+          </Data>
+        </Data>
+        <Data template="GcCreatureFootParticleData">
+          <Property name="ParticleData">
+            <Data template="GcCreatureFootParticleSingleData">
+              <Property name="EffectName" value="FOOTFROZEN" />
+              <Property name="Scale" value="1" />
+              <Property name="MinCreatureSize" value="0.5" />
+              <Property name="MaxCreatureSize" value="100" />
+              <Property name="MoveSpeed" value="Run" />
+            </Data>
+          </Property>
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcCreatureData">
+      <Property name="Id" value="TREX" />
+      <Property name="Genus" value="TYRANOCAE" />
+      <Data name="CreatureType" template="GcCreatureTypes">
+        <Property name="CreatureType" value="None" />
+      </Data>
+      <Property name="MoveArea" value="Ground" />
+      <Property name="MinScale" value="0.6" />
+      <Property name="MaxScale" value="12" />
+      <Data name="Rarity" template="GcRarity">
+        <Property name="Rarity" value="Uncommon" />
+      </Data>
+      <Property name="Data">
+        <Data template="GcCreatureMovementData">
+          <Property name="Anims">
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="SLOWWALK" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="WALK" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="FASTWALK" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="TROT" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1.5" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="RUN" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1.5" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+          </Property>
+          <Property name="MoveRange" value="100" />
+          <Property name="MoveSpeedScale" value="1" />
+          <Property name="HeightMin" value="0" />
+          <Property name="HeightMax" value="256" />
+          <Property name="HeightTime" value="1" />
+        </Data>
+        <Data template="GcCreatureVocalData">
+          <Property name="ScaleBias" value="1" />
+          <Data name="IdleVocal" template="GcCreatureVocalSoundData">
+            <Property name="Id" value="" />
+            <Property name="VocalEmote" value="EmoteIdle" />
+            <Property name="PlayFrequency" value="0.35" />
+            <Property name="MinCooldown" value="5" />
+            <Property name="MaxCooldown" value="15" />
+            <Property name="PlayImmediately" value="False" />
+            <Property name="PlayOnlyOnce" value="False" />
+          </Data>
+          <Data name="FleeVocal" template="GcCreatureVocalSoundData">
+            <Property name="Id" value="" />
+            <Property name="VocalEmote" value="EmoteFlee" />
+            <Property name="PlayFrequency" value="0.15" />
+            <Property name="MinCooldown" value="2.5" />
+            <Property name="MaxCooldown" value="10" />
+            <Property name="PlayImmediately" value="True" />
+            <Property name="PlayOnlyOnce" value="False" />
+          </Data>
+          <Data name="DeathVocal" template="GcCreatureVocalSoundData">
+            <Property name="Id" value="" />
+            <Property name="VocalEmote" value="EmoteDie" />
+            <Property name="PlayFrequency" value="1" />
+            <Property name="MinCooldown" value="5" />
+            <Property name="MaxCooldown" value="15" />
+            <Property name="PlayImmediately" value="True" />
+            <Property name="PlayOnlyOnce" value="True" />
+          </Data>
+          <Data name="AttackVocal" template="GcCreatureVocalSoundData">
+            <Property name="Id" value="" />
+            <Property name="VocalEmote" value="EmoteAttack" />
+            <Property name="PlayFrequency" value="1" />
+            <Property name="MinCooldown" value="5" />
+            <Property name="MaxCooldown" value="15" />
+            <Property name="PlayImmediately" value="True" />
+            <Property name="PlayOnlyOnce" value="True" />
+          </Data>
+        </Data>
+        <Data template="GcCreatureFootParticleData">
+          <Property name="ParticleData">
+            <Data template="GcCreatureFootParticleSingleData">
+              <Property name="EffectName" value="FOOTFROZEN" />
+              <Property name="Scale" value="1" />
+              <Property name="MinCreatureSize" value="0.5" />
+              <Property name="MaxCreatureSize" value="100" />
+              <Property name="MoveSpeed" value="Run" />
+            </Data>
+          </Property>
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcCreatureData">
+      <Property name="Id" value="SHARK" />
+      <Property name="Genus" value="PRIONACE" />
+      <Data name="CreatureType" template="GcCreatureTypes">
+        <Property name="CreatureType" value="Shark" />
+      </Data>
+      <Property name="MoveArea" value="Water" />
+      <Property name="MinScale" value="0.8" />
+      <Property name="MaxScale" value="8" />
+      <Data name="Rarity" template="GcRarity">
+        <Property name="Rarity" value="Common" />
+      </Data>
+      <Property name="Data">
+        <Data template="GcCreatureHealthData">
+          <Property name="HurtAnim" value="" />
+          <Property name="DeathAnim" value="" />
+          <Property name="DeathEffect" value="" />
+          <Property name="HurtAudio" value="" />
+          <Property name="DeathAudio" value="" />
+        </Data>
+        <Data template="GcCreatureMovementData">
+          <Property name="Anims">
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="WALK" />
+              <Property name="AnimLeft" value="LEFT" />
+              <Property name="AnimRight" value="RIGHT" />
+              <Property name="AnimSpeed" value="0.5" />
+              <Property name="MinSpeedScale" value="0.3" />
+              <Property name="MaxSpeedScale" value="1.3" />
+              <Property name="MaxPredatorSpeedScale" value="2.8" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="WALK" />
+              <Property name="AnimLeft" value="LEFT" />
+              <Property name="AnimRight" value="RIGHT" />
+              <Property name="AnimSpeed" value="0.5" />
+              <Property name="MinSpeedScale" value="0.3" />
+              <Property name="MaxSpeedScale" value="1.3" />
+              <Property name="MaxPredatorSpeedScale" value="2.8" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="WALK" />
+              <Property name="AnimLeft" value="LEFT" />
+              <Property name="AnimRight" value="RIGHT" />
+              <Property name="AnimSpeed" value="0.5" />
+              <Property name="MinSpeedScale" value="0.3" />
+              <Property name="MaxSpeedScale" value="1.3" />
+              <Property name="MaxPredatorSpeedScale" value="2.8" />
+            </Data>
+          </Property>
+          <Property name="MoveRange" value="100" />
+          <Property name="MoveSpeedScale" value="2" />
+          <Property name="HeightMin" value="0" />
+          <Property name="HeightMax" value="256" />
+          <Property name="HeightTime" value="3" />
+        </Data>
+        <Data template="GcCreatureSwarmData">
+          <Property name="MinCount" value="1" />
+          <Property name="MaxCount" value="2" />
+          <Property name="SwarmMovementSpeed" value="1.5" />
+          <Property name="SwarmMovementRadius" value="70" />
+          <Property name="SwarmMovementType" value="Random" />
+          <Property name="Coherence" value="0.2" />
+          <Property name="Alignment" value="0.4" />
+          <Property name="Spacing" value="12" />
+          <Property name="Follow" value="0.7" />
+          <Property name="Range" value="30" />
+          <Property name="MaxSpeed" value="8" />
+          <Property name="AlignTime" value="0.6" />
+          <Property name="RepelList">
+            <Data template="NMSString0x10">
+              <Property name="Value" value="" />
+            </Data>
+          </Property>
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcCreatureData">
+      <Property name="Id" value="TWOLEGANTELOPE" />
+      <Property name="Genus" value="REOCOCCYX" />
+      <Data name="CreatureType" template="GcCreatureTypes">
+        <Property name="CreatureType" value="None" />
+      </Data>
+      <Property name="MoveArea" value="Ground" />
+      <Property name="MinScale" value="0.4" />
+      <Property name="MaxScale" value="12" />
+      <Data name="Rarity" template="GcRarity">
+        <Property name="Rarity" value="Uncommon" />
+      </Data>
+      <Property name="Data">
+        <Data template="GcCreatureMovementData">
+          <Property name="Anims">
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="WALK" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="RUN" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1.5" />
+              <Property name="MaxSpeedScale" value="1" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="TROT" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1.5" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="SLOWWALK" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="FASTWALK" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+          </Property>
+          <Property name="MoveRange" value="50" />
+          <Property name="MoveSpeedScale" value="1" />
+          <Property name="HeightMin" value="0" />
+          <Property name="HeightMax" value="256" />
+          <Property name="HeightTime" value="1" />
+        </Data>
+        <Data template="GcCreatureVocalData">
+          <Property name="ScaleBias" value="1" />
+          <Data name="IdleVocal" template="GcCreatureVocalSoundData">
+            <Property name="Id" value="" />
+            <Property name="VocalEmote" value="EmoteIdle" />
+            <Property name="PlayFrequency" value="0.35" />
+            <Property name="MinCooldown" value="5" />
+            <Property name="MaxCooldown" value="15" />
+            <Property name="PlayImmediately" value="False" />
+            <Property name="PlayOnlyOnce" value="False" />
+          </Data>
+          <Data name="FleeVocal" template="GcCreatureVocalSoundData">
+            <Property name="Id" value="" />
+            <Property name="VocalEmote" value="EmoteFlee" />
+            <Property name="PlayFrequency" value="0.15" />
+            <Property name="MinCooldown" value="2.5" />
+            <Property name="MaxCooldown" value="10" />
+            <Property name="PlayImmediately" value="True" />
+            <Property name="PlayOnlyOnce" value="False" />
+          </Data>
+          <Data name="DeathVocal" template="GcCreatureVocalSoundData">
+            <Property name="Id" value="" />
+            <Property name="VocalEmote" value="EmoteDie" />
+            <Property name="PlayFrequency" value="1" />
+            <Property name="MinCooldown" value="5" />
+            <Property name="MaxCooldown" value="15" />
+            <Property name="PlayImmediately" value="True" />
+            <Property name="PlayOnlyOnce" value="True" />
+          </Data>
+          <Data name="AttackVocal" template="GcCreatureVocalSoundData">
+            <Property name="Id" value="" />
+            <Property name="VocalEmote" value="EmoteAttack" />
+            <Property name="PlayFrequency" value="1" />
+            <Property name="MinCooldown" value="5" />
+            <Property name="MaxCooldown" value="15" />
+            <Property name="PlayImmediately" value="True" />
+            <Property name="PlayOnlyOnce" value="True" />
+          </Data>
+        </Data>
+        <Data template="GcCreatureFootParticleData">
+          <Property name="ParticleData">
+            <Data template="GcCreatureFootParticleSingleData">
+              <Property name="EffectName" value="FOOTFROZEN" />
+              <Property name="Scale" value="1" />
+              <Property name="MinCreatureSize" value="0.5" />
+              <Property name="MaxCreatureSize" value="100" />
+              <Property name="MoveSpeed" value="Run" />
+            </Data>
+          </Property>
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcCreatureData">
+      <Property name="Id" value="BUTTERFLY" />
+      <Property name="Genus" value="RHOPALOCERA" />
+      <Data name="CreatureType" template="GcCreatureTypes">
+        <Property name="CreatureType" value="Butterfly" />
+      </Data>
+      <Property name="MoveArea" value="Air" />
+      <Property name="MinScale" value="0.1" />
+      <Property name="MaxScale" value="2" />
+      <Data name="Rarity" template="GcRarity">
+        <Property name="Rarity" value="Common" />
+      </Data>
+      <Property name="Data">
+        <Data template="GcBirdData">
+          <Property name="FlapSpeedMax" value="1" />
+          <Property name="FlapSpeedMin" value="5" />
+          <Property name="FlapSpeed" value="20" />
+          <Property name="FlapAccel" value="5" />
+          <Property name="CircleAttractor" value="" />
+        </Data>
+        <Data template="GcCreatureMovementData">
+          <Property name="Anims">
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="WALK" />
+              <Property name="AnimLeft" value="LEFT" />
+              <Property name="AnimRight" value="RIGHT" />
+              <Property name="AnimSpeed" value="0.5" />
+              <Property name="MinSpeedScale" value="0.3" />
+              <Property name="MaxSpeedScale" value="1.3" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="WALK" />
+              <Property name="AnimLeft" value="LEFT" />
+              <Property name="AnimRight" value="RIGHT" />
+              <Property name="AnimSpeed" value="0.5" />
+              <Property name="MinSpeedScale" value="0.3" />
+              <Property name="MaxSpeedScale" value="1.3" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="WALK" />
+              <Property name="AnimLeft" value="LEFT" />
+              <Property name="AnimRight" value="RIGHT" />
+              <Property name="AnimSpeed" value="0.5" />
+              <Property name="MinSpeedScale" value="0.3" />
+              <Property name="MaxSpeedScale" value="1.3" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+          </Property>
+          <Property name="MoveRange" value="60" />
+          <Property name="MoveSpeedScale" value="1" />
+          <Property name="HeightMin" value="0.1" />
+          <Property name="HeightMax" value="0.4" />
+          <Property name="HeightTime" value="1" />
+        </Data>
+        <Data template="GcCreatureSwarmData">
+          <Property name="MinCount" value="4" />
+          <Property name="MaxCount" value="8" />
+          <Property name="SwarmMovementSpeed" value="0.5" />
+          <Property name="SwarmMovementRadius" value="60" />
+          <Property name="SwarmMovementType" value="Random" />
+          <Property name="Coherence" value="0.1" />
+          <Property name="Alignment" value="0.1" />
+          <Property name="Spacing" value="20" />
+          <Property name="Follow" value="1" />
+          <Property name="Range" value="0.5" />
+          <Property name="MaxSpeed" value="5" />
+          <Property name="AlignTime" value="0.1" />
+          <Property name="RepelList">
+            <Data template="NMSString0x10">
+              <Property name="Value" value="" />
+            </Data>
+          </Property>
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcCreatureData">
+      <Property name="Id" value="SIXLEGCOW" />
+      <Property name="Genus" value="HEXUNGULATUS" />
+      <Data name="CreatureType" template="GcCreatureTypes">
+        <Property name="CreatureType" value="None" />
+      </Data>
+      <Property name="MoveArea" value="Ground" />
+      <Property name="MinScale" value="0.4" />
+      <Property name="MaxScale" value="12" />
+      <Data name="Rarity" template="GcRarity">
+        <Property name="Rarity" value="Uncommon" />
+      </Data>
+      <Property name="Data">
+        <Data template="GcCreatureMovementData">
+          <Property name="Anims">
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="WALK" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="RUN" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1.5" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="TROT" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1.5" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="SLOWWALK" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="FASTWALK" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+          </Property>
+          <Property name="MoveRange" value="100" />
+          <Property name="MoveSpeedScale" value="1" />
+          <Property name="HeightMin" value="0" />
+          <Property name="HeightMax" value="256" />
+          <Property name="HeightTime" value="5" />
+        </Data>
+        <Data template="GcCreatureVocalData">
+          <Property name="ScaleBias" value="1" />
+          <Data name="IdleVocal" template="GcCreatureVocalSoundData">
+            <Property name="Id" value="" />
+            <Property name="VocalEmote" value="EmoteIdle" />
+            <Property name="PlayFrequency" value="0.35" />
+            <Property name="MinCooldown" value="5" />
+            <Property name="MaxCooldown" value="15" />
+            <Property name="PlayImmediately" value="False" />
+            <Property name="PlayOnlyOnce" value="False" />
+          </Data>
+          <Data name="FleeVocal" template="GcCreatureVocalSoundData">
+            <Property name="Id" value="" />
+            <Property name="VocalEmote" value="EmoteFlee" />
+            <Property name="PlayFrequency" value="0.15" />
+            <Property name="MinCooldown" value="2.5" />
+            <Property name="MaxCooldown" value="10" />
+            <Property name="PlayImmediately" value="True" />
+            <Property name="PlayOnlyOnce" value="False" />
+          </Data>
+          <Data name="DeathVocal" template="GcCreatureVocalSoundData">
+            <Property name="Id" value="" />
+            <Property name="VocalEmote" value="EmoteDie" />
+            <Property name="PlayFrequency" value="1" />
+            <Property name="MinCooldown" value="5" />
+            <Property name="MaxCooldown" value="15" />
+            <Property name="PlayImmediately" value="True" />
+            <Property name="PlayOnlyOnce" value="True" />
+          </Data>
+          <Data name="AttackVocal" template="GcCreatureVocalSoundData">
+            <Property name="Id" value="" />
+            <Property name="VocalEmote" value="EmoteAttack" />
+            <Property name="PlayFrequency" value="1" />
+            <Property name="MinCooldown" value="5" />
+            <Property name="MaxCooldown" value="15" />
+            <Property name="PlayImmediately" value="True" />
+            <Property name="PlayOnlyOnce" value="True" />
+          </Data>
+        </Data>
+        <Data template="GcCreatureFootParticleData">
+          <Property name="ParticleData">
+            <Data template="GcCreatureFootParticleSingleData">
+              <Property name="EffectName" value="FOOTFROZEN" />
+              <Property name="Scale" value="1" />
+              <Property name="MinCreatureSize" value="0.5" />
+              <Property name="MaxCreatureSize" value="100" />
+              <Property name="MoveSpeed" value="Run" />
+            </Data>
+          </Property>
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcCreatureData">
+      <Property name="Id" value="SIXLEGCAT" />
+      <Property name="Genus" value="FELIHEX" />
+      <Data name="CreatureType" template="GcCreatureTypes">
+        <Property name="CreatureType" value="None" />
+      </Data>
+      <Property name="MoveArea" value="Ground" />
+      <Property name="MinScale" value="0.4" />
+      <Property name="MaxScale" value="12" />
+      <Data name="Rarity" template="GcRarity">
+        <Property name="Rarity" value="Uncommon" />
+      </Data>
+      <Property name="Data">
+        <Data template="GcCreatureMovementData">
+          <Property name="Anims">
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="SLOWWALK" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="WALK" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="FASTWALK" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="RUN" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1.5" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="TROT" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1.5" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+          </Property>
+          <Property name="MoveRange" value="100" />
+          <Property name="MoveSpeedScale" value="1" />
+          <Property name="HeightMin" value="0" />
+          <Property name="HeightMax" value="256" />
+          <Property name="HeightTime" value="5" />
+        </Data>
+        <Data template="GcCreatureVocalData">
+          <Property name="ScaleBias" value="1" />
+          <Data name="IdleVocal" template="GcCreatureVocalSoundData">
+            <Property name="Id" value="" />
+            <Property name="VocalEmote" value="EmoteIdle" />
+            <Property name="PlayFrequency" value="0.35" />
+            <Property name="MinCooldown" value="5" />
+            <Property name="MaxCooldown" value="15" />
+            <Property name="PlayImmediately" value="False" />
+            <Property name="PlayOnlyOnce" value="False" />
+          </Data>
+          <Data name="FleeVocal" template="GcCreatureVocalSoundData">
+            <Property name="Id" value="" />
+            <Property name="VocalEmote" value="EmoteFlee" />
+            <Property name="PlayFrequency" value="0.15" />
+            <Property name="MinCooldown" value="2.5" />
+            <Property name="MaxCooldown" value="10" />
+            <Property name="PlayImmediately" value="True" />
+            <Property name="PlayOnlyOnce" value="False" />
+          </Data>
+          <Data name="DeathVocal" template="GcCreatureVocalSoundData">
+            <Property name="Id" value="" />
+            <Property name="VocalEmote" value="EmoteDie" />
+            <Property name="PlayFrequency" value="1" />
+            <Property name="MinCooldown" value="5" />
+            <Property name="MaxCooldown" value="15" />
+            <Property name="PlayImmediately" value="True" />
+            <Property name="PlayOnlyOnce" value="True" />
+          </Data>
+          <Data name="AttackVocal" template="GcCreatureVocalSoundData">
+            <Property name="Id" value="" />
+            <Property name="VocalEmote" value="EmoteAttack" />
+            <Property name="PlayFrequency" value="1" />
+            <Property name="MinCooldown" value="5" />
+            <Property name="MaxCooldown" value="15" />
+            <Property name="PlayImmediately" value="True" />
+            <Property name="PlayOnlyOnce" value="True" />
+          </Data>
+        </Data>
+        <Data template="GcCreatureFootParticleData">
+          <Property name="ParticleData">
+            <Data template="GcCreatureFootParticleSingleData">
+              <Property name="EffectName" value="FOOTFROZEN" />
+              <Property name="Scale" value="1" />
+              <Property name="MinCreatureSize" value="0.5" />
+              <Property name="MaxCreatureSize" value="100" />
+              <Property name="MoveSpeed" value="Run" />
+            </Data>
+          </Property>
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcCreatureData">
+      <Property name="Id" value="GRUNT" />
+      <Property name="Genus" value="MOGARA" />
+      <Data name="CreatureType" template="GcCreatureTypes">
+        <Property name="CreatureType" value="None" />
+      </Data>
+      <Property name="MoveArea" value="Ground" />
+      <Property name="MinScale" value="0.6" />
+      <Property name="MaxScale" value="12" />
+      <Data name="Rarity" template="GcRarity">
+        <Property name="Rarity" value="Rare" />
+      </Data>
+      <Property name="Data">
+        <Data template="GcCreatureMovementData">
+          <Property name="Anims">
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="WALK" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="RUN" />
+              <Property name="AnimLeft" value="LEFT" />
+              <Property name="AnimRight" value="RIGHT" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1.5" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="TROT" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1.5" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="FASTWALK" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="SLOWWALK" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+          </Property>
+          <Property name="MoveRange" value="50" />
+          <Property name="MoveSpeedScale" value="1" />
+          <Property name="HeightMin" value="5" />
+          <Property name="HeightMax" value="256" />
+          <Property name="HeightTime" value="1" />
+        </Data>
+        <Data template="GcCreatureVocalData">
+          <Property name="ScaleBias" value="1" />
+          <Data name="IdleVocal" template="GcCreatureVocalSoundData">
+            <Property name="Id" value="" />
+            <Property name="VocalEmote" value="EmoteIdle" />
+            <Property name="PlayFrequency" value="0.35" />
+            <Property name="MinCooldown" value="5" />
+            <Property name="MaxCooldown" value="15" />
+            <Property name="PlayImmediately" value="False" />
+            <Property name="PlayOnlyOnce" value="False" />
+          </Data>
+          <Data name="FleeVocal" template="GcCreatureVocalSoundData">
+            <Property name="Id" value="" />
+            <Property name="VocalEmote" value="EmoteFlee" />
+            <Property name="PlayFrequency" value="0.15" />
+            <Property name="MinCooldown" value="2.5" />
+            <Property name="MaxCooldown" value="10" />
+            <Property name="PlayImmediately" value="True" />
+            <Property name="PlayOnlyOnce" value="False" />
+          </Data>
+          <Data name="DeathVocal" template="GcCreatureVocalSoundData">
+            <Property name="Id" value="" />
+            <Property name="VocalEmote" value="EmoteDie" />
+            <Property name="PlayFrequency" value="1" />
+            <Property name="MinCooldown" value="5" />
+            <Property name="MaxCooldown" value="15" />
+            <Property name="PlayImmediately" value="True" />
+            <Property name="PlayOnlyOnce" value="True" />
+          </Data>
+          <Data name="AttackVocal" template="GcCreatureVocalSoundData">
+            <Property name="Id" value="" />
+            <Property name="VocalEmote" value="EmoteAttack" />
+            <Property name="PlayFrequency" value="1" />
+            <Property name="MinCooldown" value="5" />
+            <Property name="MaxCooldown" value="15" />
+            <Property name="PlayImmediately" value="True" />
+            <Property name="PlayOnlyOnce" value="True" />
+          </Data>
+        </Data>
+        <Data template="GcCreatureFootParticleData">
+          <Property name="ParticleData">
+            <Data template="GcCreatureFootParticleSingleData">
+              <Property name="EffectName" value="FOOTFROZEN" />
+              <Property name="Scale" value="1" />
+              <Property name="MinCreatureSize" value="0.5" />
+              <Property name="MaxCreatureSize" value="100" />
+              <Property name="MoveSpeed" value="Run" />
+            </Data>
+          </Property>
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcCreatureData">
+      <Property name="Id" value="BLOB" />
+      <Property name="Genus" value="LOK" />
+      <Data name="CreatureType" template="GcCreatureTypes">
+        <Property name="CreatureType" value="None" />
+      </Data>
+      <Property name="MoveArea" value="Ground" />
+      <Property name="MinScale" value="0.2" />
+      <Property name="MaxScale" value="12" />
+      <Data name="Rarity" template="GcRarity">
+        <Property name="Rarity" value="Rare" />
+      </Data>
+      <Property name="Data">
+        <Data template="GcCreatureVocalData">
+          <Property name="ScaleBias" value="1" />
+          <Data name="IdleVocal" template="GcCreatureVocalSoundData">
+            <Property name="Id" value="" />
+            <Property name="VocalEmote" value="EmoteIdle" />
+            <Property name="PlayFrequency" value="0.65" />
+            <Property name="MinCooldown" value="5" />
+            <Property name="MaxCooldown" value="10" />
+            <Property name="PlayImmediately" value="False" />
+            <Property name="PlayOnlyOnce" value="False" />
+          </Data>
+          <Data name="FleeVocal" template="GcCreatureVocalSoundData">
+            <Property name="Id" value="" />
+            <Property name="VocalEmote" value="EmoteIdle" />
+            <Property name="PlayFrequency" value="0.3" />
+            <Property name="MinCooldown" value="2.5" />
+            <Property name="MaxCooldown" value="8" />
+            <Property name="PlayImmediately" value="True" />
+            <Property name="PlayOnlyOnce" value="False" />
+          </Data>
+          <Data name="DeathVocal" template="GcCreatureVocalSoundData">
+            <Property name="Id" value="" />
+            <Property name="VocalEmote" value="EmoteDie" />
+            <Property name="PlayFrequency" value="1" />
+            <Property name="MinCooldown" value="5" />
+            <Property name="MaxCooldown" value="15" />
+            <Property name="PlayImmediately" value="True" />
+            <Property name="PlayOnlyOnce" value="True" />
+          </Data>
+          <Data name="AttackVocal" template="GcCreatureVocalSoundData">
+            <Property name="Id" value="" />
+            <Property name="VocalEmote" value="EmoteAttack" />
+            <Property name="PlayFrequency" value="1" />
+            <Property name="MinCooldown" value="5" />
+            <Property name="MaxCooldown" value="15" />
+            <Property name="PlayImmediately" value="True" />
+            <Property name="PlayOnlyOnce" value="True" />
+          </Data>
+        </Data>
+        <Data template="GcCreatureMovementData">
+          <Property name="Anims">
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="WALK" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="TROT" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1.5" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="RUN" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1.5" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="SLOWWALK" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="FASTWALK" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+          </Property>
+          <Property name="MoveRange" value="100" />
+          <Property name="MoveSpeedScale" value="1" />
+          <Property name="HeightMin" value="0" />
+          <Property name="HeightMax" value="256" />
+          <Property name="HeightTime" value="5" />
+        </Data>
+        <Data template="GcCreatureFootParticleData">
+          <Property name="ParticleData">
+            <Data template="GcCreatureFootParticleSingleData">
+              <Property name="EffectName" value="FOOTFROZEN" />
+              <Property name="Scale" value="1" />
+              <Property name="MinCreatureSize" value="0.5" />
+              <Property name="MaxCreatureSize" value="100" />
+              <Property name="MoveSpeed" value="Run" />
+            </Data>
+          </Property>
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcCreatureData">
+      <Property name="Id" value="SPIDER" />
+      <Property name="Genus" value="BOS" />
+      <Data name="CreatureType" template="GcCreatureTypes">
+        <Property name="CreatureType" value="SPIDER" />
+      </Data>
+      <Property name="MoveArea" value="Ground" />
+      <Property name="MinScale" value="0.4" />
+      <Property name="MaxScale" value="12" />
+      <Data name="Rarity" template="GcRarity">
+        <Property name="Rarity" value="Common" />
+      </Data>
+      <Property name="Data">
+        <Data template="GcCreatureMovementData">
+          <Property name="Anims">
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="WALK" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="TROT" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1.5" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="RUN" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="5.5" />
+              <Property name="MaxPredatorSpeedScale" value="7.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="FASTWALK" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="7" />
+              <Property name="MaxPredatorSpeedScale" value="10.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="SLOWWALK" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+          </Property>
+          <Property name="MoveRange" value="100" />
+          <Property name="MoveSpeedScale" value="1" />
+          <Property name="HeightMin" value="0" />
+          <Property name="HeightMax" value="256" />
+          <Property name="HeightTime" value="5" />
+        </Data>
+        <Data template="GcCreatureFootParticleData">
+          <Property name="ParticleData">
+            <Data template="GcCreatureFootParticleSingleData">
+              <Property name="EffectName" value="FOOTFROZEN" />
+              <Property name="Scale" value="1" />
+              <Property name="MinCreatureSize" value="0.5" />
+              <Property name="MaxCreatureSize" value="100" />
+              <Property name="MoveSpeed" value="Run" />
+            </Data>
+          </Property>
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcCreatureData">
+      <Property name="Id" value="FLOATSPIDER" />
+      <Property name="Genus" value="BOS" />
+      <Data name="CreatureType" template="GcCreatureTypes">
+        <Property name="CreatureType" value="None" />
+      </Data>
+      <Property name="MoveArea" value="Ground" />
+      <Property name="MinScale" value="0.4" />
+      <Property name="MaxScale" value="12" />
+      <Data name="Rarity" template="GcRarity">
+        <Property name="Rarity" value="Rare" />
+      </Data>
+      <Property name="Data">
+        <Data template="GcCreatureMovementData">
+          <Property name="Anims">
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="WALK" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="TROT" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1.5" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="RUN" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1.5" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="FASTWALK" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="SLOWWALK" />
+              <Property name="AnimLeft" value="" />
+              <Property name="AnimRight" value="" />
+              <Property name="AnimSpeed" value="1" />
+              <Property name="MinSpeedScale" value="1" />
+              <Property name="MaxSpeedScale" value="1" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+          </Property>
+          <Property name="MoveRange" value="100" />
+          <Property name="MoveSpeedScale" value="1" />
+          <Property name="HeightMin" value="0" />
+          <Property name="HeightMax" value="256" />
+          <Property name="HeightTime" value="5" />
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcCreatureData">
+      <Property name="Id" value="SWIMCOW" />
+      <Property name="Genus" value="PRIONACEFDA" />
+      <Data name="CreatureType" template="GcCreatureTypes">
+        <Property name="CreatureType" value="Fish" />
+      </Data>
+      <Property name="MoveArea" value="Water" />
+      <Property name="MinScale" value="1.2" />
+      <Property name="MaxScale" value="10" />
+      <Data name="Rarity" template="GcRarity">
+        <Property name="Rarity" value="Rare" />
+      </Data>
+      <Property name="Data">
+        <Data template="GcCreatureHealthData">
+          <Property name="HurtAnim" value="" />
+          <Property name="DeathAnim" value="" />
+          <Property name="DeathEffect" value="" />
+          <Property name="HurtAudio" value="" />
+          <Property name="DeathAudio" value="" />
+        </Data>
+        <Data template="GcCreatureMovementData">
+          <Property name="Anims">
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="WALK" />
+              <Property name="AnimLeft" value="LEFT" />
+              <Property name="AnimRight" value="RIGHT" />
+              <Property name="AnimSpeed" value="0.5" />
+              <Property name="MinSpeedScale" value="0.3" />
+              <Property name="MaxSpeedScale" value="1.3" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="WALK" />
+              <Property name="AnimLeft" value="LEFT" />
+              <Property name="AnimRight" value="RIGHT" />
+              <Property name="AnimSpeed" value="0.5" />
+              <Property name="MinSpeedScale" value="0.3" />
+              <Property name="MaxSpeedScale" value="1.3" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+            <Data template="GcCreatureMoveAnimData">
+              <Property name="Anim" value="WALK" />
+              <Property name="AnimLeft" value="LEFT" />
+              <Property name="AnimRight" value="RIGHT" />
+              <Property name="AnimSpeed" value="0.5" />
+              <Property name="MinSpeedScale" value="0.3" />
+              <Property name="MaxSpeedScale" value="1.3" />
+              <Property name="MaxPredatorSpeedScale" value="2.5" />
+            </Data>
+          </Property>
+          <Property name="MoveRange" value="100" />
+          <Property name="MoveSpeedScale" value="1" />
+          <Property name="HeightMin" value="0" />
+          <Property name="HeightMax" value="256" />
+          <Property name="HeightTime" value="3" />
+        </Data>
+        <Data template="GcCreatureSwarmData">
+          <Property name="MinCount" value="1" />
+          <Property name="MaxCount" value="4" />
+          <Property name="SwarmMovementSpeed" value="1" />
+          <Property name="SwarmMovementRadius" value="70" />
+          <Property name="SwarmMovementType" value="Random" />
+          <Property name="Coherence" value="0.2" />
+          <Property name="Alignment" value="0.4" />
+          <Property name="Spacing" value="15" />
+          <Property name="Follow" value="0.7" />
+          <Property name="Range" value="30" />
+          <Property name="MaxSpeed" value="4" />
+          <Property name="AlignTime" value="0.2" />
+          <Property name="RepelList" />
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcCreatureData">
+      <Property name="Id" value="SWIMRODENT" />
+      <Property name="Genus" value="UNKNOWN" />
+      <Data name="CreatureType" template="GcCreatureTypes">
+        <Property name="CreatureType" value="Fish" />
+      </Data>
+      <Property name="MoveArea" value="Water" />
+      <Property name="MinScale" value="0.8" />
+      <Property name="MaxScale" value="7" />
+      <Data name="Rarity" template="GcRarity">
+        <Property name="Rarity" value="Rare" />
+      </Data>
+      <Property name="Data">
+        <Data template="GcCreatureHealthData">
+          <Property name="HurtAnim" value="" />
+          <Property name="DeathAnim" value="" />
+          <Property name="DeathEffect" value="" />
+          <Property name="HurtAudio" value="" />
+          <Property name="DeathAudio" value="" />
+        </Data>
+        <Data template="GcCreatureMovementData">
+          <Property name="Anims" />
+          <Property name="MoveRange" value="100" />
+          <Property name="MoveSpeedScale" value="1" />
+          <Property name="HeightMin" value="0" />
+          <Property name="HeightMax" value="256" />
+          <Property name="HeightTime" value="3" />
+        </Data>
+        <Data template="GcCreatureSwarmData">
+          <Property name="MinCount" value="3" />
+          <Property name="MaxCount" value="6" />
+          <Property name="SwarmMovementSpeed" value="1" />
+          <Property name="SwarmMovementRadius" value="50" />
+          <Property name="SwarmMovementType" value="Random" />
+          <Property name="Coherence" value="0.2" />
+          <Property name="Alignment" value="0.4" />
+          <Property name="Spacing" value="15" />
+          <Property name="Follow" value="0.7" />
+          <Property name="Range" value="30" />
+          <Property name="MaxSpeed" value="4" />
+          <Property name="AlignTime" value="0.2" />
+          <Property name="RepelList" />
+        </Data>
+      </Property>
+    </Data>
+  </Property>
+</Data>
