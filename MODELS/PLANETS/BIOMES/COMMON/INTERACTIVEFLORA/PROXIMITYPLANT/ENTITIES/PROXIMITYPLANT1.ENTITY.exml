@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data template="TkAttachmentData">
+  <Property name="Components">
+    <Data template="GcTriggerActionComponentData">
+      <Property name="HideModel" value="False" />
+      <Property name="StartInactive" value="False" />
+      <Property name="States">
+        <Data template="GcActionTriggerState">
+          <Property name="StateID" value="RESTSTATE" />
+          <Property name="Triggers">
+            <Data template="GcActionTrigger">
+              <Data name="Trigger" template="GcStateTimeEvent">
+                <Property name="Seconds" value="0" />
+              </Data>
+              <Property name="Action">
+                <Data template="GcNodeActivationAction">
+                  <Property name="NodeActiveState" value="Deactivate" />
+                  <Property name="Name" value="Lightup" />
+                </Data>
+              </Property>
+            </Data>
+            <Data template="GcActionTrigger">
+              <Data name="Trigger" template="GcPlayerNearbyEvent">
+                <Property name="RequirePlayerAction" value="None" />
+                <Property name="Distance" value="15" />
+                <Property name="Angle" value="360" />
+                <Property name="AnglePlayerRelative" value="False" />
+                <Property name="AngleOffset" value="0" />
+                <Property name="AngleReflected" value="False" />
+                <Property name="AngleMinDistance" value="1" />
+                <Property name="DistanceCheckType" value="Radius" />
+                <Property name="Inverse" value="False" />
+              </Data>
+              <Property name="Action">
+                <Data template="GcGoToStateAction">
+                  <Property name="State" value="UNHIDE" />
+                  <Property name="Broadcast" value="False" />
+                  <Property name="BroadcastLevel" value="Scene" />
+                </Data>
+              </Property>
+            </Data>
+          </Property>
+        </Data>
+        <Data template="GcActionTriggerState">
+          <Property name="StateID" value="UNHIDE" />
+          <Property name="Triggers">
+            <Data template="GcActionTrigger">
+              <Data name="Trigger" template="GcStateTimeEvent">
+                <Property name="Seconds" value="0" />
+              </Data>
+              <Property name="Action">
+                <Data template="GcPlayAudioAction">
+                  <Property name="Sound" value="Plant_Illuminated" />
+                </Data>
+                <Data template="GcNodeActivationAction">
+                  <Property name="NodeActiveState" value="Deactivate" />
+                  <Property name="Name" value="ProximityPlant1" />
+                </Data>
+                <Data template="GcNodeActivationAction">
+                  <Property name="NodeActiveState" value="Activate" />
+                  <Property name="Name" value="Lightup" />
+                </Data>
+              </Property>
+            </Data>
+            <Data template="GcActionTrigger">
+              <Data name="Trigger" template="GcPlayerNearbyEvent">
+                <Property name="RequirePlayerAction" value="None" />
+                <Property name="Distance" value="25" />
+                <Property name="Angle" value="360" />
+                <Property name="AnglePlayerRelative" value="False" />
+                <Property name="AngleOffset" value="0" />
+                <Property name="AngleReflected" value="False" />
+                <Property name="AngleMinDistance" value="1" />
+                <Property name="DistanceCheckType" value="Radius" />
+                <Property name="Inverse" value="True" />
+              </Data>
+              <Property name="Action">
+                <Data template="GcNodeActivationAction">
+                  <Property name="NodeActiveState" value="Activate" />
+                  <Property name="Name" value="ProximityPlant1" />
+                </Data>
+                <Data template="GcGoToStateAction">
+                  <Property name="State" value="RESTSTATE" />
+                  <Property name="Broadcast" value="False" />
+                  <Property name="BroadcastLevel" value="Scene" />
+                </Data>
+              </Property>
+            </Data>
+          </Property>
+        </Data>
+        <Data template="GcActionTriggerState">
+          <Property name="StateID" value="KILLME" />
+          <Property name="Triggers">
+            <Data template="GcActionTrigger">
+              <Data name="Trigger" template="GcStateTimeEvent">
+                <Property name="Seconds" value="0" />
+              </Data>
+              <Property name="Action">
+                <Data template="GcPlayAudioAction">
+                  <Property name="Sound" value="Plant_Illuminated_Stop" />
+                </Data>
+                <Data template="GcNodeActivationAction">
+                  <Property name="NodeActiveState" value="Deactivate" />
+                  <Property name="Name" value="Lightup" />
+                </Data>
+              </Property>
+            </Data>
+          </Property>
+        </Data>
+      </Property>
+      <Property name="Persistent" value="False" />
+      <Property name="PersistentState" value="" />
+    </Data>
+  </Property>
+</Data>

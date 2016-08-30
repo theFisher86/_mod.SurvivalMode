@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data template="TkAttachmentData">
+  <Property name="Components">
+    <Data template="TkRotationComponentData">
+      <Property name="Speed" value="0.1" />
+      <Data name="Axis" template="Vector4f">
+        <Property name="x" value="0" />
+        <Property name="y" value="1" />
+        <Property name="z" value="0" />
+        <Property name="t" value="0" />
+      </Data>
+    </Data>
+  </Property>
+</Data>
