@@ -46,7 +46,8 @@
         <Property name="Impact" value="Default" />
       </Data>
       <Property name="IncreaseWanted" value="0" />
-      <Property name="IncreaseWantedThresholdTime" value="2.5" />      <Property name="UseMiningDamage" value="True" />
+      <Property name="IncreaseWantedThresholdTime" value="2.5" />      
+      <Property name="UseMiningDamage" value="True" />
       <Property name="MinDamage" value="0" />
       <Property name="StaticUntilShot" value="False" />
     </Data>

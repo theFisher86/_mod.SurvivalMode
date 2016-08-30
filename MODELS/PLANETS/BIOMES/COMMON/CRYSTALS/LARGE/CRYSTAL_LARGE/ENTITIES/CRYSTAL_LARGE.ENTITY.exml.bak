@@ -12,7 +12,7 @@
       <Property name="GivesSubstances">
         <Data template="GcSubstanceAmount">
           <Property name="AmountMin" value="0" />
-          <Property name="AmountMax" value="45" />
+          <Property name="AmountMax" value="100" />
           <Property name="Specific" value="" />
           <Data name="SubstanceCategory" template="GcRealitySubstanceCategory">
             <Property name="SubstanceCategory" value="Fuel" />
@@ -37,7 +37,7 @@
       <Property name="DamageGrenadeSingleHit" value="True" />
     </Data>
     <Data template="GcShootableComponentData">
-      <Property name="Health" value="60" />
+      <Property name="Health" value="120" />
       <Property name="AutoAimTarget" value="False" />
       <Property name="PlayerOnly" value="False" />
       <Property name="ImpactShake" value="False" />
@@ -46,8 +46,7 @@
         <Property name="Impact" value="Default" />
       </Data>
       <Property name="IncreaseWanted" value="0" />
-      <Property name="IncreaseWantedThresholdTime" value="2.5" />
-	  <Property name="UseMiningDamage" value="True" />
+      <Property name="IncreaseWantedThresholdTime" value="2.5" />      <Property name="UseMiningDamage" value="True" />
       <Property name="MinDamage" value="0" />
       <Property name="StaticUntilShot" value="False" />
     </Data>
@@ -62,7 +61,7 @@
       </Data>
     </Data>
     <Data template="GcScannableComponentData">
-      <Property name="ScanRange" value="100" />
+      <Property name="ScanRange" value="10" />
       <Property name="ScanName" value="SCAN_CRYSTAL_ISOTOPE" />
       <Property name="ScanTime" value="100" />
       <Data name="IconType" template="GcScannerIconTypes">
