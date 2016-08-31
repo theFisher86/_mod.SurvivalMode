@@ -115,7 +115,7 @@
           <Property name="AmountMax" value="40" />
           <Property name="Specific" value="" />
           <Data name="SubstanceCategory" template="GcRealitySubstanceCategory">
-            <Property name="SubstanceCategory" value="Commodity" />
+            <Property name="SubstanceCategory" value="Special" />
           </Data>
           <Data name="Rarity" template="GcRarity">
             <Property name="Rarity" value="Rare" />
