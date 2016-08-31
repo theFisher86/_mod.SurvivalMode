@@ -1,6 +1,12 @@
 Spider Infestation
 ---------
-This is a proof of concept that changes every single ground creature into a type of spider/crab.  The why is not important, but the *how* is.
+This is a proof of concept that **changes every single ground creature into a type of spider/crab**.  
+
+It also drastically increases their speed, aggressiveness (changes all Prey & Passive to PlayerPredator), and Group Size...  That part isn't proof of concept, just fun.  
+
+Modder Resource
+---------
+The why is not important, but the *how* is.
 - Changed `CreatureType` in `\METADATA\SIMULATION\ECOSYSTEM\CREATUREDATATABLE.MBIN` to `SPIDER` instead of none
   - It's important to not that `SPIDER` is a new `CreatureType` I could've changed it to `JERRRYSEINFELD` it's a custom `CreatureType`
 - Then I did a Find & Replace for all of the files in `\METADATA\SIMULATION\ECOSYSTEM\ROLEDESCRIPTIONTABLES\GROUND\`to change `<Property name="CreatureType" value="" />` to `<Property name="CreatureType" value="SPIDER" />`
