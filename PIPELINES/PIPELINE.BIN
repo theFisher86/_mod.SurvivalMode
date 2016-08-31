@@ -6,14 +6,14 @@
     
     <RenderTarget id="FINAL"          depthBuf="true"  numColBufs="1"  format="RGBA8" scale="1.0" maxSamples="0" /> 
     
-    <RenderTarget id="HDRBUF"        depthBuf="true"  numColBufs="1"  format="RGBA16F" scale="1.0" maxSamples="4" />  
+    <RenderTarget id="HDRBUF"        depthBuf="true"  numColBufs="1"  format="RGBA16F" scale="1.5" maxSamples="4" />  
 
     <RenderTarget id="UI_COMBINE_BUF" depthBuf="false" numColBufs="1" format="RGBA8" bilinear="true" scale="1.0" />
 
     <RenderTarget id="PARTICLES"      depthBuf="false" numColBufs="1" format="RGBA8" bilinear="true" scale="1.0" />
 
-    <RenderTarget id="DOF_BLURBUF1"   depthBuf="false" numColBufs="1" format="RGBA8" bilinear="true" scale="1.0" />
-    <RenderTarget id="DOF_BLURBUF2"   depthBuf="false" numColBufs="1" format="RGBA8" bilinear="true" scale="1.0" />
+    <RenderTarget id="DOF_BLURBUF1"   depthBuf="false" numColBufs="1" format="RGBA8" bilinear="true" scale="1.5" />
+    <RenderTarget id="DOF_BLURBUF2"   depthBuf="false" numColBufs="1" format="RGBA8" bilinear="true" scale="1.5" />
 
     <RenderTarget id="BLOOM_BLURBUF1" depthBuf="false" numColBufs="1" format="RGBA8" bilinear="true" scale="0.25" />
     <RenderTarget id="BLOOM_BLURBUF2" depthBuf="false" numColBufs="1" format="RGBA8" bilinear="true" scale="0.25" />
@@ -21,8 +21,8 @@
     <RenderTarget id="BLOOM_BLURBUF4" depthBuf="false" numColBufs="1" format="RGBA8" bilinear="true" scale="0.25" />
 
     <RenderTarget id="LENS_BLURBUF"   depthBuf="false" numColBufs="1" format="RGBA8" bilinear="true" scale="0.25" />
-    <RenderTarget id="LENSFLAREBUF"   depthBuf="false" numColBufs="1" format="RGBA8" bilinear="true" scale="0.25" />
-    <RenderTarget id="LENSFINAL"      depthBuf="false" numColBufs="1" format="RGBA8" bilinear="true" scale="1.0"/>
+    <RenderTarget id="LENSFLAREBUF"   depthBuf="false" numColBufs="1" format="RGBA8" bilinear="true" scale="0.5" />
+    <RenderTarget id="LENSFINAL"      depthBuf="false" numColBufs="1" format="RGBA8" bilinear="true" scale="1.5"/>
 
     <RenderTarget id="CLOUDS"         depthBuf="true"  numColBufs="1" format="RGBA8" bilinear="true" scale="0.25" />
     <RenderTarget id="CLOUDSHADOWS"   depthBuf="false" numColBufs="1" format="RGBA8" bilinear="true" scale="1.0" width="1024" height="1024" />
