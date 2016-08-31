@@ -77,7 +77,7 @@
       </Data>
     </Data>
     <Data template="GcShootableComponentData">
-      <Property name="Health" value="200" />
+      <Property name="Health" value="300" />
       <Property name="AutoAimTarget" value="False" />
       <Property name="PlayerOnly" value="False" />
       <Property name="ImpactShake" value="True" />
@@ -86,7 +86,7 @@
         <Property name="Impact" value="Default" />
       </Data>
       <Property name="IncreaseWanted" value="0" />
-      <Property name="IncreaseWantedThresholdTime" value="0.5" />
+      <Property name="IncreaseWantedThresholdTime" value="1.5" />
       <Property name="UseMiningDamage" value="False" />
       <Property name="MinDamage" value="0" />
       <Property name="StaticUntilShot" value="False" />
@@ -103,7 +103,7 @@
     </Data>
     <Data template="GcDestructableComponentData">
       <Property name="Explosion" value="DRONEEXPLODE" />
-      <Property name="ExplosionScale" value="1" />
+      <Property name="ExplosionScale" value="10" />
       <Property name="TriggerAction" value="" />
       <Property name="IncreaseWanted" value="1" />
       <Property name="LootReward" value="" />
