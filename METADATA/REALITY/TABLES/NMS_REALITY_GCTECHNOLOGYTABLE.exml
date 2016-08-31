@@ -48,7 +48,7 @@
       </Property>
       <Property name="BuildFullyCharged" value="True" />
       <Property name="Upgrade" value="False" />
-      <Property name="Core" value="True" />
+      <Property name="Core" value="False" />
       <Data name="TechnologyCategory" template="GcTechnologyCategory">
         <Property name="TechnologyCategory" value="Suit" />
       </Data>
@@ -121,7 +121,7 @@
       <Property name="ChargeBy" />
       <Property name="BuildFullyCharged" value="True" />
       <Property name="Upgrade" value="False" />
-      <Property name="Core" value="True" />
+      <Property name="Core" value="False" />
       <Data name="TechnologyCategory" template="GcTechnologyCategory">
         <Property name="TechnologyCategory" value="Suit" />
       </Data>
@@ -194,7 +194,7 @@
       <Property name="ChargeBy" />
       <Property name="BuildFullyCharged" value="True" />
       <Property name="Upgrade" value="False" />
-      <Property name="Core" value="True" />
+      <Property name="Core" value="False" />
       <Data name="TechnologyCategory" template="GcTechnologyCategory">
         <Property name="TechnologyCategory" value="Suit" />
       </Data>
@@ -3597,7 +3597,7 @@
       <Property name="ChargeBy" />
       <Property name="BuildFullyCharged" value="True" />
       <Property name="Upgrade" value="False" />
-      <Property name="Core" value="True" />
+      <Property name="Core" value="False" />
       <Data name="TechnologyCategory" template="GcTechnologyCategory">
         <Property name="TechnologyCategory" value="Ship" />
       </Data>
@@ -4504,7 +4504,7 @@
       </Property>
       <Property name="BuildFullyCharged" value="True" />
       <Property name="Upgrade" value="False" />
-      <Property name="Core" value="True" />
+      <Property name="Core" value="False" />
       <Data name="TechnologyCategory" template="GcTechnologyCategory">
         <Property name="TechnologyCategory" value="Ship" />
       </Data>
@@ -4849,7 +4849,7 @@
       </Property>
       <Property name="BuildFullyCharged" value="False" />
       <Property name="Upgrade" value="False" />
-      <Property name="Core" value="True" />
+      <Property name="Core" value="False" />
       <Data name="TechnologyCategory" template="GcTechnologyCategory">
         <Property name="TechnologyCategory" value="Ship" />
       </Data>
@@ -5163,7 +5163,7 @@
       </Property>
       <Property name="BuildFullyCharged" value="False" />
       <Property name="Upgrade" value="False" />
-      <Property name="Core" value="True" />
+      <Property name="Core" value="False" />
       <Data name="TechnologyCategory" template="GcTechnologyCategory">
         <Property name="TechnologyCategory" value="Ship" />
       </Data>
@@ -5518,7 +5518,7 @@
       </Property>
       <Property name="BuildFullyCharged" value="False" />
       <Property name="Upgrade" value="False" />
-      <Property name="Core" value="True" />
+      <Property name="Core" value="False" />
       <Data name="TechnologyCategory" template="GcTechnologyCategory">
         <Property name="TechnologyCategory" value="Ship" />
       </Data>
@@ -5699,7 +5699,7 @@
       <Property name="ChargeBy" />
       <Property name="BuildFullyCharged" value="True" />
       <Property name="Upgrade" value="False" />
-      <Property name="Core" value="True" />
+      <Property name="Core" value="False" />
       <Data name="TechnologyCategory" template="GcTechnologyCategory">
         <Property name="TechnologyCategory" value="Weapon" />
       </Data>
