@@ -2,7 +2,7 @@
 <Data template="GcBiomeData">
   <Data name="MiningSubstance1" template="GcMiningSubstanceData">
     <Data name="Category" template="GcRealitySubstanceCategory">
-      <Property name="SubstanceCategory" value="Commodity" />
+      <Property name="SubstanceCategory" value="Tradeable" />
     </Data>
     <Property name="UseRarity" value="True" />
     <Data name="Rarity" template="GcRarity">
@@ -11,7 +11,7 @@
   </Data>
   <Data name="MiningSubstance2" template="GcMiningSubstanceData">
     <Data name="Category" template="GcRealitySubstanceCategory">
-      <Property name="SubstanceCategory" value="Commodity" />
+      <Property name="SubstanceCategory" value="Tradeable" />
     </Data>
     <Property name="UseRarity" value="True" />
     <Data name="Rarity" template="GcRarity">
@@ -20,7 +20,7 @@
   </Data>
   <Data name="MiningSubstance3" template="GcMiningSubstanceData">
     <Data name="Category" template="GcRealitySubstanceCategory">
-      <Property name="SubstanceCategory" value="Commodity" />
+      <Property name="SubstanceCategory" value="Technology" />
     </Data>
     <Property name="UseRarity" value="True" />
     <Data name="Rarity" template="GcRarity">
@@ -154,21 +154,21 @@
       </Property>
     </Data>
   </Data>
-  <Property name="DiffuseMap" value="TEXTURES/ATLASES/TERRAIN/SNOW/TILEMAP.DDS" />
-  <Property name="NormalMap" value="TEXTURES/ATLASES/TERRAIN/SNOW/TILEMAP.NORMAL.DDS" />
+  <Property name="DiffuseMap" value="TEXTURES/ATLASES/TERRAIN/SCORCHED/TILEMAP.DDS" />
+  <Property name="NormalMap" value="TEXTURES/ATLASES/TERRAIN/SCORCHED/TILEMAP.NORMAL.DDS" />
   <Property name="TileTypes">
     <Data template="GcTileTypeOptions">
       <Property name="Options">
         <Data template="TkPaletteTexture">
-          <Property name="Palette" value="Rock" />
-          <Property name="ColourAlt" value="Primary" />
+          <Property name="Palette" value="Dirt" />
+          <Property name="ColourAlt" value="Alternative1" />
         </Data>
       </Property>
     </Data>
     <Data template="GcTileTypeOptions">
       <Property name="Options">
         <Data template="TkPaletteTexture">
-          <Property name="Palette" value="Snow" />
+          <Property name="Palette" value="Wood" />
           <Property name="ColourAlt" value="Primary" />
         </Data>
       </Property>
@@ -184,7 +184,7 @@
     <Data template="GcTileTypeOptions">
       <Property name="Options">
         <Data template="TkPaletteTexture">
-          <Property name="Palette" value="Snow" />
+          <Property name="Palette" value="Rock" />
           <Property name="ColourAlt" value="Primary" />
         </Data>
       </Property>
@@ -193,15 +193,7 @@
       <Property name="Options">
         <Data template="TkPaletteTexture">
           <Property name="Palette" value="Rock" />
-          <Property name="ColourAlt" value="Alternative2" />
-        </Data>
-      </Property>
-    </Data>
-    <Data template="GcTileTypeOptions">
-      <Property name="Options">
-        <Data template="TkPaletteTexture">
-          <Property name="Palette" value="Snow" />
-          <Property name="ColourAlt" value="Primary" />
+          <Property name="ColourAlt" value="Alternative1" />
         </Data>
       </Property>
     </Data>
@@ -209,7 +201,15 @@
       <Property name="Options">
         <Data template="TkPaletteTexture">
           <Property name="Palette" value="Rock" />
-          <Property name="ColourAlt" value="Alternative2" />
+          <Property name="ColourAlt" value="Primary" />
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcTileTypeOptions">
+      <Property name="Options">
+        <Data template="TkPaletteTexture">
+          <Property name="Palette" value="Sand" />
+          <Property name="ColourAlt" value="Alternative1" />
         </Data>
       </Property>
     </Data>
@@ -247,16 +247,16 @@
       </Data>
       <Property name="Options">
         <Data template="NMSString0x80">
-          <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/FROZEN/FROZENOBJECTSDEAD.MBIN" />
+          <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/SCORCHED/SCORCHEDOBJECTSDEAD.MBIN" />
         </Data>
         <Data template="NMSString0x80">
-          <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/FROZEN/FROZENOBJECTSLOW.MBIN" />
+          <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/SCORCHED/SCORCHEDOBJECTSLOW.MBIN" />
         </Data>
         <Data template="NMSString0x80">
-          <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/FROZEN/FROZENOBJECTSMID.MBIN" />
+          <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/SCORCHED/SCORCHEDOBJECTSMID.MBIN" />
         </Data>
         <Data template="NMSString0x80">
-          <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/FROZEN/FROZENOBJECTSFULL.MBIN" />
+          <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/SCORCHED/SCORCHEDOBJECTSFULL.MBIN" />
         </Data>
       </Property>
       <Property name="AllowLimiting" value="True" />
@@ -316,13 +316,13 @@
           <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/CRYSTALS/DEAD.MBIN" />
         </Data>
         <Data template="NMSString0x80">
-          <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/CRYSTALS/FROZEN.MBIN" />
+          <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/CRYSTALS/SCORCHED.MBIN" />
         </Data>
         <Data template="NMSString0x80">
-          <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/CRYSTALS/FROZEN.MBIN" />
+          <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/CRYSTALS/SCORCHED.MBIN" />
         </Data>
         <Data template="NMSString0x80">
-          <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/CRYSTALS/FROZEN.MBIN" />
+          <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/CRYSTALS/SCORCHED.MBIN" />
         </Data>
       </Property>
       <Property name="AllowLimiting" value="False" />
@@ -339,13 +339,13 @@
       <Property name="Value" value="False" />
     </Data>
     <Data name="Snow" template="NMSBool">
-      <Property name="Value" value="True" />
+      <Property name="Value" value="False" />
     </Data>
     <Data name="Toxic" template="NMSBool">
       <Property name="Value" value="False" />
     </Data>
     <Data name="Scorched" template="NMSBool">
-      <Property name="Value" value="False" />
+      <Property name="Value" value="True" />
     </Data>
     <Data name="Radioactive" template="NMSBool">
       <Property name="Value" value="False" />
@@ -369,7 +369,7 @@
         <Property name="Value" value="1" />
       </Data>
       <Data template="NMSFloat">
-        <Property name="Value" value="1" />
+        <Property name="Value" value="0" />
       </Data>
       <Data template="NMSFloat">
         <Property name="Value" value="1" />
@@ -428,8 +428,8 @@
       </Data>
     </Property>
     <Property name="UndergroundCaves" value="1" />
-    <Property name="WaterActiveFrequency" value="0.6" />
-    <Property name="HighWaterActiveFrequency" value="0.4" />
+    <Property name="WaterActiveFrequency" value="0.3" />
+    <Property name="HighWaterActiveFrequency" value="0" />
     <Property name="RockTileFrequency" value="0.25" />
     <Property name="SubstanceTileFrequency" value="0.25" />
   </Data>
