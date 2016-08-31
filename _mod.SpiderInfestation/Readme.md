@@ -2,7 +2,7 @@ Spider Infestation
 ---------
 This is a proof of concept that **changes every single ground creature into a type of spider/crab**.  
 
-It also drastically increases their speed, aggressiveness (changes all Prey & Passive to PlayerPredator), and Group Size...  That part isn't proof of concept, just fun.  
+It also drastically increases their speed, aggressiveness (changes all Prey & Passive to PlayerPredator), Health x3, and Group Size...  That part isn't proof of concept, just fun.  
 
 Modder Resource
 ---------
