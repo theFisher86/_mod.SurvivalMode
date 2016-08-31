@@ -19,7 +19,8 @@ This is an overhaul of as many systems and stats that I could get my hands on ai
 - Pretty much everything does more damage now except for you.  Player damage modifiers are unchanged.
 - Contains the 10x version of [Denser Forests](http://nomansskymods.com/mods/denser-forests-packed/) built in so as not to create compatibility issues.
 - Customized Intro and Title Screens
-
+- All tech can be deconstructed (you can break down the hyperdrive, shields, etc and move it around now)
+- 
 :computer: Install
 -----
 If you were directed here from NoMansSkyMods.com then you probably just want to download (right-click the file above and click "Save As") the .pak file and save it into your PCBANKS folder.  If you don't know what that means this mod is probably *wayy* to unpolished for you just yet.  Wait until version 1.0 comes out and there'll be a direct download. 
