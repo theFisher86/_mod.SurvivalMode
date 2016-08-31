@@ -10,9 +10,9 @@
       </Data>
       <Property name="ForceID" value="GRUNT" />
       <Property name="MinGroupScale" value="2" />
-      <Property name="MaxGroupScale" value="3" />
+      <Property name="MaxGroupScale" value="12" />
       <Property name="MinGroupSize" value="4" />
-      <Property name="MaxGroupSize" value="6" />
+      <Property name="MaxGroupSize" value="20" />
       <Property name="GroupsPerSquareKm" value="15" />
       <Property name="FractionActiveInDay" value="1" />
       <Property name="FractionActiveInNight" value="0.25" />
@@ -21,16 +21,16 @@
     </Data>
     <Data template="GcCreatureRoleDescription">
       <Data name="CreatureRole" template="GcCreatureRoles">
-        <Property name="CreatureRole" value="Passive" />
+        <Property name="CreatureRole" value="PlayerPredator" />
       </Data>
       <Data name="CreatureType" template="GcCreatureTypes">
         <Property name="CreatureType" value="SPIDER" />
       </Data>
       <Property name="ForceID" value="GRUNT" />
       <Property name="MinGroupScale" value="1.5" />
-      <Property name="MaxGroupScale" value="2" />
+      <Property name="MaxGroupScale" value="12" />
       <Property name="MinGroupSize" value="5" />
-      <Property name="MaxGroupSize" value="7" />
+      <Property name="MaxGroupSize" value="20" />
       <Property name="GroupsPerSquareKm" value="25" />
       <Property name="FractionActiveInDay" value="1" />
       <Property name="FractionActiveInNight" value="0.25" />
@@ -46,9 +46,9 @@
       </Data>
       <Property name="ForceID" value="GRUNT" />
       <Property name="MinGroupScale" value="4" />
-      <Property name="MaxGroupScale" value="4.5" />
+      <Property name="MaxGroupScale" value="12" />
       <Property name="MinGroupSize" value="1" />
-      <Property name="MaxGroupSize" value="2" />
+      <Property name="MaxGroupSize" value="5" />
       <Property name="GroupsPerSquareKm" value="15" />
       <Property name="FractionActiveInDay" value="1" />
       <Property name="FractionActiveInNight" value="0.25" />
@@ -64,7 +64,7 @@
       </Data>
       <Property name="ForceID" value="SPIDER" />
       <Property name="MinGroupScale" value="0.6" />
-      <Property name="MaxGroupScale" value="0.8" />
+      <Property name="MaxGroupScale" value="12" />
       <Property name="MinGroupSize" value="3" />
       <Property name="MaxGroupSize" value="5" />
       <Property name="GroupsPerSquareKm" value="8" />
@@ -75,14 +75,14 @@
     </Data>
     <Data template="GcCreatureRoleDescription">
       <Data name="CreatureRole" template="GcCreatureRoles">
-        <Property name="CreatureRole" value="Prey" />
+        <Property name="CreatureRole" value="PlayerPredator" />
       </Data>
       <Data name="CreatureType" template="GcCreatureTypes">
         <Property name="CreatureType" value="SPIDER" />
       </Data>
       <Property name="ForceID" value="RODENT" />
       <Property name="MinGroupScale" value="0.8" />
-      <Property name="MaxGroupScale" value="1" />
+      <Property name="MaxGroupScale" value="12" />
       <Property name="MinGroupSize" value="3" />
       <Property name="MaxGroupSize" value="5" />
       <Property name="GroupsPerSquareKm" value="12" />
