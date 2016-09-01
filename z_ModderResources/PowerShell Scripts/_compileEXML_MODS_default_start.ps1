@@ -1,4 +1,4 @@
-param($startfolder="S:\Game Mods\No Mans Sky\Mods")
+param($startfolder="c:\")
 Function Get-Folder($initialDirectory)
 
 {
