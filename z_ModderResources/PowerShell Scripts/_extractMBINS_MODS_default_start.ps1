@@ -1,5 +1,5 @@
-param($startfolder="S:\Game Mods\No Mans Sky\Mods")
-$mbincompiler = "S:\Game Mods\No Mans Sky\Tools\emoose\MBINCompiler\MBINCompiler\bin\Debug\"
+param($startfolder="c:\")
+$mbincompiler = ""
 Function Get-Folder($initialDirectory)
 
 {
