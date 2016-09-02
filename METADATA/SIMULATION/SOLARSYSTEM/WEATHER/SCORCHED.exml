@@ -12,76 +12,78 @@
     <Property name="HeightFogMax" value="0.75" />
     <Property name="FogHeight" value="30" />
     <Data name="HeavyAirSettings" template="GcHeavyAirSetting">
-      <Data name="Settings1" template="GcHeavyAirSettingValues">
-        <Property name="Thickness" value="0.8" />
-        <Property name="Speed" value="0.5" />
-        <Property name="Alpha1" value="0.5" />
-        <Property name="Alpha2" value="0.5" />
-        <Data name="Colour1" template="TkPaletteTexture">
-          <Property name="Palette" value="Sand" />
-          <Property name="ColourAlt" value="Primary" />
+      <Property name="Settings">
+        <Data template="GcHeavyAirSettingValues">
+          <Property name="Thickness" value="0.8" />
+          <Property name="Speed" value="0.5" />
+          <Property name="Alpha1" value="0.5" />
+          <Property name="Alpha2" value="0.5" />
+          <Data name="Colour1" template="TkPaletteTexture">
+            <Property name="Palette" value="Sand" />
+            <Property name="ColourAlt" value="Primary" />
+          </Data>
+          <Data name="Colout2" template="TkPaletteTexture">
+            <Property name="Palette" value="Sand" />
+            <Property name="ColourAlt" value="Alternative1" />
+          </Data>
         </Data>
-        <Data name="Colout2" template="TkPaletteTexture">
-          <Property name="Palette" value="Sand" />
-          <Property name="ColourAlt" value="Alternative1" />
+        <Data template="GcHeavyAirSettingValues">
+          <Property name="Thickness" value="1" />
+          <Property name="Speed" value="0.7" />
+          <Property name="Alpha1" value="0.1" />
+          <Property name="Alpha2" value="0.1" />
+          <Data name="Colour1" template="TkPaletteTexture">
+            <Property name="Palette" value="Sand" />
+            <Property name="ColourAlt" value="Primary" />
+          </Data>
+          <Data name="Colout2" template="TkPaletteTexture">
+            <Property name="Palette" value="Sand" />
+            <Property name="ColourAlt" value="Alternative1" />
+          </Data>
         </Data>
-      </Data>
-      <Data name="Settings2" template="GcHeavyAirSettingValues">
-        <Property name="Thickness" value="1" />
-        <Property name="Speed" value="0.7" />
-        <Property name="Alpha1" value="0.1" />
-        <Property name="Alpha2" value="0.1" />
-        <Data name="Colour1" template="TkPaletteTexture">
-          <Property name="Palette" value="Sand" />
-          <Property name="ColourAlt" value="Primary" />
+        <Data template="GcHeavyAirSettingValues">
+          <Property name="Thickness" value="0.7" />
+          <Property name="Speed" value="0.5" />
+          <Property name="Alpha1" value="0.8" />
+          <Property name="Alpha2" value="0.8" />
+          <Data name="Colour1" template="TkPaletteTexture">
+            <Property name="Palette" value="Rock" />
+            <Property name="ColourAlt" value="Primary" />
+          </Data>
+          <Data name="Colout2" template="TkPaletteTexture">
+            <Property name="Palette" value="Rock" />
+            <Property name="ColourAlt" value="Primary" />
+          </Data>
         </Data>
-        <Data name="Colout2" template="TkPaletteTexture">
-          <Property name="Palette" value="Sand" />
-          <Property name="ColourAlt" value="Alternative1" />
+        <Data template="GcHeavyAirSettingValues">
+          <Property name="Thickness" value="1" />
+          <Property name="Speed" value="1" />
+          <Property name="Alpha1" value="1" />
+          <Property name="Alpha2" value="1" />
+          <Data name="Colour1" template="TkPaletteTexture">
+            <Property name="Palette" value="Rock" />
+            <Property name="ColourAlt" value="Primary" />
+          </Data>
+          <Data name="Colout2" template="TkPaletteTexture">
+            <Property name="Palette" value="Rock" />
+            <Property name="ColourAlt" value="Primary" />
+          </Data>
         </Data>
-      </Data>
-      <Data name="Settings3" template="GcHeavyAirSettingValues">
-        <Property name="Thickness" value="0.7" />
-        <Property name="Speed" value="0.5" />
-        <Property name="Alpha1" value="0.8" />
-        <Property name="Alpha2" value="0.8" />
-        <Data name="Colour1" template="TkPaletteTexture">
-          <Property name="Palette" value="Rock" />
-          <Property name="ColourAlt" value="Primary" />
+        <Data template="GcHeavyAirSettingValues">
+          <Property name="Thickness" value="1" />
+          <Property name="Speed" value="1" />
+          <Property name="Alpha1" value="1" />
+          <Property name="Alpha2" value="1" />
+          <Data name="Colour1" template="TkPaletteTexture">
+            <Property name="Palette" value="Rock" />
+            <Property name="ColourAlt" value="Primary" />
+          </Data>
+          <Data name="Colout2" template="TkPaletteTexture">
+            <Property name="Palette" value="Rock" />
+            <Property name="ColourAlt" value="Primary" />
+          </Data>
         </Data>
-        <Data name="Colout2" template="TkPaletteTexture">
-          <Property name="Palette" value="Rock" />
-          <Property name="ColourAlt" value="Primary" />
-        </Data>
-      </Data>
-      <Data name="Settings4" template="GcHeavyAirSettingValues">
-        <Property name="Thickness" value="1" />
-        <Property name="Speed" value="1" />
-        <Property name="Alpha1" value="1" />
-        <Property name="Alpha2" value="1" />
-        <Data name="Colour1" template="TkPaletteTexture">
-          <Property name="Palette" value="Rock" />
-          <Property name="ColourAlt" value="Primary" />
-        </Data>
-        <Data name="Colout2" template="TkPaletteTexture">
-          <Property name="Palette" value="Rock" />
-          <Property name="ColourAlt" value="Primary" />
-        </Data>
-      </Data>
-      <Data name="Settings5" template="GcHeavyAirSettingValues">
-        <Property name="Thickness" value="1" />
-        <Property name="Speed" value="1" />
-        <Property name="Alpha1" value="1" />
-        <Property name="Alpha2" value="1" />
-        <Data name="Colour1" template="TkPaletteTexture">
-          <Property name="Palette" value="Rock" />
-          <Property name="ColourAlt" value="Primary" />
-        </Data>
-        <Data name="Colout2" template="TkPaletteTexture">
-          <Property name="Palette" value="Rock" />
-          <Property name="ColourAlt" value="Primary" />
-        </Data>
-      </Data>
+      </Property>
     </Data>
     <Property name="CloudRatio" value="0.55" />
     <Property name="FullscreenEffect" value="0" />
@@ -101,76 +103,78 @@
     <Property name="HeightFogMax" value="0" />
     <Property name="FogHeight" value="0" />
     <Data name="HeavyAirSettings" template="GcHeavyAirSetting">
-      <Data name="Settings1" template="GcHeavyAirSettingValues">
-        <Property name="Thickness" value="0" />
-        <Property name="Speed" value="1" />
-        <Property name="Alpha1" value="0" />
-        <Property name="Alpha2" value="0" />
-        <Data name="Colour1" template="TkPaletteTexture">
-          <Property name="Palette" value="Rock" />
-          <Property name="ColourAlt" value="Primary" />
+      <Property name="Settings">
+        <Data template="GcHeavyAirSettingValues">
+          <Property name="Thickness" value="0" />
+          <Property name="Speed" value="1" />
+          <Property name="Alpha1" value="0" />
+          <Property name="Alpha2" value="0" />
+          <Data name="Colour1" template="TkPaletteTexture">
+            <Property name="Palette" value="Rock" />
+            <Property name="ColourAlt" value="Primary" />
+          </Data>
+          <Data name="Colout2" template="TkPaletteTexture">
+            <Property name="Palette" value="Rock" />
+            <Property name="ColourAlt" value="Primary" />
+          </Data>
         </Data>
-        <Data name="Colout2" template="TkPaletteTexture">
-          <Property name="Palette" value="Rock" />
-          <Property name="ColourAlt" value="Primary" />
+        <Data template="GcHeavyAirSettingValues">
+          <Property name="Thickness" value="0" />
+          <Property name="Speed" value="1" />
+          <Property name="Alpha1" value="0" />
+          <Property name="Alpha2" value="0" />
+          <Data name="Colour1" template="TkPaletteTexture">
+            <Property name="Palette" value="Rock" />
+            <Property name="ColourAlt" value="Primary" />
+          </Data>
+          <Data name="Colout2" template="TkPaletteTexture">
+            <Property name="Palette" value="Rock" />
+            <Property name="ColourAlt" value="Primary" />
+          </Data>
         </Data>
-      </Data>
-      <Data name="Settings2" template="GcHeavyAirSettingValues">
-        <Property name="Thickness" value="0" />
-        <Property name="Speed" value="1" />
-        <Property name="Alpha1" value="0" />
-        <Property name="Alpha2" value="0" />
-        <Data name="Colour1" template="TkPaletteTexture">
-          <Property name="Palette" value="Rock" />
-          <Property name="ColourAlt" value="Primary" />
+        <Data template="GcHeavyAirSettingValues">
+          <Property name="Thickness" value="0" />
+          <Property name="Speed" value="1" />
+          <Property name="Alpha1" value="0" />
+          <Property name="Alpha2" value="0" />
+          <Data name="Colour1" template="TkPaletteTexture">
+            <Property name="Palette" value="Rock" />
+            <Property name="ColourAlt" value="Primary" />
+          </Data>
+          <Data name="Colout2" template="TkPaletteTexture">
+            <Property name="Palette" value="Rock" />
+            <Property name="ColourAlt" value="Primary" />
+          </Data>
         </Data>
-        <Data name="Colout2" template="TkPaletteTexture">
-          <Property name="Palette" value="Rock" />
-          <Property name="ColourAlt" value="Primary" />
+        <Data template="GcHeavyAirSettingValues">
+          <Property name="Thickness" value="0" />
+          <Property name="Speed" value="1" />
+          <Property name="Alpha1" value="0" />
+          <Property name="Alpha2" value="0" />
+          <Data name="Colour1" template="TkPaletteTexture">
+            <Property name="Palette" value="Rock" />
+            <Property name="ColourAlt" value="Primary" />
+          </Data>
+          <Data name="Colout2" template="TkPaletteTexture">
+            <Property name="Palette" value="Rock" />
+            <Property name="ColourAlt" value="Primary" />
+          </Data>
         </Data>
-      </Data>
-      <Data name="Settings3" template="GcHeavyAirSettingValues">
-        <Property name="Thickness" value="0" />
-        <Property name="Speed" value="1" />
-        <Property name="Alpha1" value="0" />
-        <Property name="Alpha2" value="0" />
-        <Data name="Colour1" template="TkPaletteTexture">
-          <Property name="Palette" value="Rock" />
-          <Property name="ColourAlt" value="Primary" />
+        <Data template="GcHeavyAirSettingValues">
+          <Property name="Thickness" value="0" />
+          <Property name="Speed" value="1" />
+          <Property name="Alpha1" value="0" />
+          <Property name="Alpha2" value="0" />
+          <Data name="Colour1" template="TkPaletteTexture">
+            <Property name="Palette" value="Rock" />
+            <Property name="ColourAlt" value="Primary" />
+          </Data>
+          <Data name="Colout2" template="TkPaletteTexture">
+            <Property name="Palette" value="Rock" />
+            <Property name="ColourAlt" value="Primary" />
+          </Data>
         </Data>
-        <Data name="Colout2" template="TkPaletteTexture">
-          <Property name="Palette" value="Rock" />
-          <Property name="ColourAlt" value="Primary" />
-        </Data>
-      </Data>
-      <Data name="Settings4" template="GcHeavyAirSettingValues">
-        <Property name="Thickness" value="0" />
-        <Property name="Speed" value="1" />
-        <Property name="Alpha1" value="0" />
-        <Property name="Alpha2" value="0" />
-        <Data name="Colour1" template="TkPaletteTexture">
-          <Property name="Palette" value="Rock" />
-          <Property name="ColourAlt" value="Primary" />
-        </Data>
-        <Data name="Colout2" template="TkPaletteTexture">
-          <Property name="Palette" value="Rock" />
-          <Property name="ColourAlt" value="Primary" />
-        </Data>
-      </Data>
-      <Data name="Settings5" template="GcHeavyAirSettingValues">
-        <Property name="Thickness" value="0" />
-        <Property name="Speed" value="1" />
-        <Property name="Alpha1" value="0" />
-        <Property name="Alpha2" value="0" />
-        <Data name="Colour1" template="TkPaletteTexture">
-          <Property name="Palette" value="Rock" />
-          <Property name="ColourAlt" value="Primary" />
-        </Data>
-        <Data name="Colout2" template="TkPaletteTexture">
-          <Property name="Palette" value="Rock" />
-          <Property name="ColourAlt" value="Primary" />
-        </Data>
-      </Data>
+      </Property>
     </Data>
     <Property name="CloudRatio" value="0.55" />
     <Property name="FullscreenEffect" value="0" />
@@ -190,76 +194,78 @@
     <Property name="HeightFogMax" value="0" />
     <Property name="FogHeight" value="0" />
     <Data name="HeavyAirSettings" template="GcHeavyAirSetting">
-      <Data name="Settings1" template="GcHeavyAirSettingValues">
-        <Property name="Thickness" value="1" />
-        <Property name="Speed" value="1.5" />
-        <Property name="Alpha1" value="1" />
-        <Property name="Alpha2" value="1" />
-        <Data name="Colour1" template="TkPaletteTexture">
-          <Property name="Palette" value="Rock" />
-          <Property name="ColourAlt" value="Primary" />
+      <Property name="Settings">
+        <Data template="GcHeavyAirSettingValues">
+          <Property name="Thickness" value="1" />
+          <Property name="Speed" value="1.5" />
+          <Property name="Alpha1" value="1" />
+          <Property name="Alpha2" value="1" />
+          <Data name="Colour1" template="TkPaletteTexture">
+            <Property name="Palette" value="Rock" />
+            <Property name="ColourAlt" value="Primary" />
+          </Data>
+          <Data name="Colout2" template="TkPaletteTexture">
+            <Property name="Palette" value="Rock" />
+            <Property name="ColourAlt" value="Primary" />
+          </Data>
         </Data>
-        <Data name="Colout2" template="TkPaletteTexture">
-          <Property name="Palette" value="Rock" />
-          <Property name="ColourAlt" value="Primary" />
+        <Data template="GcHeavyAirSettingValues">
+          <Property name="Thickness" value="1" />
+          <Property name="Speed" value="1.6" />
+          <Property name="Alpha1" value="0.2" />
+          <Property name="Alpha2" value="0.25" />
+          <Data name="Colour1" template="TkPaletteTexture">
+            <Property name="Palette" value="Rock" />
+            <Property name="ColourAlt" value="Primary" />
+          </Data>
+          <Data name="Colout2" template="TkPaletteTexture">
+            <Property name="Palette" value="Rock" />
+            <Property name="ColourAlt" value="Primary" />
+          </Data>
         </Data>
-      </Data>
-      <Data name="Settings2" template="GcHeavyAirSettingValues">
-        <Property name="Thickness" value="1" />
-        <Property name="Speed" value="1.6" />
-        <Property name="Alpha1" value="0.2" />
-        <Property name="Alpha2" value="0.25" />
-        <Data name="Colour1" template="TkPaletteTexture">
-          <Property name="Palette" value="Rock" />
-          <Property name="ColourAlt" value="Primary" />
+        <Data template="GcHeavyAirSettingValues">
+          <Property name="Thickness" value="1" />
+          <Property name="Speed" value="2" />
+          <Property name="Alpha1" value="1" />
+          <Property name="Alpha2" value="1" />
+          <Data name="Colour1" template="TkPaletteTexture">
+            <Property name="Palette" value="Rock" />
+            <Property name="ColourAlt" value="Primary" />
+          </Data>
+          <Data name="Colout2" template="TkPaletteTexture">
+            <Property name="Palette" value="Rock" />
+            <Property name="ColourAlt" value="Primary" />
+          </Data>
         </Data>
-        <Data name="Colout2" template="TkPaletteTexture">
-          <Property name="Palette" value="Rock" />
-          <Property name="ColourAlt" value="Primary" />
+        <Data template="GcHeavyAirSettingValues">
+          <Property name="Thickness" value="1" />
+          <Property name="Speed" value="1" />
+          <Property name="Alpha1" value="1" />
+          <Property name="Alpha2" value="1" />
+          <Data name="Colour1" template="TkPaletteTexture">
+            <Property name="Palette" value="Rock" />
+            <Property name="ColourAlt" value="Primary" />
+          </Data>
+          <Data name="Colout2" template="TkPaletteTexture">
+            <Property name="Palette" value="Rock" />
+            <Property name="ColourAlt" value="Primary" />
+          </Data>
         </Data>
-      </Data>
-      <Data name="Settings3" template="GcHeavyAirSettingValues">
-        <Property name="Thickness" value="1" />
-        <Property name="Speed" value="2" />
-        <Property name="Alpha1" value="1" />
-        <Property name="Alpha2" value="1" />
-        <Data name="Colour1" template="TkPaletteTexture">
-          <Property name="Palette" value="Rock" />
-          <Property name="ColourAlt" value="Primary" />
+        <Data template="GcHeavyAirSettingValues">
+          <Property name="Thickness" value="1" />
+          <Property name="Speed" value="1" />
+          <Property name="Alpha1" value="1" />
+          <Property name="Alpha2" value="1" />
+          <Data name="Colour1" template="TkPaletteTexture">
+            <Property name="Palette" value="Rock" />
+            <Property name="ColourAlt" value="Primary" />
+          </Data>
+          <Data name="Colout2" template="TkPaletteTexture">
+            <Property name="Palette" value="Rock" />
+            <Property name="ColourAlt" value="Primary" />
+          </Data>
         </Data>
-        <Data name="Colout2" template="TkPaletteTexture">
-          <Property name="Palette" value="Rock" />
-          <Property name="ColourAlt" value="Primary" />
-        </Data>
-      </Data>
-      <Data name="Settings4" template="GcHeavyAirSettingValues">
-        <Property name="Thickness" value="1" />
-        <Property name="Speed" value="1" />
-        <Property name="Alpha1" value="1" />
-        <Property name="Alpha2" value="1" />
-        <Data name="Colour1" template="TkPaletteTexture">
-          <Property name="Palette" value="Rock" />
-          <Property name="ColourAlt" value="Primary" />
-        </Data>
-        <Data name="Colout2" template="TkPaletteTexture">
-          <Property name="Palette" value="Rock" />
-          <Property name="ColourAlt" value="Primary" />
-        </Data>
-      </Data>
-      <Data name="Settings5" template="GcHeavyAirSettingValues">
-        <Property name="Thickness" value="1" />
-        <Property name="Speed" value="1" />
-        <Property name="Alpha1" value="1" />
-        <Property name="Alpha2" value="1" />
-        <Data name="Colour1" template="TkPaletteTexture">
-          <Property name="Palette" value="Rock" />
-          <Property name="ColourAlt" value="Primary" />
-        </Data>
-        <Data name="Colout2" template="TkPaletteTexture">
-          <Property name="Palette" value="Rock" />
-          <Property name="ColourAlt" value="Primary" />
-        </Data>
-      </Data>
+      </Property>
     </Data>
     <Property name="CloudRatio" value="0.55" />
     <Property name="FullscreenEffect" value="0.65" />
@@ -279,76 +285,78 @@
     <Property name="HeightFogMax" value="0.75" />
     <Property name="FogHeight" value="30" />
     <Data name="HeavyAirSettings" template="GcHeavyAirSetting">
-      <Data name="Settings1" template="GcHeavyAirSettingValues">
-        <Property name="Thickness" value="0.9" />
-        <Property name="Speed" value="1" />
-        <Property name="Alpha1" value="1" />
-        <Property name="Alpha2" value="1" />
-        <Data name="Colour1" template="TkPaletteTexture">
-          <Property name="Palette" value="Rock" />
-          <Property name="ColourAlt" value="Primary" />
+      <Property name="Settings">
+        <Data template="GcHeavyAirSettingValues">
+          <Property name="Thickness" value="0.9" />
+          <Property name="Speed" value="1" />
+          <Property name="Alpha1" value="1" />
+          <Property name="Alpha2" value="1" />
+          <Data name="Colour1" template="TkPaletteTexture">
+            <Property name="Palette" value="Rock" />
+            <Property name="ColourAlt" value="Primary" />
+          </Data>
+          <Data name="Colout2" template="TkPaletteTexture">
+            <Property name="Palette" value="Rock" />
+            <Property name="ColourAlt" value="Primary" />
+          </Data>
         </Data>
-        <Data name="Colout2" template="TkPaletteTexture">
-          <Property name="Palette" value="Rock" />
-          <Property name="ColourAlt" value="Primary" />
+        <Data template="GcHeavyAirSettingValues">
+          <Property name="Thickness" value="1" />
+          <Property name="Speed" value="1.2" />
+          <Property name="Alpha1" value="0.18" />
+          <Property name="Alpha2" value="0.15" />
+          <Data name="Colour1" template="TkPaletteTexture">
+            <Property name="Palette" value="Stone" />
+            <Property name="ColourAlt" value="Primary" />
+          </Data>
+          <Data name="Colout2" template="TkPaletteTexture">
+            <Property name="Palette" value="Stone" />
+            <Property name="ColourAlt" value="Alternative1" />
+          </Data>
         </Data>
-      </Data>
-      <Data name="Settings2" template="GcHeavyAirSettingValues">
-        <Property name="Thickness" value="1" />
-        <Property name="Speed" value="1.2" />
-        <Property name="Alpha1" value="0.18" />
-        <Property name="Alpha2" value="0.15" />
-        <Data name="Colour1" template="TkPaletteTexture">
-          <Property name="Palette" value="Stone" />
-          <Property name="ColourAlt" value="Primary" />
+        <Data template="GcHeavyAirSettingValues">
+          <Property name="Thickness" value="1" />
+          <Property name="Speed" value="1" />
+          <Property name="Alpha1" value="1" />
+          <Property name="Alpha2" value="1" />
+          <Data name="Colour1" template="TkPaletteTexture">
+            <Property name="Palette" value="Rock" />
+            <Property name="ColourAlt" value="Primary" />
+          </Data>
+          <Data name="Colout2" template="TkPaletteTexture">
+            <Property name="Palette" value="Rock" />
+            <Property name="ColourAlt" value="Primary" />
+          </Data>
         </Data>
-        <Data name="Colout2" template="TkPaletteTexture">
-          <Property name="Palette" value="Stone" />
-          <Property name="ColourAlt" value="Alternative1" />
+        <Data template="GcHeavyAirSettingValues">
+          <Property name="Thickness" value="1" />
+          <Property name="Speed" value="1" />
+          <Property name="Alpha1" value="1" />
+          <Property name="Alpha2" value="1" />
+          <Data name="Colour1" template="TkPaletteTexture">
+            <Property name="Palette" value="Rock" />
+            <Property name="ColourAlt" value="Primary" />
+          </Data>
+          <Data name="Colout2" template="TkPaletteTexture">
+            <Property name="Palette" value="Rock" />
+            <Property name="ColourAlt" value="Primary" />
+          </Data>
         </Data>
-      </Data>
-      <Data name="Settings3" template="GcHeavyAirSettingValues">
-        <Property name="Thickness" value="1" />
-        <Property name="Speed" value="1" />
-        <Property name="Alpha1" value="1" />
-        <Property name="Alpha2" value="1" />
-        <Data name="Colour1" template="TkPaletteTexture">
-          <Property name="Palette" value="Rock" />
-          <Property name="ColourAlt" value="Primary" />
+        <Data template="GcHeavyAirSettingValues">
+          <Property name="Thickness" value="1" />
+          <Property name="Speed" value="1" />
+          <Property name="Alpha1" value="1" />
+          <Property name="Alpha2" value="1" />
+          <Data name="Colour1" template="TkPaletteTexture">
+            <Property name="Palette" value="Rock" />
+            <Property name="ColourAlt" value="Primary" />
+          </Data>
+          <Data name="Colout2" template="TkPaletteTexture">
+            <Property name="Palette" value="Rock" />
+            <Property name="ColourAlt" value="Primary" />
+          </Data>
         </Data>
-        <Data name="Colout2" template="TkPaletteTexture">
-          <Property name="Palette" value="Rock" />
-          <Property name="ColourAlt" value="Primary" />
-        </Data>
-      </Data>
-      <Data name="Settings4" template="GcHeavyAirSettingValues">
-        <Property name="Thickness" value="1" />
-        <Property name="Speed" value="1" />
-        <Property name="Alpha1" value="1" />
-        <Property name="Alpha2" value="1" />
-        <Data name="Colour1" template="TkPaletteTexture">
-          <Property name="Palette" value="Rock" />
-          <Property name="ColourAlt" value="Primary" />
-        </Data>
-        <Data name="Colout2" template="TkPaletteTexture">
-          <Property name="Palette" value="Rock" />
-          <Property name="ColourAlt" value="Primary" />
-        </Data>
-      </Data>
-      <Data name="Settings5" template="GcHeavyAirSettingValues">
-        <Property name="Thickness" value="1" />
-        <Property name="Speed" value="1" />
-        <Property name="Alpha1" value="1" />
-        <Property name="Alpha2" value="1" />
-        <Data name="Colour1" template="TkPaletteTexture">
-          <Property name="Palette" value="Rock" />
-          <Property name="ColourAlt" value="Primary" />
-        </Data>
-        <Data name="Colout2" template="TkPaletteTexture">
-          <Property name="Palette" value="Rock" />
-          <Property name="ColourAlt" value="Primary" />
-        </Data>
-      </Data>
+      </Property>
     </Data>
     <Property name="CloudRatio" value="0.55" />
     <Property name="FullscreenEffect" value="0.5" />
@@ -462,71 +470,73 @@
       <Property name="MultiplySaturation" value="1" />
       <Property name="MultiplyValue" value="1" />
     </Data>
-    <Data name="HeavyAirColour1" template="GcColourModifier">
-      <Property name="ForceColour" value="False" />
-      <Data name="ForceColourTo" template="Colour">
-        <Property name="R" value="1" />
-        <Property name="G" value="1" />
-        <Property name="B" value="1" />
-        <Property name="A" value="1" />
+    <Property name="HeavyAirColour">
+      <Data template="GcColourModifier">
+        <Property name="ForceColour" value="False" />
+        <Data name="ForceColourTo" template="Colour">
+          <Property name="R" value="1" />
+          <Property name="G" value="1" />
+          <Property name="B" value="1" />
+          <Property name="A" value="1" />
+        </Data>
+        <Property name="OffsetSaturation" value="0" />
+        <Property name="OffsetValue" value="0" />
+        <Property name="MultiplySaturation" value="1" />
+        <Property name="MultiplyValue" value="1" />
       </Data>
-      <Property name="OffsetSaturation" value="0" />
-      <Property name="OffsetValue" value="0" />
-      <Property name="MultiplySaturation" value="1" />
-      <Property name="MultiplyValue" value="1" />
-    </Data>
-    <Data name="HeavyAirColour2" template="GcColourModifier">
-      <Property name="ForceColour" value="False" />
-      <Data name="ForceColourTo" template="Colour">
-        <Property name="R" value="1" />
-        <Property name="G" value="1" />
-        <Property name="B" value="1" />
-        <Property name="A" value="1" />
+      <Data template="GcColourModifier">
+        <Property name="ForceColour" value="False" />
+        <Data name="ForceColourTo" template="Colour">
+          <Property name="R" value="1" />
+          <Property name="G" value="1" />
+          <Property name="B" value="1" />
+          <Property name="A" value="1" />
+        </Data>
+        <Property name="OffsetSaturation" value="0" />
+        <Property name="OffsetValue" value="0" />
+        <Property name="MultiplySaturation" value="1" />
+        <Property name="MultiplyValue" value="1" />
       </Data>
-      <Property name="OffsetSaturation" value="0" />
-      <Property name="OffsetValue" value="0" />
-      <Property name="MultiplySaturation" value="1" />
-      <Property name="MultiplyValue" value="1" />
-    </Data>
-    <Data name="HeavyAirColour3" template="GcColourModifier">
-      <Property name="ForceColour" value="False" />
-      <Data name="ForceColourTo" template="Colour">
-        <Property name="R" value="1" />
-        <Property name="G" value="1" />
-        <Property name="B" value="1" />
-        <Property name="A" value="1" />
+      <Data template="GcColourModifier">
+        <Property name="ForceColour" value="False" />
+        <Data name="ForceColourTo" template="Colour">
+          <Property name="R" value="1" />
+          <Property name="G" value="1" />
+          <Property name="B" value="1" />
+          <Property name="A" value="1" />
+        </Data>
+        <Property name="OffsetSaturation" value="0" />
+        <Property name="OffsetValue" value="0" />
+        <Property name="MultiplySaturation" value="1" />
+        <Property name="MultiplyValue" value="1" />
       </Data>
-      <Property name="OffsetSaturation" value="0" />
-      <Property name="OffsetValue" value="0" />
-      <Property name="MultiplySaturation" value="1" />
-      <Property name="MultiplyValue" value="1" />
-    </Data>
-    <Data name="HeavyAirColour4" template="GcColourModifier">
-      <Property name="ForceColour" value="False" />
-      <Data name="ForceColourTo" template="Colour">
-        <Property name="R" value="1" />
-        <Property name="G" value="1" />
-        <Property name="B" value="1" />
-        <Property name="A" value="1" />
+      <Data template="GcColourModifier">
+        <Property name="ForceColour" value="False" />
+        <Data name="ForceColourTo" template="Colour">
+          <Property name="R" value="1" />
+          <Property name="G" value="1" />
+          <Property name="B" value="1" />
+          <Property name="A" value="1" />
+        </Data>
+        <Property name="OffsetSaturation" value="0" />
+        <Property name="OffsetValue" value="0" />
+        <Property name="MultiplySaturation" value="1" />
+        <Property name="MultiplyValue" value="1" />
       </Data>
-      <Property name="OffsetSaturation" value="0" />
-      <Property name="OffsetValue" value="0" />
-      <Property name="MultiplySaturation" value="1" />
-      <Property name="MultiplyValue" value="1" />
-    </Data>
-    <Data name="HeavyAirColour5" template="GcColourModifier">
-      <Property name="ForceColour" value="False" />
-      <Data name="ForceColourTo" template="Colour">
-        <Property name="R" value="1" />
-        <Property name="G" value="1" />
-        <Property name="B" value="1" />
-        <Property name="A" value="1" />
+      <Data template="GcColourModifier">
+        <Property name="ForceColour" value="False" />
+        <Data name="ForceColourTo" template="Colour">
+          <Property name="R" value="1" />
+          <Property name="G" value="1" />
+          <Property name="B" value="1" />
+          <Property name="A" value="1" />
+        </Data>
+        <Property name="OffsetSaturation" value="0" />
+        <Property name="OffsetValue" value="0" />
+        <Property name="MultiplySaturation" value="1" />
+        <Property name="MultiplyValue" value="1" />
       </Data>
-      <Property name="OffsetSaturation" value="0" />
-      <Property name="OffsetValue" value="0" />
-      <Property name="MultiplySaturation" value="1" />
-      <Property name="MultiplyValue" value="1" />
-    </Data>
+    </Property>
   </Data>
   <Data name="ExtremeColourModifiers" template="GcWeatherColourModifiers">
     <Data name="SkyColour" template="GcColourModifier">
@@ -633,71 +643,73 @@
       <Property name="MultiplySaturation" value="1" />
       <Property name="MultiplyValue" value="1" />
     </Data>
-    <Data name="HeavyAirColour1" template="GcColourModifier">
-      <Property name="ForceColour" value="False" />
-      <Data name="ForceColourTo" template="Colour">
-        <Property name="R" value="1" />
-        <Property name="G" value="1" />
-        <Property name="B" value="1" />
-        <Property name="A" value="1" />
+    <Property name="HeavyAirColour">
+      <Data template="GcColourModifier">
+        <Property name="ForceColour" value="False" />
+        <Data name="ForceColourTo" template="Colour">
+          <Property name="R" value="1" />
+          <Property name="G" value="1" />
+          <Property name="B" value="1" />
+          <Property name="A" value="1" />
+        </Data>
+        <Property name="OffsetSaturation" value="0" />
+        <Property name="OffsetValue" value="0" />
+        <Property name="MultiplySaturation" value="1" />
+        <Property name="MultiplyValue" value="1" />
       </Data>
-      <Property name="OffsetSaturation" value="0" />
-      <Property name="OffsetValue" value="0" />
-      <Property name="MultiplySaturation" value="1" />
-      <Property name="MultiplyValue" value="1" />
-    </Data>
-    <Data name="HeavyAirColour2" template="GcColourModifier">
-      <Property name="ForceColour" value="False" />
-      <Data name="ForceColourTo" template="Colour">
-        <Property name="R" value="0.75" />
-        <Property name="G" value="0.642" />
-        <Property name="B" value="0.557" />
-        <Property name="A" value="1" />
+      <Data template="GcColourModifier">
+        <Property name="ForceColour" value="False" />
+        <Data name="ForceColourTo" template="Colour">
+          <Property name="R" value="0.75" />
+          <Property name="G" value="0.642" />
+          <Property name="B" value="0.557" />
+          <Property name="A" value="1" />
+        </Data>
+        <Property name="OffsetSaturation" value="0" />
+        <Property name="OffsetValue" value="0" />
+        <Property name="MultiplySaturation" value="1" />
+        <Property name="MultiplyValue" value="1" />
       </Data>
-      <Property name="OffsetSaturation" value="0" />
-      <Property name="OffsetValue" value="0" />
-      <Property name="MultiplySaturation" value="1" />
-      <Property name="MultiplyValue" value="1" />
-    </Data>
-    <Data name="HeavyAirColour3" template="GcColourModifier">
-      <Property name="ForceColour" value="False" />
-      <Data name="ForceColourTo" template="Colour">
-        <Property name="R" value="1" />
-        <Property name="G" value="1" />
-        <Property name="B" value="1" />
-        <Property name="A" value="1" />
+      <Data template="GcColourModifier">
+        <Property name="ForceColour" value="False" />
+        <Data name="ForceColourTo" template="Colour">
+          <Property name="R" value="1" />
+          <Property name="G" value="1" />
+          <Property name="B" value="1" />
+          <Property name="A" value="1" />
+        </Data>
+        <Property name="OffsetSaturation" value="0" />
+        <Property name="OffsetValue" value="0" />
+        <Property name="MultiplySaturation" value="1" />
+        <Property name="MultiplyValue" value="1" />
       </Data>
-      <Property name="OffsetSaturation" value="0" />
-      <Property name="OffsetValue" value="0" />
-      <Property name="MultiplySaturation" value="1" />
-      <Property name="MultiplyValue" value="1" />
-    </Data>
-    <Data name="HeavyAirColour4" template="GcColourModifier">
-      <Property name="ForceColour" value="False" />
-      <Data name="ForceColourTo" template="Colour">
-        <Property name="R" value="1" />
-        <Property name="G" value="1" />
-        <Property name="B" value="1" />
-        <Property name="A" value="1" />
+      <Data template="GcColourModifier">
+        <Property name="ForceColour" value="False" />
+        <Data name="ForceColourTo" template="Colour">
+          <Property name="R" value="1" />
+          <Property name="G" value="1" />
+          <Property name="B" value="1" />
+          <Property name="A" value="1" />
+        </Data>
+        <Property name="OffsetSaturation" value="0" />
+        <Property name="OffsetValue" value="0" />
+        <Property name="MultiplySaturation" value="1" />
+        <Property name="MultiplyValue" value="1" />
       </Data>
-      <Property name="OffsetSaturation" value="0" />
-      <Property name="OffsetValue" value="0" />
-      <Property name="MultiplySaturation" value="1" />
-      <Property name="MultiplyValue" value="1" />
-    </Data>
-    <Data name="HeavyAirColour5" template="GcColourModifier">
-      <Property name="ForceColour" value="False" />
-      <Data name="ForceColourTo" template="Colour">
-        <Property name="R" value="1" />
-        <Property name="G" value="1" />
-        <Property name="B" value="1" />
-        <Property name="A" value="1" />
+      <Data template="GcColourModifier">
+        <Property name="ForceColour" value="False" />
+        <Data name="ForceColourTo" template="Colour">
+          <Property name="R" value="1" />
+          <Property name="G" value="1" />
+          <Property name="B" value="1" />
+          <Property name="A" value="1" />
+        </Data>
+        <Property name="OffsetSaturation" value="0" />
+        <Property name="OffsetValue" value="0" />
+        <Property name="MultiplySaturation" value="1" />
+        <Property name="MultiplyValue" value="1" />
       </Data>
-      <Property name="OffsetSaturation" value="0" />
-      <Property name="OffsetValue" value="0" />
-      <Property name="MultiplySaturation" value="1" />
-      <Property name="MultiplyValue" value="1" />
-    </Data>
+    </Property>
   </Data>
   <Property name="HeavyAir">
     <Data template="NMSString0x80">

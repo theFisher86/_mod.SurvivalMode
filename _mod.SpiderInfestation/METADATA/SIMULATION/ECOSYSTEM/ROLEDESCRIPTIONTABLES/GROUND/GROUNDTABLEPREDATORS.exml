@@ -6,7 +6,7 @@
         <Property name="CreatureRole" value="PlayerPredator" />
       </Data>
       <Data name="CreatureType" template="GcCreatureTypes">
-        <Property name="CreatureType" value="SPIDER" />
+        <Property name="CreatureType" value="" />
       </Data>
       <Property name="ForceID" value="" />
       <Property name="MinGroupScale" value="1.4" />
@@ -24,7 +24,7 @@
         <Property name="CreatureRole" value="PlayerPredator" />
       </Data>
       <Data name="CreatureType" template="GcCreatureTypes">
-        <Property name="CreatureType" value="SPIDER" />
+        <Property name="CreatureType" value="" />
       </Data>
       <Property name="ForceID" value="" />
       <Property name="MinGroupScale" value="0.9" />
@@ -42,7 +42,7 @@
         <Property name="CreatureRole" value="PlayerPredator" />
       </Data>
       <Data name="CreatureType" template="GcCreatureTypes">
-        <Property name="CreatureType" value="SPIDER" />
+        <Property name="CreatureType" value="" />
       </Data>
       <Property name="ForceID" value="" />
       <Property name="MinGroupScale" value="1.2" />
@@ -60,7 +60,7 @@
         <Property name="CreatureRole" value="PlayerPredator" />
       </Data>
       <Data name="CreatureType" template="GcCreatureTypes">
-        <Property name="CreatureType" value="SPIDER" />
+        <Property name="CreatureType" value="" />
       </Data>
       <Property name="ForceID" value="" />
       <Property name="MinGroupScale" value="0.4" />
@@ -78,7 +78,7 @@
         <Property name="CreatureRole" value="PlayerPredator" />
       </Data>
       <Data name="CreatureType" template="GcCreatureTypes">
-        <Property name="CreatureType" value="SPIDER" />
+        <Property name="CreatureType" value="" />
       </Data>
       <Property name="ForceID" value="" />
       <Property name="MinGroupScale" value="2.5" />
