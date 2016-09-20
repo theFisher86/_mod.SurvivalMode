@@ -490,7 +490,7 @@
       <Data name="Legality" template="GcLegality">
         <Property name="Legality" value="Illegal" />
       </Data>
-      <Property name="ChargeValue" value="3" />
+      <Property name="ChargeValue" value="6" />
       <Data name="Cost" template="GcItemPriceModifiers">
         <Property name="SpaceStationMarkup" value="0" />
         <Property name="LowPriceMod" value="0.25" />

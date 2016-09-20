@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data template="TkAttachmentData">
+  <Property name="Components">
+    <Data template="GcDestructableComponentData">
+      <Property name="Explosion" value="DRONEEXPLODE" />
+      <Property name="ExplosionScale" value="1" />
+      <Property name="TriggerAction" value="" />
+      <Property name="IncreaseWanted" value="5" />
+      <Property name="LootReward" value="" />
+      <Property name="LootRewardAmountMin" value="0" />
+      <Property name="LootRewardAmountMax" value="0" />
+      <Property name="GivesSubstances">
+        <Data template="GcSubstanceAmount">
+          <Property name="AmountMin" value="70" />
+          <Property name="AmountMax" value="100" />
+          <Property name="Specific" value="" />
+          <Data name="SubstanceCategory" template="GcRealitySubstanceCategory">
+            <Property name="SubstanceCategory" value="Commodity" />
+          </Data>
+          <Data name="Rarity" template="GcRarity">
+            <Property name="Rarity" value="Rare" />
+          </Data>
+        </Data>
+      </Property>
+      <Property name="GivesReward" value="" />
+      <Property name="RemoveModel" value="False" />
+      <Data name="DestroyedModel" template="TkModelResource">
+        <Property name="Filename" value="" />
+      </Data>
+      <Property name="DestroyedModelUsesScale" value="False" />
+      <Property name="DestroyForce" value="20" />
+      <Property name="DestroyForceRadius" value="10" />
+      <Property name="DestroyEffectPoints" />
+      <Property name="DestroyEffectTime" value="0" />
+      <Property name="ShowInteract" value="False" />
+      <Property name="ShowInteractRange" value="20" />
+      <Property name="GrenadeSingleHit" value="False" />
+    </Data>
+    <Data template="TkAnimationComponentData">
+      <Data name="Idle" template="TkAnimationData">
+        <Property name="Anim" value="IDLE" />
+        <Property name="Filename" value="MODELS/COMMON/ROBOTS/ANIMS/WALKER_IDLE.ANIM.MBIN" />
+        <Property name="AnimType" value="Loop" />
+        <Property name="FrameStart" value="0" />
+        <Property name="FrameEnd" value="0" />
+        <Property name="StartNode" value="" />
+        <Property name="ExtraStartNodes" />
+        <Property name="Priority" value="0" />
+        <Property name="LoopOffsetMin" value="0" />
+        <Property name="LoopOffsetMax" value="0" />
+        <Property name="ControlDelay" value="0" />
+        <Property name="ControlSpeed" value="1" />
+        <Property name="ControlActionFrame" value="-1" />
+        <Property name="ControlCreatureSize" value="AllSizes" />
+        <Property name="FlagsAdditive" value="False" />
+        <Property name="FlagsMirrored" value="False" />
+        <Property name="FlagsActive" value="True" />
+      </Data>
+      <Property name="Anims">
+        <Data template="TkAnimationData">
+          <Property name="Anim" value="WALK" />
+          <Property name="Filename" value="MODELS/COMMON/ROBOTS/ANIMS/WALKER_WALK.ANIM.MBIN" />
+          <Property name="AnimType" value="Loop" />
+          <Property name="FrameStart" value="0" />
+          <Property name="FrameEnd" value="0" />
+          <Property name="StartNode" value="" />
+          <Property name="ExtraStartNodes" />
+          <Property name="Priority" value="0" />
+          <Property name="LoopOffsetMin" value="0" />
+          <Property name="LoopOffsetMax" value="0" />
+          <Property name="ControlDelay" value="0" />
+          <Property name="ControlSpeed" value="1" />
+          <Property name="ControlActionFrame" value="-1" />
+          <Property name="ControlCreatureSize" value="AllSizes" />
+          <Property name="FlagsAdditive" value="False" />
+          <Property name="FlagsMirrored" value="False" />
+          <Property name="FlagsActive" value="True" />
+        </Data>
+        <Data template="TkAnimationData">
+          <Property name="Anim" value="STANDUP" />
+          <Property name="Filename" value="MODELS/COMMON/ROBOTS/ANIMS/WALKERSTANDUP.ANIM.MBIN" />
+          <Property name="AnimType" value="OneShot" />
+          <Property name="FrameStart" value="0" />
+          <Property name="FrameEnd" value="1000" />
+          <Property name="StartNode" value="" />
+          <Property name="ExtraStartNodes" />
+          <Property name="Priority" value="0" />
+          <Property name="LoopOffsetMin" value="0" />
+          <Property name="LoopOffsetMax" value="0" />
+          <Property name="ControlDelay" value="17.5" />
+          <Property name="ControlSpeed" value="1" />
+          <Property name="ControlActionFrame" value="-1" />
+          <Property name="ControlCreatureSize" value="AllSizes" />
+          <Property name="FlagsAdditive" value="False" />
+          <Property name="FlagsMirrored" value="False" />
+          <Property name="FlagsActive" value="True" />
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcCreatureComponentData">
+      <Property name="Id" value="WALKER" />
+      <Data name="PrimaryAxis" template="GcPrimaryAxis">
+        <Property name="PrimaryAxis" value="ZNeg" />
+      </Data>
+      <Property name="Scaler" value="6" />
+    </Data>
+    <Data template="TkPhysicsComponentData">
+      <Data name="Data" template="TkPhysicsData">
+        <Property name="Mass" value="1" />
+        <Property name="Friction" value="0.5" />
+        <Property name="RollingFriction" value="0.2" />
+        <Property name="AngularDamping" value="0.2" />
+        <Property name="LinearDamping" value="0.1" />
+        <Property name="Gravity" value="20" />
+      </Data>
+      <Data name="Unknown20" template="TkRagdollData">
+        <Property name="Density" value="1" />
+        <Property name="Gravity" value="20" />
+        <Property name="ChainEnds">
+          <Data template="NMSString0x20">
+            <Property name="Value" value="ToeR" />
+          </Data>
+          <Data template="NMSString0x20">
+            <Property name="Value" value="ToeL" />
+          </Data>
+          <Data template="NMSString0x20">
+            <Property name="Value" value="Flap" />
+          </Data>
+        </Property>
+        <Property name="ExcludeJoints" />
+      </Data>
+    </Data>
+    <Data template="GcShootableComponentData">
+      <Property name="Health" value="1000" />
+      <Property name="AutoAimTarget" value="False" />
+      <Property name="PlayerOnly" value="False" />
+      <Property name="ImpactShake" value="False" />
+      <Property name="ImpactShakeEffect" value="SMALLPAINSHAKE" />
+      <Data name="ImpactType" template="GcProjectileImpactType">
+        <Property name="Impact" value="Default" />
+      </Data>
+      <Property name="IncreaseWanted" value="3" />
+      <Property name="IncreaseWantedThresholdTime" value="2" />
+      <Property name="UseMiningDamage" value="False" />
+      <Property name="MinDamage" value="0" />
+      <Property name="StaticUntilShot" value="False" />
+    </Data>
+    <Data template="GcCreatureFullBodyIKComponentData">
+      <Property name="JointData">
+        <Data template="GcCreatureIkData">
+          <Data name="CreatureIkType" template="GcCreatureIkType">
+            <Property name="CreatureIkType" value="Head" />
+          </Data>
+          <Property name="JointName" value="Head" />
+        </Data>
+        <Data template="GcCreatureIkData">
+          <Data name="CreatureIkType" template="GcCreatureIkType">
+            <Property name="CreatureIkType" value="Foot" />
+          </Data>
+          <Property name="JointName" value="FootL" />
+        </Data>
+        <Data template="GcCreatureIkData">
+          <Data name="CreatureIkType" template="GcCreatureIkType">
+            <Property name="CreatureIkType" value="Foot" />
+          </Data>
+          <Property name="JointName" value="FootR" />
+        </Data>
+      </Property>
+      <Property name="HeadUpAxis" value="Z" />
+      <Property name="UseFootGlue" value="False" />
+    </Data>
+  </Property>
+</Data>

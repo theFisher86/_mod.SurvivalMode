@@ -1,0 +1,436 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data_root template="GcBiomeData">
+  <Data_MiningSubstance1 template="GcMiningSubstanceData">
+    <Data_Category template="GcRealitySubstanceCategory">
+      <Property_SubstanceCategory>Tradeable</Property_SubstanceCategory>
+    </Data_Category>
+    <Property_UseRarity>True</Property_UseRarity>
+    <Data_Rarity template="GcRarity">
+      <Property_Rarity>Common</Property_Rarity>
+    </Data_Rarity>
+  </Data_MiningSubstance1>
+  <Data_MiningSubstance2 template="GcMiningSubstanceData">
+    <Data_Category template="GcRealitySubstanceCategory">
+      <Property_SubstanceCategory>Tradeable</Property_SubstanceCategory>
+    </Data_Category>
+    <Property_UseRarity>True</Property_UseRarity>
+    <Data_Rarity template="GcRarity">
+      <Property_Rarity>Common</Property_Rarity>
+    </Data_Rarity>
+  </Data_MiningSubstance2>
+  <Data_MiningSubstance3 template="GcMiningSubstanceData">
+    <Data_Category template="GcRealitySubstanceCategory">
+      <Property_SubstanceCategory>Technology</Property_SubstanceCategory>
+    </Data_Category>
+    <Property_UseRarity>True</Property_UseRarity>
+    <Data_Rarity template="GcRarity">
+      <Property_Rarity>Common</Property_Rarity>
+    </Data_Rarity>
+  </Data_MiningSubstance3>
+  <Data_MiningSubstance4 template="GcMiningSubstanceData">
+    <Data_Category template="GcRealitySubstanceCategory">
+      <Property_SubstanceCategory>Commodity</Property_SubstanceCategory>
+    </Data_Category>
+    <Property_UseRarity>False</Property_UseRarity>
+    <Data_Rarity template="GcRarity">
+      <Property_Rarity>Common</Property_Rarity>
+    </Data_Rarity>
+  </Data_MiningSubstance4>
+  <Data_Water template="GcPlanetWaterData">
+    <Data_WaterColourNear template="Colour">
+      <Property_R>1</Property_R>
+      <Property_G>0.5</Property_G>
+      <Property_B>0.5</Property_B>
+      <Property_A>1</Property_A>
+    </Data_WaterColourNear>
+    <Data_WaterColourFar template="Colour">
+      <Property_R>1</Property_R>
+      <Property_G>0.5</Property_G>
+      <Property_B>0.5</Property_B>
+      <Property_A>1</Property_A>
+    </Data_WaterColourFar>
+    <Property_WaterStrength>0.1</Property_WaterStrength>
+    <Property_WaterColourStrength>0.1</Property_WaterColourStrength>
+    <Property_WaterMultiplyStrength>0.1</Property_WaterMultiplyStrength>
+    <Property_WaterMultiplyMax>0.1</Property_WaterMultiplyMax>
+    <Property_WaterRoughness>0</Property_WaterRoughness>
+    <Property_FresnelPower>5</Property_FresnelPower>
+    <Property_FresnelMin>0.2</Property_FresnelMin>
+    <Property_FresnelMax>0.8</Property_FresnelMax>
+    <Property_Wave1Scale>0.001</Property_Wave1Scale>
+    <Property_Wave1Height>1</Property_Wave1Height>
+    <Property_Wave1Speed>1</Property_Wave1Speed>
+    <Property_Wave2Scale>0.002</Property_Wave2Scale>
+    <Property_Wave2Height>1</Property_Wave2Height>
+    <Property_Wave2Speed>1</Property_Wave2Speed>
+    <Property_NormalMap1Scale>0</Property_NormalMap1Scale>
+    <Property_NormalMap1Speed>0</Property_NormalMap1Speed>
+    <Property_NormalMap2Scale>0</Property_NormalMap2Scale>
+    <Property_NormalMap2Speed>0</Property_NormalMap2Speed>
+    <Property_FoamFadeHeight>10</Property_FoamFadeHeight>
+    <Property_Foam1Scale>0</Property_Foam1Scale>
+    <Property_Foam1Speed>0</Property_Foam1Speed>
+    <Property_Foam2Scale>0</Property_Foam2Scale>
+    <Property_Foam2Speed>0</Property_Foam2Speed>
+    <Data_FoamColour template="Colour">
+      <Property_R>1</Property_R>
+      <Property_G>1</Property_G>
+      <Property_B>1</Property_B>
+      <Property_A>1</Property_A>
+    </Data_FoamColour>
+    <Data_HeavyAir template="GcPlanetHeavyAirData">
+      <Property_Filename></Property_Filename>
+      <Property_Colours>
+        <Data_root template="GcHeavyAirColourData">
+          <Data_Colour1 template="Colour">
+            <Property_R>1</Property_R>
+            <Property_G>1</Property_G>
+            <Property_B>1</Property_B>
+            <Property_A>1</Property_A>
+          </Data_Colour1>
+          <Data_Colour2 template="Colour">
+            <Property_R>1</Property_R>
+            <Property_G>1</Property_G>
+            <Property_B>1</Property_B>
+            <Property_A>1</Property_A>
+          </Data_Colour2>
+        </Data_root>
+        <Data_root template="GcHeavyAirColourData">
+          <Data_Colour1 template="Colour">
+            <Property_R>1</Property_R>
+            <Property_G>1</Property_G>
+            <Property_B>1</Property_B>
+            <Property_A>1</Property_A>
+          </Data_Colour1>
+          <Data_Colour2 template="Colour">
+            <Property_R>1</Property_R>
+            <Property_G>1</Property_G>
+            <Property_B>1</Property_B>
+            <Property_A>1</Property_A>
+          </Data_Colour2>
+        </Data_root>
+        <Data_root template="GcHeavyAirColourData">
+          <Data_Colour1 template="Colour">
+            <Property_R>1</Property_R>
+            <Property_G>1</Property_G>
+            <Property_B>1</Property_B>
+            <Property_A>1</Property_A>
+          </Data_Colour1>
+          <Data_Colour2 template="Colour">
+            <Property_R>1</Property_R>
+            <Property_G>1</Property_G>
+            <Property_B>1</Property_B>
+            <Property_A>1</Property_A>
+          </Data_Colour2>
+        </Data_root>
+        <Data_root template="GcHeavyAirColourData">
+          <Data_Colour1 template="Colour">
+            <Property_R>1</Property_R>
+            <Property_G>1</Property_G>
+            <Property_B>1</Property_B>
+            <Property_A>1</Property_A>
+          </Data_Colour1>
+          <Data_Colour2 template="Colour">
+            <Property_R>1</Property_R>
+            <Property_G>1</Property_G>
+            <Property_B>1</Property_B>
+            <Property_A>1</Property_A>
+          </Data_Colour2>
+        </Data_root>
+        <Data_root template="GcHeavyAirColourData">
+          <Data_Colour1 template="Colour">
+            <Property_R>1</Property_R>
+            <Property_G>1</Property_G>
+            <Property_B>1</Property_B>
+            <Property_A>1</Property_A>
+          </Data_Colour1>
+          <Data_Colour2 template="Colour">
+            <Property_R>1</Property_R>
+            <Property_G>1</Property_G>
+            <Property_B>1</Property_B>
+            <Property_A>1</Property_A>
+          </Data_Colour2>
+        </Data_root>
+      </Property_Colours>
+    </Data_HeavyAir>
+  </Data_Water>
+  <Property_DiffuseMap>TEXTURES/ATLASES/TERRAIN/TOXIC/TILEMAP.DDS</Property_DiffuseMap>
+  <Property_NormalMap>TEXTURES/ATLASES/TERRAIN/TOXIC/TILEMAP.NORMAL.DDS</Property_NormalMap>
+  <Property_TileTypes>
+    <Data_root template="GcTileTypeOptions">
+      <Property_Options>
+        <Data_root template="TkPaletteTexture">
+          <Property_Palette>Rock</Property_Palette>
+          <Property_ColourAlt>Primary</Property_ColourAlt>
+        </Data_root>
+      </Property_Options>
+    </Data_root>
+    <Data_root template="GcTileTypeOptions">
+      <Property_Options>
+        <Data_root template="TkPaletteTexture">
+          <Property_Palette>Grass</Property_Palette>
+          <Property_ColourAlt>Primary</Property_ColourAlt>
+        </Data_root>
+      </Property_Options>
+    </Data_root>
+    <Data_root template="GcTileTypeOptions">
+      <Property_Options>
+        <Data_root template="TkPaletteTexture">
+          <Property_Palette>Rock</Property_Palette>
+          <Property_ColourAlt>Alternative1</Property_ColourAlt>
+        </Data_root>
+      </Property_Options>
+    </Data_root>
+    <Data_root template="GcTileTypeOptions">
+      <Property_Options>
+        <Data_root template="TkPaletteTexture">
+          <Property_Palette>Rock</Property_Palette>
+          <Property_ColourAlt>Primary</Property_ColourAlt>
+        </Data_root>
+      </Property_Options>
+    </Data_root>
+    <Data_root template="GcTileTypeOptions">
+      <Property_Options>
+        <Data_root template="TkPaletteTexture">
+          <Property_Palette>Rock</Property_Palette>
+          <Property_ColourAlt>Alternative1</Property_ColourAlt>
+        </Data_root>
+      </Property_Options>
+    </Data_root>
+    <Data_root template="GcTileTypeOptions">
+      <Property_Options>
+        <Data_root template="TkPaletteTexture">
+          <Property_Palette>Grass</Property_Palette>
+          <Property_ColourAlt>Alternative1</Property_ColourAlt>
+        </Data_root>
+      </Property_Options>
+    </Data_root>
+    <Data_root template="GcTileTypeOptions">
+      <Property_Options>
+        <Data_root template="TkPaletteTexture">
+          <Property_Palette>Sand</Property_Palette>
+          <Property_ColourAlt>Alternative1</Property_ColourAlt>
+        </Data_root>
+      </Property_Options>
+    </Data_root>
+    <Data_root template="GcTileTypeOptions">
+      <Property_Options>
+        <Data_root template="TkPaletteTexture">
+          <Property_Palette>Sand</Property_Palette>
+          <Property_ColourAlt>Primary</Property_ColourAlt>
+        </Data_root>
+      </Property_Options>
+    </Data_root>
+    <Data_root template="GcTileTypeOptions">
+      <Property_Options>
+        <Data_root template="TkPaletteTexture">
+          <Property_Palette>Rock</Property_Palette>
+          <Property_ColourAlt>Alternative2</Property_ColourAlt>
+        </Data_root>
+      </Property_Options>
+    </Data_root>
+    <Data_root template="GcTileTypeOptions">
+      <Property_Options>
+        <Data_root template="TkPaletteTexture">
+          <Property_Palette>Grass</Property_Palette>
+          <Property_ColourAlt>Alternative1</Property_ColourAlt>
+        </Data_root>
+      </Property_Options>
+    </Data_root>
+  </Property_TileTypes>
+  <Property_ExternalObjectLists>
+    <Data_root template="GcExternalObjectListOptions">
+      <Property_Name>MAIN</Property_Name>
+      <Property_Probability>1</Property_Probability>
+      <Data_TileType template="GcTerrainTileType">
+        <Property_TileType>Base</Property_TileType>
+      </Data_TileType>
+      <Property_Options>
+        <Data_root template="NMSString0x80">
+          <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/TOXIC/TOXICOBJECTSDEAD.MBIN</Property_Value>
+        </Data_root>
+        <Data_root template="NMSString0x80">
+          <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/TOXIC/TOXICOBJECTSLOW.MBIN</Property_Value>
+        </Data_root>
+        <Data_root template="NMSString0x80">
+          <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/TOXIC/TOXICOBJECTSMID.MBIN</Property_Value>
+        </Data_root>
+        <Data_root template="NMSString0x80">
+          <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/TOXIC/TOXICOBJECTSFULL.MBIN</Property_Value>
+        </Data_root>
+      </Property_Options>
+      <Property_AllowLimiting>True</Property_AllowLimiting>
+    </Data_root>
+    <Data_root template="GcExternalObjectListOptions">
+      <Property_Name>PLANT</Property_Name>
+      <Property_Probability>1</Property_Probability>
+      <Data_TileType template="GcTerrainTileType">
+        <Property_TileType>Base</Property_TileType>
+      </Data_TileType>
+      <Property_Options>
+        <Data_root template="NMSString0x80">
+          <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/PLANT/FULL.MBIN</Property_Value>
+        </Data_root>
+        <Data_root template="NMSString0x80">
+          <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/PLANT/FULL.MBIN</Property_Value>
+        </Data_root>
+        <Data_root template="NMSString0x80">
+          <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/PLANT/FULL.MBIN</Property_Value>
+        </Data_root>
+        <Data_root template="NMSString0x80">
+          <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/PLANT/FULL.MBIN</Property_Value>
+        </Data_root>
+      </Property_Options>
+      <Property_AllowLimiting>True</Property_AllowLimiting>
+    </Data_root>
+    <Data_root template="GcExternalObjectListOptions">
+      <Property_Name>LEVELONEOBJECTS</Property_Name>
+      <Property_Probability>1</Property_Probability>
+      <Data_TileType template="GcTerrainTileType">
+        <Property_TileType>Base</Property_TileType>
+      </Data_TileType>
+      <Property_Options>
+        <Data_root template="NMSString0x80">
+          <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/LEVELONEOBJECTS/FULL.MBIN</Property_Value>
+        </Data_root>
+        <Data_root template="NMSString0x80">
+          <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/LEVELONEOBJECTS/FULL.MBIN</Property_Value>
+        </Data_root>
+        <Data_root template="NMSString0x80">
+          <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/LEVELONEOBJECTS/FULL.MBIN</Property_Value>
+        </Data_root>
+        <Data_root template="NMSString0x80">
+          <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/LEVELONEOBJECTS/FULL.MBIN</Property_Value>
+        </Data_root>
+      </Property_Options>
+      <Property_AllowLimiting>False</Property_AllowLimiting>
+    </Data_root>
+    <Data_root template="GcExternalObjectListOptions">
+      <Property_Name>CRYSTALS</Property_Name>
+      <Property_Probability>1</Property_Probability>
+      <Data_TileType template="GcTerrainTileType">
+        <Property_TileType>Base</Property_TileType>
+      </Data_TileType>
+      <Property_Options>
+        <Data_root template="NMSString0x80">
+          <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/CRYSTALS/DEAD.MBIN</Property_Value>
+        </Data_root>
+        <Data_root template="NMSString0x80">
+          <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/CRYSTALS/TOXIC.MBIN</Property_Value>
+        </Data_root>
+        <Data_root template="NMSString0x80">
+          <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/CRYSTALS/TOXIC.MBIN</Property_Value>
+        </Data_root>
+        <Data_root template="NMSString0x80">
+          <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/CRYSTALS/TOXIC.MBIN</Property_Value>
+        </Data_root>
+      </Property_Options>
+      <Property_AllowLimiting>False</Property_AllowLimiting>
+    </Data_root>
+  </Property_ExternalObjectLists>
+  <Property_WeatherOptions>
+    <Data_Clear template="NMSBool">
+      <Property_Value>False</Property_Value>
+    </Data_Clear>
+    <Data_Dust template="NMSBool">
+      <Property_Value>False</Property_Value>
+    </Data_Dust>
+    <Data_Humid template="NMSBool">
+      <Property_Value>False</Property_Value>
+    </Data_Humid>
+    <Data_Snow template="NMSBool">
+      <Property_Value>False</Property_Value>
+    </Data_Snow>
+    <Data_Toxic template="NMSBool">
+      <Property_Value>True</Property_Value>
+    </Data_Toxic>
+    <Data_Scorched template="NMSBool">
+      <Property_Value>False</Property_Value>
+    </Data_Scorched>
+    <Data_Radioactive template="NMSBool">
+      <Property_Value>False</Property_Value>
+    </Data_Radioactive>
+  </Property_WeatherOptions>
+  <Data_Terrain template="GcTerrainControls">
+    <Property_NoiseLayers>
+      <Data_root template="NMSFloat">
+        <Property_Value>1</Property_Value>
+      </Data_root>
+      <Data_root template="NMSFloat">
+        <Property_Value>1</Property_Value>
+      </Data_root>
+      <Data_root template="NMSFloat">
+        <Property_Value>1</Property_Value>
+      </Data_root>
+      <Data_root template="NMSFloat">
+        <Property_Value>1</Property_Value>
+      </Data_root>
+      <Data_root template="NMSFloat">
+        <Property_Value>1</Property_Value>
+      </Data_root>
+      <Data_root template="NMSFloat">
+        <Property_Value>0</Property_Value>
+      </Data_root>
+      <Data_root template="NMSFloat">
+        <Property_Value>1</Property_Value>
+      </Data_root>
+    </Property_NoiseLayers>
+    <Property_GridLayers>
+      <Data_root template="NMSFloat">
+        <Property_Value>0.75</Property_Value>
+      </Data_root>
+      <Data_root template="NMSFloat">
+        <Property_Value>0.75</Property_Value>
+      </Data_root>
+      <Data_root template="NMSFloat">
+        <Property_Value>1</Property_Value>
+      </Data_root>
+      <Data_root template="NMSFloat">
+        <Property_Value>1</Property_Value>
+      </Data_root>
+      <Data_root template="NMSFloat">
+        <Property_Value>1</Property_Value>
+      </Data_root>
+      <Data_root template="NMSFloat">
+        <Property_Value>1</Property_Value>
+      </Data_root>
+      <Data_root template="NMSFloat">
+        <Property_Value>1</Property_Value>
+      </Data_root>
+      <Data_root template="NMSFloat">
+        <Property_Value>1</Property_Value>
+      </Data_root>
+      <Data_root template="NMSFloat">
+        <Property_Value>1</Property_Value>
+      </Data_root>
+    </Property_GridLayers>
+    <Property_Features>
+      <Data_root template="NMSFloat">
+        <Property_Value>1</Property_Value>
+      </Data_root>
+      <Data_root template="NMSFloat">
+        <Property_Value>1</Property_Value>
+      </Data_root>
+      <Data_root template="NMSFloat">
+        <Property_Value>1</Property_Value>
+      </Data_root>
+      <Data_root template="NMSFloat">
+        <Property_Value>1</Property_Value>
+      </Data_root>
+      <Data_root template="NMSFloat">
+        <Property_Value>1</Property_Value>
+      </Data_root>
+      <Data_root template="NMSFloat">
+        <Property_Value>1</Property_Value>
+      </Data_root>
+      <Data_root template="NMSFloat">
+        <Property_Value>0</Property_Value>
+      </Data_root>
+    </Property_Features>
+    <Property_UndergroundCaves>1</Property_UndergroundCaves>
+    <Property_WaterActiveFrequency>0.5</Property_WaterActiveFrequency>
+    <Property_HighWaterActiveFrequency>0.25</Property_HighWaterActiveFrequency>
+    <Property_RockTileFrequency>0.25</Property_RockTileFrequency>
+    <Property_SubstanceTileFrequency>0.25</Property_SubstanceTileFrequency>
+  </Data_Terrain>
+</Data_root>

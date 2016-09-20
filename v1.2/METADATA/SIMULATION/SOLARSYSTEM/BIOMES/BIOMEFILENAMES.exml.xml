@@ -1,0 +1,614 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data_root template="GcBiomeFileList">
+  <Property_BiomeFiles>
+    <Data_root template="NMSString0x80">
+      <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/LUSH/LUSHBIOME.MXML</Property_Value>
+    </Data_root>
+    <Data_root template="NMSString0x80">
+      <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/TOXIC/TOXICBIOME.MXML</Property_Value>
+    </Data_root>
+    <Data_root template="NMSString0x80">
+      <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/SCORCHED/SCORCHEDBIOME.MXML</Property_Value>
+    </Data_root>
+    <Data_root template="NMSString0x80">
+      <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/RADIOACTIVE/RADIOACTIVEBIOME.MXML</Property_Value>
+    </Data_root>
+    <Data_root template="NMSString0x80">
+      <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/FROZEN/FROZENBIOME.MXML</Property_Value>
+    </Data_root>
+    <Data_root template="NMSString0x80">
+      <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/BARREN/BARRENBIOME.MXML</Property_Value>
+    </Data_root>
+    <Data_root template="NMSString0x80">
+      <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/DEAD/DEADBIOME.MXML</Property_Value>
+    </Data_root>
+    <Data_root template="NMSString0x80">
+      <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/LUSH/LUSHBIOME.MXML</Property_Value>
+    </Data_root>
+    <Data_root template="NMSString0x80">
+      <Property_Value></Property_Value>
+    </Data_root>
+  </Property_BiomeFiles>
+  <Property_CommonExternalObjectLists>
+    <Data_root template="GcExternalObjectListOptions">
+      <Property_Name>UNDERGROUND</Property_Name>
+      <Property_Probability>1</Property_Probability>
+      <Data_TileType template="GcTerrainTileType">
+        <Property_TileType>Cave</Property_TileType>
+      </Data_TileType>
+      <Property_Options>
+        <Data_root template="NMSString0x80">
+          <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/CAVE/CAVEBIOMEFULL.MBIN</Property_Value>
+        </Data_root>
+        <Data_root template="NMSString0x80">
+          <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/CAVE/CAVEBIOMEFULL.MBIN</Property_Value>
+        </Data_root>
+        <Data_root template="NMSString0x80">
+          <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/CAVE/CAVEBIOMEFULL.MBIN</Property_Value>
+        </Data_root>
+        <Data_root template="NMSString0x80">
+          <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/CAVE/CAVEBIOMEFULL.MBIN</Property_Value>
+        </Data_root>
+      </Property_Options>
+      <Property_AllowLimiting>True</Property_AllowLimiting>
+    </Data_root>
+    <Data_root template="GcExternalObjectListOptions">
+      <Property_Name>UNDERWATER</Property_Name>
+      <Property_Probability>1</Property_Probability>
+      <Data_TileType template="GcTerrainTileType">
+        <Property_TileType>Underwater</Property_TileType>
+      </Data_TileType>
+      <Property_Options>
+        <Data_root template="NMSString0x80">
+          <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/UNDERWATER/UNDERWATERFULL.MBIN</Property_Value>
+        </Data_root>
+        <Data_root template="NMSString0x80">
+          <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/UNDERWATER/UNDERWATERFULL.MBIN</Property_Value>
+        </Data_root>
+        <Data_root template="NMSString0x80">
+          <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/UNDERWATER/UNDERWATERFULL.MBIN</Property_Value>
+        </Data_root>
+        <Data_root template="NMSString0x80">
+          <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/UNDERWATER/UNDERWATERFULL.MBIN</Property_Value>
+        </Data_root>
+      </Property_Options>
+      <Property_AllowLimiting>True</Property_AllowLimiting>
+    </Data_root>
+    <Data_root template="GcExternalObjectListOptions">
+      <Property_Name>MOUNTAIN</Property_Name>
+      <Property_Probability>1</Property_Probability>
+      <Data_TileType template="GcTerrainTileType">
+        <Property_TileType>Mountain</Property_TileType>
+      </Data_TileType>
+      <Property_Options>
+        <Data_root template="NMSString0x80">
+          <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/MOUNTAIN/FULL.MBIN</Property_Value>
+        </Data_root>
+        <Data_root template="NMSString0x80">
+          <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/MOUNTAIN/FULL.MBIN</Property_Value>
+        </Data_root>
+        <Data_root template="NMSString0x80">
+          <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/MOUNTAIN/FULL.MBIN</Property_Value>
+        </Data_root>
+        <Data_root template="NMSString0x80">
+          <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/MOUNTAIN/FULL.MBIN</Property_Value>
+        </Data_root>
+      </Property_Options>
+      <Property_AllowLimiting>True</Property_AllowLimiting>
+    </Data_root>
+    <Data_root template="GcExternalObjectListOptions">
+      <Property_Name>CRYSTALSCAVE</Property_Name>
+      <Property_Probability>1</Property_Probability>
+      <Data_TileType template="GcTerrainTileType">
+        <Property_TileType>Cave</Property_TileType>
+      </Data_TileType>
+      <Property_Options>
+        <Data_root template="NMSString0x80">
+          <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/CRYSTALS/CAVEFULL.MBIN</Property_Value>
+        </Data_root>
+        <Data_root template="NMSString0x80">
+          <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/CRYSTALS/CAVEFULL.MBIN</Property_Value>
+        </Data_root>
+        <Data_root template="NMSString0x80">
+          <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/CRYSTALS/CAVEFULL.MBIN</Property_Value>
+        </Data_root>
+        <Data_root template="NMSString0x80">
+          <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/CRYSTALS/CAVEFULL.MBIN</Property_Value>
+        </Data_root>
+      </Property_Options>
+      <Property_AllowLimiting>False</Property_AllowLimiting>
+    </Data_root>
+  </Property_CommonExternalObjectLists>
+  <Property_OptionalExternalObjectLists>
+    <Data_root template="GcExternalObjectFileList">
+      <Property_Id>WATER</Property_Id>
+      <Property_OnlyOnExtremeWeather>False</Property_OnlyOnExtremeWeather>
+      <Property_OnlyOnExtremeSentinels>False</Property_OnlyOnExtremeSentinels>
+      <Property_OnlyOnDeepWater>False</Property_OnlyOnDeepWater>
+      <Property_NotOnExtremePlanets>False</Property_NotOnExtremePlanets>
+      <Property_NotOnStartPlanets>True</Property_NotOnStartPlanets>
+      <Data_Biome template="GcBiomeType">
+        <Property_Biome>All</Property_Biome>
+      </Data_Biome>
+      <Property_ProbabilityOfBeingActive>0.125</Property_ProbabilityOfBeingActive>
+      <Property_MinFilesToChoose>1</Property_MinFilesToChoose>
+      <Property_MaxFilesToChoose>1</Property_MaxFilesToChoose>
+      <Property_ExternalObjectFiles>
+        <Data_root template="GcExternalObjectListOptions">
+          <Property_Name>UNDERWATER</Property_Name>
+          <Property_Probability>1</Property_Probability>
+          <Data_TileType template="GcTerrainTileType">
+            <Property_TileType>Underwater</Property_TileType>
+          </Data_TileType>
+          <Property_Options>
+            <Data_root template="NMSString0x80">
+              <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/UNDERWATERSPHERES.MBIN</Property_Value>
+            </Data_root>
+            <Data_root template="NMSString0x80">
+              <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/UNDERWATERSPHERES.MBIN</Property_Value>
+            </Data_root>
+            <Data_root template="NMSString0x80">
+              <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/UNDERWATERSPHERES.MBIN</Property_Value>
+            </Data_root>
+            <Data_root template="NMSString0x80">
+              <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/UNDERWATERSPHERES.MBIN</Property_Value>
+            </Data_root>
+          </Property_Options>
+          <Property_AllowLimiting>True</Property_AllowLimiting>
+        </Data_root>
+      </Property_ExternalObjectFiles>
+    </Data_root>
+    <Data_root template="GcExternalObjectFileList">
+      <Property_Id>CAVE</Property_Id>
+      <Property_OnlyOnExtremeWeather>False</Property_OnlyOnExtremeWeather>
+      <Property_OnlyOnExtremeSentinels>False</Property_OnlyOnExtremeSentinels>
+      <Property_OnlyOnDeepWater>False</Property_OnlyOnDeepWater>
+      <Property_NotOnExtremePlanets>False</Property_NotOnExtremePlanets>
+      <Property_NotOnStartPlanets>True</Property_NotOnStartPlanets>
+      <Data_Biome template="GcBiomeType">
+        <Property_Biome>All</Property_Biome>
+      </Data_Biome>
+      <Property_ProbabilityOfBeingActive>0.125</Property_ProbabilityOfBeingActive>
+      <Property_MinFilesToChoose>1</Property_MinFilesToChoose>
+      <Property_MaxFilesToChoose>1</Property_MaxFilesToChoose>
+      <Property_ExternalObjectFiles>
+        <Data_root template="GcExternalObjectListOptions">
+          <Property_Name>CAVECUBES</Property_Name>
+          <Property_Probability>1</Property_Probability>
+          <Data_TileType template="GcTerrainTileType">
+            <Property_TileType>Cave</Property_TileType>
+          </Data_TileType>
+          <Property_Options>
+            <Data_root template="NMSString0x80">
+              <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/CAVECUBES.MBIN</Property_Value>
+            </Data_root>
+            <Data_root template="NMSString0x80">
+              <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/CAVECUBES.MBIN</Property_Value>
+            </Data_root>
+            <Data_root template="NMSString0x80">
+              <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/CAVECUBES.MBIN</Property_Value>
+            </Data_root>
+            <Data_root template="NMSString0x80">
+              <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/CAVECUBES.MBIN</Property_Value>
+            </Data_root>
+          </Property_Options>
+          <Property_AllowLimiting>True</Property_AllowLimiting>
+        </Data_root>
+        <Data_root template="GcExternalObjectListOptions">
+          <Property_Name>CAVEEGGS</Property_Name>
+          <Property_Probability>1</Property_Probability>
+          <Data_TileType template="GcTerrainTileType">
+            <Property_TileType>Cave</Property_TileType>
+          </Data_TileType>
+          <Property_Options>
+            <Data_root template="NMSString0x80">
+              <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/CAVEPROPS.MBIN</Property_Value>
+            </Data_root>
+            <Data_root template="NMSString0x80">
+              <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/CAVEPROPS.MBIN</Property_Value>
+            </Data_root>
+            <Data_root template="NMSString0x80">
+              <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/CAVEPROPS.MBIN</Property_Value>
+            </Data_root>
+            <Data_root template="NMSString0x80">
+              <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/CAVEPROPS.MBIN</Property_Value>
+            </Data_root>
+          </Property_Options>
+          <Property_AllowLimiting>True</Property_AllowLimiting>
+        </Data_root>
+      </Property_ExternalObjectFiles>
+    </Data_root>
+    <Data_root template="GcExternalObjectFileList">
+      <Property_Id>WEATHERLUSH</Property_Id>
+      <Property_OnlyOnExtremeWeather>True</Property_OnlyOnExtremeWeather>
+      <Property_OnlyOnExtremeSentinels>False</Property_OnlyOnExtremeSentinels>
+      <Property_OnlyOnDeepWater>False</Property_OnlyOnDeepWater>
+      <Property_NotOnExtremePlanets>False</Property_NotOnExtremePlanets>
+      <Property_NotOnStartPlanets>True</Property_NotOnStartPlanets>
+      <Data_Biome template="GcBiomeType">
+        <Property_Biome>Lush</Property_Biome>
+      </Data_Biome>
+      <Property_ProbabilityOfBeingActive>1</Property_ProbabilityOfBeingActive>
+      <Property_MinFilesToChoose>1</Property_MinFilesToChoose>
+      <Property_MaxFilesToChoose>1</Property_MaxFilesToChoose>
+      <Property_ExternalObjectFiles>
+        <Data_root template="GcExternalObjectListOptions">
+          <Property_Name>FLOATINGPHYS</Property_Name>
+          <Property_Probability>1</Property_Probability>
+          <Data_TileType template="GcTerrainTileType">
+            <Property_TileType>Base</Property_TileType>
+          </Data_TileType>
+          <Property_Options>
+            <Data_root template="NMSString0x80">
+              <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/FLOATINGPHYSICS.MBIN</Property_Value>
+            </Data_root>
+            <Data_root template="NMSString0x80">
+              <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/FLOATINGPHYSICS.MBIN</Property_Value>
+            </Data_root>
+            <Data_root template="NMSString0x80">
+              <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/FLOATINGPHYSICS.MBIN</Property_Value>
+            </Data_root>
+            <Data_root template="NMSString0x80">
+              <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/FLOATINGPHYSICS.MBIN</Property_Value>
+            </Data_root>
+          </Property_Options>
+          <Property_AllowLimiting>True</Property_AllowLimiting>
+        </Data_root>
+      </Property_ExternalObjectFiles>
+    </Data_root>
+    <Data_root template="GcExternalObjectFileList">
+      <Property_Id>WEATHERTOX</Property_Id>
+      <Property_OnlyOnExtremeWeather>True</Property_OnlyOnExtremeWeather>
+      <Property_OnlyOnExtremeSentinels>False</Property_OnlyOnExtremeSentinels>
+      <Property_OnlyOnDeepWater>False</Property_OnlyOnDeepWater>
+      <Property_NotOnExtremePlanets>False</Property_NotOnExtremePlanets>
+      <Property_NotOnStartPlanets>True</Property_NotOnStartPlanets>
+      <Data_Biome template="GcBiomeType">
+        <Property_Biome>Toxic</Property_Biome>
+      </Data_Biome>
+      <Property_ProbabilityOfBeingActive>1</Property_ProbabilityOfBeingActive>
+      <Property_MinFilesToChoose>1</Property_MinFilesToChoose>
+      <Property_MaxFilesToChoose>1</Property_MaxFilesToChoose>
+      <Property_ExternalObjectFiles>
+        <Data_root template="GcExternalObjectListOptions">
+          <Property_Name>PHYSICS</Property_Name>
+          <Property_Probability>1</Property_Probability>
+          <Data_TileType template="GcTerrainTileType">
+            <Property_TileType>Base</Property_TileType>
+          </Data_TileType>
+          <Property_Options>
+            <Data_root template="NMSString0x80">
+              <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/PHYSICSPROPS.MBIN</Property_Value>
+            </Data_root>
+            <Data_root template="NMSString0x80">
+              <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/PHYSICSPROPS.MBIN</Property_Value>
+            </Data_root>
+            <Data_root template="NMSString0x80">
+              <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/PHYSICSPROPS.MBIN</Property_Value>
+            </Data_root>
+            <Data_root template="NMSString0x80">
+              <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/PHYSICSPROPS.MBIN</Property_Value>
+            </Data_root>
+          </Property_Options>
+          <Property_AllowLimiting>True</Property_AllowLimiting>
+        </Data_root>
+      </Property_ExternalObjectFiles>
+    </Data_root>
+    <Data_root template="GcExternalObjectFileList">
+      <Property_Id>WEATHERHOT</Property_Id>
+      <Property_OnlyOnExtremeWeather>True</Property_OnlyOnExtremeWeather>
+      <Property_OnlyOnExtremeSentinels>False</Property_OnlyOnExtremeSentinels>
+      <Property_OnlyOnDeepWater>False</Property_OnlyOnDeepWater>
+      <Property_NotOnExtremePlanets>False</Property_NotOnExtremePlanets>
+      <Property_NotOnStartPlanets>True</Property_NotOnStartPlanets>
+      <Data_Biome template="GcBiomeType">
+        <Property_Biome>Scorched</Property_Biome>
+      </Data_Biome>
+      <Property_ProbabilityOfBeingActive>1</Property_ProbabilityOfBeingActive>
+      <Property_MinFilesToChoose>1</Property_MinFilesToChoose>
+      <Property_MaxFilesToChoose>1</Property_MaxFilesToChoose>
+      <Property_ExternalObjectFiles>
+        <Data_root template="GcExternalObjectListOptions">
+          <Property_Name>GEMS</Property_Name>
+          <Property_Probability>1</Property_Probability>
+          <Data_TileType template="GcTerrainTileType">
+            <Property_TileType>Base</Property_TileType>
+          </Data_TileType>
+          <Property_Options>
+            <Data_root template="NMSString0x80">
+              <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/GEMPROPS.MBIN</Property_Value>
+            </Data_root>
+            <Data_root template="NMSString0x80">
+              <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/GEMPROPS.MBIN</Property_Value>
+            </Data_root>
+            <Data_root template="NMSString0x80">
+              <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/GEMPROPS.MBIN</Property_Value>
+            </Data_root>
+            <Data_root template="NMSString0x80">
+              <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/GEMPROPS.MBIN</Property_Value>
+            </Data_root>
+          </Property_Options>
+          <Property_AllowLimiting>True</Property_AllowLimiting>
+        </Data_root>
+      </Property_ExternalObjectFiles>
+    </Data_root>
+    <Data_root template="GcExternalObjectFileList">
+      <Property_Id>WEATHERRADIO</Property_Id>
+      <Property_OnlyOnExtremeWeather>True</Property_OnlyOnExtremeWeather>
+      <Property_OnlyOnExtremeSentinels>False</Property_OnlyOnExtremeSentinels>
+      <Property_OnlyOnDeepWater>False</Property_OnlyOnDeepWater>
+      <Property_NotOnExtremePlanets>False</Property_NotOnExtremePlanets>
+      <Property_NotOnStartPlanets>True</Property_NotOnStartPlanets>
+      <Data_Biome template="GcBiomeType">
+        <Property_Biome>Radioactive</Property_Biome>
+      </Data_Biome>
+      <Property_ProbabilityOfBeingActive>1</Property_ProbabilityOfBeingActive>
+      <Property_MinFilesToChoose>1</Property_MinFilesToChoose>
+      <Property_MaxFilesToChoose>1</Property_MaxFilesToChoose>
+      <Property_ExternalObjectFiles>
+        <Data_root template="GcExternalObjectListOptions">
+          <Property_Name>PHYSICSSPOREPRO</Property_Name>
+          <Property_Probability>1</Property_Probability>
+          <Data_TileType template="GcTerrainTileType">
+            <Property_TileType>Base</Property_TileType>
+          </Data_TileType>
+          <Property_Options>
+            <Data_root template="NMSString0x80">
+              <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/PHYSICSSPOREPROPS.MBIN</Property_Value>
+            </Data_root>
+            <Data_root template="NMSString0x80">
+              <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/PHYSICSSPOREPROPS.MBIN</Property_Value>
+            </Data_root>
+            <Data_root template="NMSString0x80">
+              <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/PHYSICSSPOREPROPS.MBIN</Property_Value>
+            </Data_root>
+            <Data_root template="NMSString0x80">
+              <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/PHYSICSSPOREPROPS.MBIN</Property_Value>
+            </Data_root>
+          </Property_Options>
+          <Property_AllowLimiting>True</Property_AllowLimiting>
+        </Data_root>
+      </Property_ExternalObjectFiles>
+    </Data_root>
+    <Data_root template="GcExternalObjectFileList">
+      <Property_Id>WEATHERCOLD</Property_Id>
+      <Property_OnlyOnExtremeWeather>True</Property_OnlyOnExtremeWeather>
+      <Property_OnlyOnExtremeSentinels>False</Property_OnlyOnExtremeSentinels>
+      <Property_OnlyOnDeepWater>False</Property_OnlyOnDeepWater>
+      <Property_NotOnExtremePlanets>False</Property_NotOnExtremePlanets>
+      <Property_NotOnStartPlanets>True</Property_NotOnStartPlanets>
+      <Data_Biome template="GcBiomeType">
+        <Property_Biome>Frozen</Property_Biome>
+      </Data_Biome>
+      <Property_ProbabilityOfBeingActive>1</Property_ProbabilityOfBeingActive>
+      <Property_MinFilesToChoose>1</Property_MinFilesToChoose>
+      <Property_MaxFilesToChoose>1</Property_MaxFilesToChoose>
+      <Property_ExternalObjectFiles>
+        <Data_root template="GcExternalObjectListOptions">
+          <Property_Name>FLOATINGPROPS</Property_Name>
+          <Property_Probability>1</Property_Probability>
+          <Data_TileType template="GcTerrainTileType">
+            <Property_TileType>Base</Property_TileType>
+          </Data_TileType>
+          <Property_Options>
+            <Data_root template="NMSString0x80">
+              <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/FLOATINGPROPS.MBIN</Property_Value>
+            </Data_root>
+            <Data_root template="NMSString0x80">
+              <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/FLOATINGPROPS.MBIN</Property_Value>
+            </Data_root>
+            <Data_root template="NMSString0x80">
+              <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/FLOATINGPROPS.MBIN</Property_Value>
+            </Data_root>
+            <Data_root template="NMSString0x80">
+              <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/FLOATINGPROPS.MBIN</Property_Value>
+            </Data_root>
+          </Property_Options>
+          <Property_AllowLimiting>True</Property_AllowLimiting>
+        </Data_root>
+      </Property_ExternalObjectFiles>
+    </Data_root>
+    <Data_root template="GcExternalObjectFileList">
+      <Property_Id>WEATHERBARREN</Property_Id>
+      <Property_OnlyOnExtremeWeather>True</Property_OnlyOnExtremeWeather>
+      <Property_OnlyOnExtremeSentinels>False</Property_OnlyOnExtremeSentinels>
+      <Property_OnlyOnDeepWater>False</Property_OnlyOnDeepWater>
+      <Property_NotOnExtremePlanets>False</Property_NotOnExtremePlanets>
+      <Property_NotOnStartPlanets>True</Property_NotOnStartPlanets>
+      <Data_Biome template="GcBiomeType">
+        <Property_Biome>Barren</Property_Biome>
+      </Data_Biome>
+      <Property_ProbabilityOfBeingActive>1</Property_ProbabilityOfBeingActive>
+      <Property_MinFilesToChoose>1</Property_MinFilesToChoose>
+      <Property_MaxFilesToChoose>1</Property_MaxFilesToChoose>
+      <Property_ExternalObjectFiles>
+        <Data_root template="GcExternalObjectListOptions">
+          <Property_Name>RARECRYSTALPROP</Property_Name>
+          <Property_Probability>1</Property_Probability>
+          <Data_TileType template="GcTerrainTileType">
+            <Property_TileType>Base</Property_TileType>
+          </Data_TileType>
+          <Property_Options>
+            <Data_root template="NMSString0x80">
+              <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/RARECRYSTALPROPS.MBIN</Property_Value>
+            </Data_root>
+            <Data_root template="NMSString0x80">
+              <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/RARECRYSTALPROPS.MBIN</Property_Value>
+            </Data_root>
+            <Data_root template="NMSString0x80">
+              <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/RARECRYSTALPROPS.MBIN</Property_Value>
+            </Data_root>
+            <Data_root template="NMSString0x80">
+              <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/RARECRYSTALPROPS.MBIN</Property_Value>
+            </Data_root>
+          </Property_Options>
+          <Property_AllowLimiting>True</Property_AllowLimiting>
+        </Data_root>
+      </Property_ExternalObjectFiles>
+    </Data_root>
+    <Data_root template="GcExternalObjectFileList">
+      <Property_Id>DRONE</Property_Id>
+      <Property_OnlyOnExtremeWeather>False</Property_OnlyOnExtremeWeather>
+      <Property_OnlyOnExtremeSentinels>True</Property_OnlyOnExtremeSentinels>
+      <Property_OnlyOnDeepWater>False</Property_OnlyOnDeepWater>
+      <Property_NotOnExtremePlanets>False</Property_NotOnExtremePlanets>
+      <Property_NotOnStartPlanets>True</Property_NotOnStartPlanets>
+      <Data_Biome template="GcBiomeType">
+        <Property_Biome>All</Property_Biome>
+      </Data_Biome>
+      <Property_ProbabilityOfBeingActive>1</Property_ProbabilityOfBeingActive>
+      <Property_MinFilesToChoose>1</Property_MinFilesToChoose>
+      <Property_MaxFilesToChoose>1</Property_MaxFilesToChoose>
+      <Property_ExternalObjectFiles>
+        <Data_root template="GcExternalObjectListOptions">
+          <Property_Name>PROXIMITY</Property_Name>
+          <Property_Probability>1</Property_Probability>
+          <Data_TileType template="GcTerrainTileType">
+            <Property_TileType>Base</Property_TileType>
+          </Data_TileType>
+          <Property_Options>
+            <Data_root template="NMSString0x80">
+              <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/PROXIMITYPROPS.MBIN</Property_Value>
+            </Data_root>
+            <Data_root template="NMSString0x80">
+              <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/PROXIMITYPROPS.MBIN</Property_Value>
+            </Data_root>
+            <Data_root template="NMSString0x80">
+              <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/PROXIMITYPROPS.MBIN</Property_Value>
+            </Data_root>
+            <Data_root template="NMSString0x80">
+              <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/PROXIMITYPROPS.MBIN</Property_Value>
+            </Data_root>
+          </Property_Options>
+          <Property_AllowLimiting>True</Property_AllowLimiting>
+        </Data_root>
+      </Property_ExternalObjectFiles>
+    </Data_root>
+    <Data_root template="GcExternalObjectFileList">
+      <Property_Id>RARE</Property_Id>
+      <Property_OnlyOnExtremeWeather>False</Property_OnlyOnExtremeWeather>
+      <Property_OnlyOnExtremeSentinels>False</Property_OnlyOnExtremeSentinels>
+      <Property_OnlyOnDeepWater>False</Property_OnlyOnDeepWater>
+      <Property_NotOnExtremePlanets>True</Property_NotOnExtremePlanets>
+      <Property_NotOnStartPlanets>True</Property_NotOnStartPlanets>
+      <Data_Biome template="GcBiomeType">
+        <Property_Biome>All</Property_Biome>
+      </Data_Biome>
+      <Property_ProbabilityOfBeingActive>0.125</Property_ProbabilityOfBeingActive>
+      <Property_MinFilesToChoose>1</Property_MinFilesToChoose>
+      <Property_MaxFilesToChoose>1</Property_MaxFilesToChoose>
+      <Property_ExternalObjectFiles>
+        <Data_root template="GcExternalObjectListOptions">
+          <Property_Name>CLAM</Property_Name>
+          <Property_Probability>1</Property_Probability>
+          <Data_TileType template="GcTerrainTileType">
+            <Property_TileType>Base</Property_TileType>
+          </Data_TileType>
+          <Property_Options>
+            <Data_root template="NMSString0x80">
+              <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/CLAMSHELLPROPS.MBIN</Property_Value>
+            </Data_root>
+            <Data_root template="NMSString0x80">
+              <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/CLAMSHELLPROPS.MBIN</Property_Value>
+            </Data_root>
+            <Data_root template="NMSString0x80">
+              <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/CLAMSHELLPROPS.MBIN</Property_Value>
+            </Data_root>
+            <Data_root template="NMSString0x80">
+              <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/CLAMSHELLPROPS.MBIN</Property_Value>
+            </Data_root>
+          </Property_Options>
+          <Property_AllowLimiting>True</Property_AllowLimiting>
+        </Data_root>
+        <Data_root template="GcExternalObjectListOptions">
+          <Property_Name>URCHIN</Property_Name>
+          <Property_Probability>1</Property_Probability>
+          <Data_TileType template="GcTerrainTileType">
+            <Property_TileType>Base</Property_TileType>
+          </Data_TileType>
+          <Property_Options>
+            <Data_root template="NMSString0x80">
+              <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/LANDURCHINS.MBIN</Property_Value>
+            </Data_root>
+            <Data_root template="NMSString0x80">
+              <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/LANDURCHINS.MBIN</Property_Value>
+            </Data_root>
+            <Data_root template="NMSString0x80">
+              <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/LANDURCHINS.MBIN</Property_Value>
+            </Data_root>
+            <Data_root template="NMSString0x80">
+              <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/LANDURCHINS.MBIN</Property_Value>
+            </Data_root>
+          </Property_Options>
+          <Property_AllowLimiting>True</Property_AllowLimiting>
+        </Data_root>
+        <Data_root template="GcExternalObjectListOptions">
+          <Property_Name>METAL</Property_Name>
+          <Property_Probability>1</Property_Probability>
+          <Data_TileType template="GcTerrainTileType">
+            <Property_TileType>Base</Property_TileType>
+          </Data_TileType>
+          <Property_Options>
+            <Data_root template="NMSString0x80">
+              <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/METALFORMATION.MBIN</Property_Value>
+            </Data_root>
+            <Data_root template="NMSString0x80">
+              <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/METALFORMATION.MBIN</Property_Value>
+            </Data_root>
+            <Data_root template="NMSString0x80">
+              <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/METALFORMATION.MBIN</Property_Value>
+            </Data_root>
+            <Data_root template="NMSString0x80">
+              <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/METALFORMATION.MBIN</Property_Value>
+            </Data_root>
+          </Property_Options>
+          <Property_AllowLimiting>True</Property_AllowLimiting>
+        </Data_root>
+        <Data_root template="GcExternalObjectListOptions">
+          <Property_Name>CUBE</Property_Name>
+          <Property_Probability>1</Property_Probability>
+          <Data_TileType template="GcTerrainTileType">
+            <Property_TileType>Base</Property_TileType>
+          </Data_TileType>
+          <Property_Options>
+            <Data_root template="NMSString0x80">
+              <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/PICKUPCUBE.MBIN</Property_Value>
+            </Data_root>
+            <Data_root template="NMSString0x80">
+              <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/PICKUPCUBE.MBIN</Property_Value>
+            </Data_root>
+            <Data_root template="NMSString0x80">
+              <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/PICKUPCUBE.MBIN</Property_Value>
+            </Data_root>
+            <Data_root template="NMSString0x80">
+              <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/PICKUPCUBE.MBIN</Property_Value>
+            </Data_root>
+          </Property_Options>
+          <Property_AllowLimiting>True</Property_AllowLimiting>
+        </Data_root>
+        <Data_root template="GcExternalObjectListOptions">
+          <Property_Name>TENTACLE</Property_Name>
+          <Property_Probability>1</Property_Probability>
+          <Data_TileType template="GcTerrainTileType">
+            <Property_TileType>Base</Property_TileType>
+          </Data_TileType>
+          <Property_Options>
+            <Data_root template="NMSString0x80">
+              <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/PROXIMITYTENTACLEPROPS.MBIN</Property_Value>
+            </Data_root>
+            <Data_root template="NMSString0x80">
+              <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/PROXIMITYTENTACLEPROPS.MBIN</Property_Value>
+            </Data_root>
+            <Data_root template="NMSString0x80">
+              <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/PROXIMITYTENTACLEPROPS.MBIN</Property_Value>
+            </Data_root>
+            <Data_root template="NMSString0x80">
+              <Property_Value>METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/PROXIMITYTENTACLEPROPS.MBIN</Property_Value>
+            </Data_root>
+          </Property_Options>
+          <Property_AllowLimiting>True</Property_AllowLimiting>
+        </Data_root>
+      </Property_ExternalObjectFiles>
+    </Data_root>
+  </Property_OptionalExternalObjectLists>
+</Data_root>

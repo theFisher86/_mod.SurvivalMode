@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data_root template="GcBiomeListPerStarType">
+  <Property_StarType>
+    <Data_root template="GcBiomeList">
+      <Property_BiomeProbability>
+        <Property value="1" />
+        <Property value="1" />
+        <Property value="1" />
+        <Property value="1" />
+        <Property value="1" />
+        <Property value="1" />
+        <Property value="2" />
+        <Property value="0" />
+        <Property value="0" />
+      </Property_BiomeProbability>
+    </Data_root>
+    <Data_root template="GcBiomeList">
+      <Property_BiomeProbability>
+        <Property value="1" />
+        <Property value="1" />
+        <Property value="1" />
+        <Property value="1" />
+        <Property value="1" />
+        <Property value="1" />
+        <Property value="2" />
+        <Property value="0" />
+        <Property value="0" />
+      </Property_BiomeProbability>
+    </Data_root>
+    <Data_root template="GcBiomeList">
+      <Property_BiomeProbability>
+        <Property value="1" />
+        <Property value="1" />
+        <Property value="1" />
+        <Property value="1" />
+        <Property value="1" />
+        <Property value="1" />
+        <Property value="2" />
+        <Property value="0" />
+        <Property value="0" />
+      </Property_BiomeProbability>
+    </Data_root>
+    <Data_root template="GcBiomeList">
+      <Property_BiomeProbability>
+        <Property value="1" />
+        <Property value="1" />
+        <Property value="1" />
+        <Property value="1" />
+        <Property value="1" />
+        <Property value="1" />
+        <Property value="2" />
+        <Property value="0" />
+        <Property value="0" />
+      </Property_BiomeProbability>
+    </Data_root>
+  </Property_StarType>
+  <Property_LifeChance>
+    <Property value="0.25" />
+    <Property value="0.1" />
+    <Property value="0.1" />
+    <Property value="0.5" />
+  </Property_LifeChance>
+</Data_root>

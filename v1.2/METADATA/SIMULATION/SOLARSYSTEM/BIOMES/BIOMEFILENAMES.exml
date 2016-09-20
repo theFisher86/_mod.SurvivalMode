@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data template="GcBiomeFileList">
+  <Property name="BiomeFiles">
+    <Data template="NMSString0x80">
+      <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/LUSH/LUSHBIOME.MXML" />
+    </Data>
+    <Data template="NMSString0x80">
+      <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/TOXIC/TOXICBIOME.MXML" />
+    </Data>
+    <Data template="NMSString0x80">
+      <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/SCORCHED/SCORCHEDBIOME.MXML" />
+    </Data>
+    <Data template="NMSString0x80">
+      <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/RADIOACTIVE/RADIOACTIVEBIOME.MXML" />
+    </Data>
+    <Data template="NMSString0x80">
+      <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/FROZEN/FROZENBIOME.MXML" />
+    </Data>
+    <Data template="NMSString0x80">
+      <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/BARREN/BARRENBIOME.MXML" />
+    </Data>
+    <Data template="NMSString0x80">
+      <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/DEAD/DEADBIOME.MXML" />
+    </Data>
+    <Data template="NMSString0x80">
+      <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/LUSH/LUSHBIOME.MXML" />
+    </Data>
+    <Data template="NMSString0x80">
+      <Property name="Value" value="" />
+    </Data>
+  </Property>
+  <Property name="CommonExternalObjectLists">
+    <Data template="GcExternalObjectListOptions">
+      <Property name="Name" value="UNDERGROUND" />
+      <Property name="Probability" value="1" />
+      <Data name="TileType" template="GcTerrainTileType">
+        <Property name="TileType" value="Cave" />
+      </Data>
+      <Property name="Options">
+        <Data template="NMSString0x80">
+          <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/CAVE/CAVEBIOMEFULL.MBIN" />
+        </Data>
+        <Data template="NMSString0x80">
+          <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/CAVE/CAVEBIOMEFULL.MBIN" />
+        </Data>
+        <Data template="NMSString0x80">
+          <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/CAVE/CAVEBIOMEFULL.MBIN" />
+        </Data>
+        <Data template="NMSString0x80">
+          <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/CAVE/CAVEBIOMEFULL.MBIN" />
+        </Data>
+      </Property>
+      <Property name="AllowLimiting" value="True" />
+    </Data>
+    <Data template="GcExternalObjectListOptions">
+      <Property name="Name" value="UNDERWATER" />
+      <Property name="Probability" value="1" />
+      <Data name="TileType" template="GcTerrainTileType">
+        <Property name="TileType" value="Underwater" />
+      </Data>
+      <Property name="Options">
+        <Data template="NMSString0x80">
+          <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/UNDERWATER/UNDERWATERFULL.MBIN" />
+        </Data>
+        <Data template="NMSString0x80">
+          <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/UNDERWATER/UNDERWATERFULL.MBIN" />
+        </Data>
+        <Data template="NMSString0x80">
+          <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/UNDERWATER/UNDERWATERFULL.MBIN" />
+        </Data>
+        <Data template="NMSString0x80">
+          <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/UNDERWATER/UNDERWATERFULL.MBIN" />
+        </Data>
+      </Property>
+      <Property name="AllowLimiting" value="True" />
+    </Data>
+    <Data template="GcExternalObjectListOptions">
+      <Property name="Name" value="MOUNTAIN" />
+      <Property name="Probability" value="1" />
+      <Data name="TileType" template="GcTerrainTileType">
+        <Property name="TileType" value="Mountain" />
+      </Data>
+      <Property name="Options">
+        <Data template="NMSString0x80">
+          <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/MOUNTAIN/FULL.MBIN" />
+        </Data>
+        <Data template="NMSString0x80">
+          <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/MOUNTAIN/FULL.MBIN" />
+        </Data>
+        <Data template="NMSString0x80">
+          <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/MOUNTAIN/FULL.MBIN" />
+        </Data>
+        <Data template="NMSString0x80">
+          <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/MOUNTAIN/FULL.MBIN" />
+        </Data>
+      </Property>
+      <Property name="AllowLimiting" value="True" />
+    </Data>
+    <Data template="GcExternalObjectListOptions">
+      <Property name="Name" value="CRYSTALSCAVE" />
+      <Property name="Probability" value="1" />
+      <Data name="TileType" template="GcTerrainTileType">
+        <Property name="TileType" value="Cave" />
+      </Data>
+      <Property name="Options">
+        <Data template="NMSString0x80">
+          <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/CRYSTALS/CAVEFULL.MBIN" />
+        </Data>
+        <Data template="NMSString0x80">
+          <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/CRYSTALS/CAVEFULL.MBIN" />
+        </Data>
+        <Data template="NMSString0x80">
+          <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/CRYSTALS/CAVEFULL.MBIN" />
+        </Data>
+        <Data template="NMSString0x80">
+          <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/CRYSTALS/CAVEFULL.MBIN" />
+        </Data>
+      </Property>
+      <Property name="AllowLimiting" value="False" />
+    </Data>
+  </Property>
+  <Property name="OptionalExternalObjectLists">
+    <Data template="GcExternalObjectFileList">
+      <Property name="Id" value="WATER" />
+      <Property name="OnlyOnExtremeWeather" value="False" />
+      <Property name="OnlyOnExtremeSentinels" value="False" />
+      <Property name="OnlyOnDeepWater" value="False" />
+      <Property name="NotOnExtremePlanets" value="False" />
+      <Property name="NotOnStartPlanets" value="True" />
+      <Data name="Biome" template="GcBiomeType">
+        <Property name="Biome" value="All" />
+      </Data>
+      <Property name="ProbabilityOfBeingActive" value="0.125" />
+      <Property name="MinFilesToChoose" value="1" />
+      <Property name="MaxFilesToChoose" value="1" />
+      <Property name="ExternalObjectFiles">
+        <Data template="GcExternalObjectListOptions">
+          <Property name="Name" value="UNDERWATER" />
+          <Property name="Probability" value="1" />
+          <Data name="TileType" template="GcTerrainTileType">
+            <Property name="TileType" value="Underwater" />
+          </Data>
+          <Property name="Options">
+            <Data template="NMSString0x80">
+              <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/UNDERWATERSPHERES.MBIN" />
+            </Data>
+            <Data template="NMSString0x80">
+              <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/UNDERWATERSPHERES.MBIN" />
+            </Data>
+            <Data template="NMSString0x80">
+              <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/UNDERWATERSPHERES.MBIN" />
+            </Data>
+            <Data template="NMSString0x80">
+              <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/UNDERWATERSPHERES.MBIN" />
+            </Data>
+          </Property>
+          <Property name="AllowLimiting" value="True" />
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcExternalObjectFileList">
+      <Property name="Id" value="CAVE" />
+      <Property name="OnlyOnExtremeWeather" value="False" />
+      <Property name="OnlyOnExtremeSentinels" value="False" />
+      <Property name="OnlyOnDeepWater" value="False" />
+      <Property name="NotOnExtremePlanets" value="False" />
+      <Property name="NotOnStartPlanets" value="True" />
+      <Data name="Biome" template="GcBiomeType">
+        <Property name="Biome" value="All" />
+      </Data>
+      <Property name="ProbabilityOfBeingActive" value="0.125" />
+      <Property name="MinFilesToChoose" value="1" />
+      <Property name="MaxFilesToChoose" value="1" />
+      <Property name="ExternalObjectFiles">
+        <Data template="GcExternalObjectListOptions">
+          <Property name="Name" value="CAVECUBES" />
+          <Property name="Probability" value="1" />
+          <Data name="TileType" template="GcTerrainTileType">
+            <Property name="TileType" value="Cave" />
+          </Data>
+          <Property name="Options">
+            <Data template="NMSString0x80">
+              <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/CAVECUBES.MBIN" />
+            </Data>
+            <Data template="NMSString0x80">
+              <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/CAVECUBES.MBIN" />
+            </Data>
+            <Data template="NMSString0x80">
+              <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/CAVECUBES.MBIN" />
+            </Data>
+            <Data template="NMSString0x80">
+              <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/CAVECUBES.MBIN" />
+            </Data>
+          </Property>
+          <Property name="AllowLimiting" value="True" />
+        </Data>
+        <Data template="GcExternalObjectListOptions">
+          <Property name="Name" value="CAVEEGGS" />
+          <Property name="Probability" value="1" />
+          <Data name="TileType" template="GcTerrainTileType">
+            <Property name="TileType" value="Cave" />
+          </Data>
+          <Property name="Options">
+            <Data template="NMSString0x80">
+              <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/CAVEPROPS.MBIN" />
+            </Data>
+            <Data template="NMSString0x80">
+              <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/CAVEPROPS.MBIN" />
+            </Data>
+            <Data template="NMSString0x80">
+              <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/CAVEPROPS.MBIN" />
+            </Data>
+            <Data template="NMSString0x80">
+              <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/CAVEPROPS.MBIN" />
+            </Data>
+          </Property>
+          <Property name="AllowLimiting" value="True" />
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcExternalObjectFileList">
+      <Property name="Id" value="WEATHERLUSH" />
+      <Property name="OnlyOnExtremeWeather" value="True" />
+      <Property name="OnlyOnExtremeSentinels" value="False" />
+      <Property name="OnlyOnDeepWater" value="False" />
+      <Property name="NotOnExtremePlanets" value="False" />
+      <Property name="NotOnStartPlanets" value="True" />
+      <Data name="Biome" template="GcBiomeType">
+        <Property name="Biome" value="Lush" />
+      </Data>
+      <Property name="ProbabilityOfBeingActive" value="1" />
+      <Property name="MinFilesToChoose" value="1" />
+      <Property name="MaxFilesToChoose" value="1" />
+      <Property name="ExternalObjectFiles">
+        <Data template="GcExternalObjectListOptions">
+          <Property name="Name" value="FLOATINGPHYS" />
+          <Property name="Probability" value="1" />
+          <Data name="TileType" template="GcTerrainTileType">
+            <Property name="TileType" value="Base" />
+          </Data>
+          <Property name="Options">
+            <Data template="NMSString0x80">
+              <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/FLOATINGPHYSICS.MBIN" />
+            </Data>
+            <Data template="NMSString0x80">
+              <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/FLOATINGPHYSICS.MBIN" />
+            </Data>
+            <Data template="NMSString0x80">
+              <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/FLOATINGPHYSICS.MBIN" />
+            </Data>
+            <Data template="NMSString0x80">
+              <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/FLOATINGPHYSICS.MBIN" />
+            </Data>
+          </Property>
+          <Property name="AllowLimiting" value="True" />
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcExternalObjectFileList">
+      <Property name="Id" value="WEATHERTOX" />
+      <Property name="OnlyOnExtremeWeather" value="True" />
+      <Property name="OnlyOnExtremeSentinels" value="False" />
+      <Property name="OnlyOnDeepWater" value="False" />
+      <Property name="NotOnExtremePlanets" value="False" />
+      <Property name="NotOnStartPlanets" value="True" />
+      <Data name="Biome" template="GcBiomeType">
+        <Property name="Biome" value="Toxic" />
+      </Data>
+      <Property name="ProbabilityOfBeingActive" value="1" />
+      <Property name="MinFilesToChoose" value="1" />
+      <Property name="MaxFilesToChoose" value="1" />
+      <Property name="ExternalObjectFiles">
+        <Data template="GcExternalObjectListOptions">
+          <Property name="Name" value="PHYSICS" />
+          <Property name="Probability" value="1" />
+          <Data name="TileType" template="GcTerrainTileType">
+            <Property name="TileType" value="Base" />
+          </Data>
+          <Property name="Options">
+            <Data template="NMSString0x80">
+              <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/PHYSICSPROPS.MBIN" />
+            </Data>
+            <Data template="NMSString0x80">
+              <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/PHYSICSPROPS.MBIN" />
+            </Data>
+            <Data template="NMSString0x80">
+              <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/PHYSICSPROPS.MBIN" />
+            </Data>
+            <Data template="NMSString0x80">
+              <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/PHYSICSPROPS.MBIN" />
+            </Data>
+          </Property>
+          <Property name="AllowLimiting" value="True" />
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcExternalObjectFileList">
+      <Property name="Id" value="WEATHERHOT" />
+      <Property name="OnlyOnExtremeWeather" value="True" />
+      <Property name="OnlyOnExtremeSentinels" value="False" />
+      <Property name="OnlyOnDeepWater" value="False" />
+      <Property name="NotOnExtremePlanets" value="False" />
+      <Property name="NotOnStartPlanets" value="True" />
+      <Data name="Biome" template="GcBiomeType">
+        <Property name="Biome" value="Scorched" />
+      </Data>
+      <Property name="ProbabilityOfBeingActive" value="1" />
+      <Property name="MinFilesToChoose" value="1" />
+      <Property name="MaxFilesToChoose" value="1" />
+      <Property name="ExternalObjectFiles">
+        <Data template="GcExternalObjectListOptions">
+          <Property name="Name" value="GEMS" />
+          <Property name="Probability" value="1" />
+          <Data name="TileType" template="GcTerrainTileType">
+            <Property name="TileType" value="Base" />
+          </Data>
+          <Property name="Options">
+            <Data template="NMSString0x80">
+              <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/GEMPROPS.MBIN" />
+            </Data>
+            <Data template="NMSString0x80">
+              <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/GEMPROPS.MBIN" />
+            </Data>
+            <Data template="NMSString0x80">
+              <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/GEMPROPS.MBIN" />
+            </Data>
+            <Data template="NMSString0x80">
+              <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/GEMPROPS.MBIN" />
+            </Data>
+          </Property>
+          <Property name="AllowLimiting" value="True" />
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcExternalObjectFileList">
+      <Property name="Id" value="WEATHERRADIO" />
+      <Property name="OnlyOnExtremeWeather" value="True" />
+      <Property name="OnlyOnExtremeSentinels" value="False" />
+      <Property name="OnlyOnDeepWater" value="False" />
+      <Property name="NotOnExtremePlanets" value="False" />
+      <Property name="NotOnStartPlanets" value="True" />
+      <Data name="Biome" template="GcBiomeType">
+        <Property name="Biome" value="Radioactive" />
+      </Data>
+      <Property name="ProbabilityOfBeingActive" value="1" />
+      <Property name="MinFilesToChoose" value="1" />
+      <Property name="MaxFilesToChoose" value="1" />
+      <Property name="ExternalObjectFiles">
+        <Data template="GcExternalObjectListOptions">
+          <Property name="Name" value="PHYSICSSPOREPRO" />
+          <Property name="Probability" value="1" />
+          <Data name="TileType" template="GcTerrainTileType">
+            <Property name="TileType" value="Base" />
+          </Data>
+          <Property name="Options">
+            <Data template="NMSString0x80">
+              <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/PHYSICSSPOREPROPS.MBIN" />
+            </Data>
+            <Data template="NMSString0x80">
+              <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/PHYSICSSPOREPROPS.MBIN" />
+            </Data>
+            <Data template="NMSString0x80">
+              <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/PHYSICSSPOREPROPS.MBIN" />
+            </Data>
+            <Data template="NMSString0x80">
+              <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/PHYSICSSPOREPROPS.MBIN" />
+            </Data>
+          </Property>
+          <Property name="AllowLimiting" value="True" />
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcExternalObjectFileList">
+      <Property name="Id" value="WEATHERCOLD" />
+      <Property name="OnlyOnExtremeWeather" value="True" />
+      <Property name="OnlyOnExtremeSentinels" value="False" />
+      <Property name="OnlyOnDeepWater" value="False" />
+      <Property name="NotOnExtremePlanets" value="False" />
+      <Property name="NotOnStartPlanets" value="True" />
+      <Data name="Biome" template="GcBiomeType">
+        <Property name="Biome" value="Frozen" />
+      </Data>
+      <Property name="ProbabilityOfBeingActive" value="1" />
+      <Property name="MinFilesToChoose" value="1" />
+      <Property name="MaxFilesToChoose" value="1" />
+      <Property name="ExternalObjectFiles">
+        <Data template="GcExternalObjectListOptions">
+          <Property name="Name" value="FLOATINGPROPS" />
+          <Property name="Probability" value="1" />
+          <Data name="TileType" template="GcTerrainTileType">
+            <Property name="TileType" value="Base" />
+          </Data>
+          <Property name="Options">
+            <Data template="NMSString0x80">
+              <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/FLOATINGPROPS.MBIN" />
+            </Data>
+            <Data template="NMSString0x80">
+              <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/FLOATINGPROPS.MBIN" />
+            </Data>
+            <Data template="NMSString0x80">
+              <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/FLOATINGPROPS.MBIN" />
+            </Data>
+            <Data template="NMSString0x80">
+              <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/FLOATINGPROPS.MBIN" />
+            </Data>
+          </Property>
+          <Property name="AllowLimiting" value="True" />
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcExternalObjectFileList">
+      <Property name="Id" value="WEATHERBARREN" />
+      <Property name="OnlyOnExtremeWeather" value="True" />
+      <Property name="OnlyOnExtremeSentinels" value="False" />
+      <Property name="OnlyOnDeepWater" value="False" />
+      <Property name="NotOnExtremePlanets" value="False" />
+      <Property name="NotOnStartPlanets" value="True" />
+      <Data name="Biome" template="GcBiomeType">
+        <Property name="Biome" value="Barren" />
+      </Data>
+      <Property name="ProbabilityOfBeingActive" value="1" />
+      <Property name="MinFilesToChoose" value="1" />
+      <Property name="MaxFilesToChoose" value="1" />
+      <Property name="ExternalObjectFiles">
+        <Data template="GcExternalObjectListOptions">
+          <Property name="Name" value="RARECRYSTALPROP" />
+          <Property name="Probability" value="1" />
+          <Data name="TileType" template="GcTerrainTileType">
+            <Property name="TileType" value="Base" />
+          </Data>
+          <Property name="Options">
+            <Data template="NMSString0x80">
+              <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/RARECRYSTALPROPS.MBIN" />
+            </Data>
+            <Data template="NMSString0x80">
+              <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/RARECRYSTALPROPS.MBIN" />
+            </Data>
+            <Data template="NMSString0x80">
+              <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/RARECRYSTALPROPS.MBIN" />
+            </Data>
+            <Data template="NMSString0x80">
+              <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/RARECRYSTALPROPS.MBIN" />
+            </Data>
+          </Property>
+          <Property name="AllowLimiting" value="True" />
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcExternalObjectFileList">
+      <Property name="Id" value="DRONE" />
+      <Property name="OnlyOnExtremeWeather" value="False" />
+      <Property name="OnlyOnExtremeSentinels" value="True" />
+      <Property name="OnlyOnDeepWater" value="False" />
+      <Property name="NotOnExtremePlanets" value="False" />
+      <Property name="NotOnStartPlanets" value="True" />
+      <Data name="Biome" template="GcBiomeType">
+        <Property name="Biome" value="All" />
+      </Data>
+      <Property name="ProbabilityOfBeingActive" value="1" />
+      <Property name="MinFilesToChoose" value="1" />
+      <Property name="MaxFilesToChoose" value="1" />
+      <Property name="ExternalObjectFiles">
+        <Data template="GcExternalObjectListOptions">
+          <Property name="Name" value="PROXIMITY" />
+          <Property name="Probability" value="1" />
+          <Data name="TileType" template="GcTerrainTileType">
+            <Property name="TileType" value="Base" />
+          </Data>
+          <Property name="Options">
+            <Data template="NMSString0x80">
+              <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/PROXIMITYPROPS.MBIN" />
+            </Data>
+            <Data template="NMSString0x80">
+              <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/PROXIMITYPROPS.MBIN" />
+            </Data>
+            <Data template="NMSString0x80">
+              <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/PROXIMITYPROPS.MBIN" />
+            </Data>
+            <Data template="NMSString0x80">
+              <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/PROXIMITYPROPS.MBIN" />
+            </Data>
+          </Property>
+          <Property name="AllowLimiting" value="True" />
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcExternalObjectFileList">
+      <Property name="Id" value="RARE" />
+      <Property name="OnlyOnExtremeWeather" value="False" />
+      <Property name="OnlyOnExtremeSentinels" value="False" />
+      <Property name="OnlyOnDeepWater" value="False" />
+      <Property name="NotOnExtremePlanets" value="True" />
+      <Property name="NotOnStartPlanets" value="True" />
+      <Data name="Biome" template="GcBiomeType">
+        <Property name="Biome" value="All" />
+      </Data>
+      <Property name="ProbabilityOfBeingActive" value="0.125" />
+      <Property name="MinFilesToChoose" value="1" />
+      <Property name="MaxFilesToChoose" value="1" />
+      <Property name="ExternalObjectFiles">
+        <Data template="GcExternalObjectListOptions">
+          <Property name="Name" value="CLAM" />
+          <Property name="Probability" value="1" />
+          <Data name="TileType" template="GcTerrainTileType">
+            <Property name="TileType" value="Base" />
+          </Data>
+          <Property name="Options">
+            <Data template="NMSString0x80">
+              <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/CLAMSHELLPROPS.MBIN" />
+            </Data>
+            <Data template="NMSString0x80">
+              <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/CLAMSHELLPROPS.MBIN" />
+            </Data>
+            <Data template="NMSString0x80">
+              <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/CLAMSHELLPROPS.MBIN" />
+            </Data>
+            <Data template="NMSString0x80">
+              <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/CLAMSHELLPROPS.MBIN" />
+            </Data>
+          </Property>
+          <Property name="AllowLimiting" value="True" />
+        </Data>
+        <Data template="GcExternalObjectListOptions">
+          <Property name="Name" value="URCHIN" />
+          <Property name="Probability" value="1" />
+          <Data name="TileType" template="GcTerrainTileType">
+            <Property name="TileType" value="Base" />
+          </Data>
+          <Property name="Options">
+            <Data template="NMSString0x80">
+              <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/LANDURCHINS.MBIN" />
+            </Data>
+            <Data template="NMSString0x80">
+              <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/LANDURCHINS.MBIN" />
+            </Data>
+            <Data template="NMSString0x80">
+              <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/LANDURCHINS.MBIN" />
+            </Data>
+            <Data template="NMSString0x80">
+              <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/LANDURCHINS.MBIN" />
+            </Data>
+          </Property>
+          <Property name="AllowLimiting" value="True" />
+        </Data>
+        <Data template="GcExternalObjectListOptions">
+          <Property name="Name" value="METAL" />
+          <Property name="Probability" value="1" />
+          <Data name="TileType" template="GcTerrainTileType">
+            <Property name="TileType" value="Base" />
+          </Data>
+          <Property name="Options">
+            <Data template="NMSString0x80">
+              <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/METALFORMATION.MBIN" />
+            </Data>
+            <Data template="NMSString0x80">
+              <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/METALFORMATION.MBIN" />
+            </Data>
+            <Data template="NMSString0x80">
+              <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/METALFORMATION.MBIN" />
+            </Data>
+            <Data template="NMSString0x80">
+              <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/METALFORMATION.MBIN" />
+            </Data>
+          </Property>
+          <Property name="AllowLimiting" value="True" />
+        </Data>
+        <Data template="GcExternalObjectListOptions">
+          <Property name="Name" value="CUBE" />
+          <Property name="Probability" value="1" />
+          <Data name="TileType" template="GcTerrainTileType">
+            <Property name="TileType" value="Base" />
+          </Data>
+          <Property name="Options">
+            <Data template="NMSString0x80">
+              <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/PICKUPCUBE.MBIN" />
+            </Data>
+            <Data template="NMSString0x80">
+              <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/PICKUPCUBE.MBIN" />
+            </Data>
+            <Data template="NMSString0x80">
+              <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/PICKUPCUBE.MBIN" />
+            </Data>
+            <Data template="NMSString0x80">
+              <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/PICKUPCUBE.MBIN" />
+            </Data>
+          </Property>
+          <Property name="AllowLimiting" value="True" />
+        </Data>
+        <Data template="GcExternalObjectListOptions">
+          <Property name="Name" value="TENTACLE" />
+          <Property name="Probability" value="1" />
+          <Data name="TileType" template="GcTerrainTileType">
+            <Property name="TileType" value="Base" />
+          </Data>
+          <Property name="Options">
+            <Data template="NMSString0x80">
+              <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/PROXIMITYTENTACLEPROPS.MBIN" />
+            </Data>
+            <Data template="NMSString0x80">
+              <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/PROXIMITYTENTACLEPROPS.MBIN" />
+            </Data>
+            <Data template="NMSString0x80">
+              <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/PROXIMITYTENTACLEPROPS.MBIN" />
+            </Data>
+            <Data template="NMSString0x80">
+              <Property name="Value" value="METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS/RARE/PROXIMITYTENTACLEPROPS.MBIN" />
+            </Data>
+          </Property>
+          <Property name="AllowLimiting" value="True" />
+        </Data>
+      </Property>
+    </Data>
+  </Property>
+</Data>

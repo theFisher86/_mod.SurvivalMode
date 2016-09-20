@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data template="GcSelectableObjectTable">
+  <Property name="Lists">
+    <Data template="GcSelectableObjectList">
+      <Property name="Name" value="RESOURCEIRON" />
+      <Data name="Race" template="GcAlienRace">
+        <Property name="AlienRace" value="None" />
+      </Data>
+      <Property name="Options">
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/CRATE/CRATE_MEDIUM.SCENE.MBIN" />
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcSelectableObjectList">
+      <Property name="Name" value="RESOURCESMALL" />
+      <Data name="Race" template="GcAlienRace">
+        <Property name="AlienRace" value="None" />
+      </Data>
+      <Property name="Options">
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/CRATE/CRATE_SMALLB_RARE.SCENE.MBIN" />
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcSelectableObjectList">
+      <Property name="Name" value="RESOURCEMEDIUM" />
+      <Data name="Race" template="GcAlienRace">
+        <Property name="AlienRace" value="None" />
+      </Data>
+      <Property name="Options">
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/CRATE/CRATE_MEDIUM.SCENE.MBIN" />
+        </Data>
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/BARREL/BARREL_MEDIUM.SCENE.MBIN" />
+        </Data>
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/CRATE/CRATE_SMALLA.SCENE.MBIN" />
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcSelectableObjectList">
+      <Property name="Name" value="RESOURCELARGE" />
+      <Data name="Race" template="GcAlienRace">
+        <Property name="AlienRace" value="None" />
+      </Data>
+      <Property name="Options">
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/CRATE/CRATE_LARGE_RARE.SCENE.MBIN" />
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcSelectableObjectList">
+      <Property name="Name" value="RESOURCEDEBRIS" />
+      <Data name="Race" template="GcAlienRace">
+        <Property name="AlienRace" value="None" />
+      </Data>
+      <Property name="Options">
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/DEBRIS/DEBRISWARRIOR_RARE.SCENE.MBIN" />
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcSelectableObjectList">
+      <Property name="Name" value="PROPPLANTSMALL" />
+      <Data name="Race" template="GcAlienRace">
+        <Property name="AlienRace" value="None" />
+      </Data>
+      <Property name="Options">
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/PROPS/PLANTS/SMALLPLANT.SCENE.MBIN" />
+        </Data>
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/PROPS/PLANTS/SMALLPLANT.SCENE.MBIN" />
+        </Data>
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/PROPS/PLANTS/SMALLPLANT.SCENE.MBIN" />
+        </Data>
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/PROPS/PLANTS/SMALLPLANT.SCENE.MBIN" />
+        </Data>
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/PROPS/PLANTS/SMALLPLANT.SCENE.MBIN" />
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcSelectableObjectList">
+      <Property name="Name" value="PROPPLANTMEDIUM" />
+      <Data name="Race" template="GcAlienRace">
+        <Property name="AlienRace" value="None" />
+      </Data>
+      <Property name="Options">
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/PROPS/PLANTS/MEDIUMPLANT.SCENE.MBIN" />
+        </Data>
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/PROPS/PLANTS/MEDIUMPLANT.SCENE.MBIN" />
+        </Data>
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/PROPS/PLANTS/MEDIUMPLANT.SCENE.MBIN" />
+        </Data>
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/PROPS/PLANTS/MEDIUMPLANT.SCENE.MBIN" />
+        </Data>
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/PROPS/PLANTS/MEDIUMPLANT.SCENE.MBIN" />
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcSelectableObjectList">
+      <Property name="Name" value="PROPPLANTLARGE" />
+      <Data name="Race" template="GcAlienRace">
+        <Property name="AlienRace" value="None" />
+      </Data>
+      <Property name="Options">
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/PROPS/PLANTS/LARGEPLANT.SCENE.MBIN" />
+        </Data>
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/PROPS/PLANTS/LARGEPLANT.SCENE.MBIN" />
+        </Data>
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/PROPS/PLANTS/LARGEPLANT.SCENE.MBIN" />
+        </Data>
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/PROPS/PLANTS/LARGEPLANT.SCENE.MBIN" />
+        </Data>
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/PROPS/PLANTS/LARGEPLANT.SCENE.MBIN" />
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcSelectableObjectList">
+      <Property name="Name" value="PROPTABLECHAIR" />
+      <Data name="Race" template="GcAlienRace">
+        <Property name="AlienRace" value="None" />
+      </Data>
+      <Property name="Options">
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/PROPS/CHAIRS/TABLECHAIR.SCENE.MBIN" />
+        </Data>
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/PROPS/CHAIRS/TABLECHAIR.SCENE.MBIN" />
+        </Data>
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/PROPS/CHAIRS/TABLECHAIR.SCENE.MBIN" />
+        </Data>
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/PROPS/CHAIRS/TABLECHAIR.SCENE.MBIN" />
+        </Data>
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/PROPS/CHAIRS/TABLECHAIR.SCENE.MBIN" />
+        </Data>
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/PROPS/CHAIRS/TABLECHAIR.SCENE.MBIN" />
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcSelectableObjectList">
+      <Property name="Name" value="PROPROUNDTABLE" />
+      <Data name="Race" template="GcAlienRace">
+        <Property name="AlienRace" value="None" />
+      </Data>
+      <Property name="Options">
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/PROPS/TABLE/ROUNDTABLE.SCENE.MBIN" />
+        </Data>
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/PROPS/TABLE/ROUNDTABLE.SCENE.MBIN" />
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcSelectableObjectList">
+      <Property name="Name" value="PROPSTANDINGLIG" />
+      <Data name="Race" template="GcAlienRace">
+        <Property name="AlienRace" value="None" />
+      </Data>
+      <Property name="Options">
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/PROPS/STANDINGLIGHTS/STANDINGLIGHTS.SCENE.MBIN" />
+        </Data>
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/PROPS/STANDINGLIGHTS/STANDINGLIGHTS.SCENE.MBIN" />
+        </Data>
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/PROPS/STANDINGLIGHTS/STANDINGLIGHTS.SCENE.MBIN" />
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcSelectableObjectList">
+      <Property name="Name" value="PROPCORNERTABLE" />
+      <Data name="Race" template="GcAlienRace">
+        <Property name="AlienRace" value="None" />
+      </Data>
+      <Property name="Options">
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/PROPS/TABLE/CORNERTABLE.SCENE.MBIN" />
+        </Data>
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/PROPS/TABLE/CORNERTABLE.SCENE.MBIN" />
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcSelectableObjectList">
+      <Property name="Name" value="PROPWDRAPE" />
+      <Data name="Race" template="GcAlienRace">
+        <Property name="AlienRace" value="None" />
+      </Data>
+      <Property name="Options">
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/PROPS/HANGINGDRAPES/WARRIORWALLDRAPE.SCENE.MBIN" />
+        </Data>
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/PROPS/HANGINGDRAPES/WARRIORWALLDRAPE.SCENE.MBIN" />
+        </Data>
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/PROPS/HANGINGDRAPES/WARRIORWALLDRAPE.SCENE.MBIN" />
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcSelectableObjectList">
+      <Property name="Name" value="PROPTDRAPE" />
+      <Data name="Race" template="GcAlienRace">
+        <Property name="AlienRace" value="None" />
+      </Data>
+      <Property name="Options">
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/PROPS/HANGINGDRAPES/TRADERWALLDRAPE.SCENE.MBIN" />
+        </Data>
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/PROPS/HANGINGDRAPES/TRADERWALLDRAPE.SCENE.MBIN" />
+        </Data>
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/PROPS/HANGINGDRAPES/TRADERWALLDRAPE.SCENE.MBIN" />
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcSelectableObjectList">
+      <Property name="Name" value="PROPSDRAPE" />
+      <Data name="Race" template="GcAlienRace">
+        <Property name="AlienRace" value="None" />
+      </Data>
+      <Property name="Options">
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/PROPS/HANGINGDRAPES/WALLDRAPE.SCENE.MBIN" />
+        </Data>
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/PROPS/HANGINGDRAPES/WALLDRAPE.SCENE.MBIN" />
+        </Data>
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/PROPS/HANGINGDRAPES/WALLDRAPE.SCENE.MBIN" />
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcSelectableObjectList">
+      <Property name="Name" value="PROPSCHAIR" />
+      <Data name="Race" template="GcAlienRace">
+        <Property name="AlienRace" value="None" />
+      </Data>
+      <Property name="Options">
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/PROPS/CHAIRS/CHAIR.SCENE.MBIN" />
+        </Data>
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/PROPS/CHAIRS/CHAIR.SCENE.MBIN" />
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcSelectableObjectList">
+      <Property name="Name" value="PROPWEAPON" />
+      <Data name="Race" template="GcAlienRace">
+        <Property name="AlienRace" value="None" />
+      </Data>
+      <Property name="Options">
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/PROPS/GUNPARTS/GUNPARTS.SCENE.MBIN" />
+        </Data>
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/PROPS/GUNPARTS/GUNPARTS.SCENE.MBIN" />
+        </Data>
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/PROPS/GUNPARTS/GUNPARTS.SCENE.MBIN" />
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcSelectableObjectList">
+      <Property name="Name" value="NPCSCISTAND" />
+      <Data name="Race" template="GcAlienRace">
+        <Property name="AlienRace" value="Explorers" />
+      </Data>
+      <Property name="Options">
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/NPCS/EXPLORER/EXPLORERSTAND.SCENE.MBIN" />
+        </Data>
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/NPCS/EXPLORER/EXPLORERSTAND.SCENE.MBIN" />
+        </Data>
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/NPCS/EXPLORER/EXPLORERSTAND.SCENE.MBIN" />
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcSelectableObjectList">
+      <Property name="Name" value="NPCTRADERSTAND" />
+      <Data name="Race" template="GcAlienRace">
+        <Property name="AlienRace" value="Traders" />
+      </Data>
+      <Property name="Options">
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/NPCS/LOWERORDER/LOWERORDERSTAND.SCENE.MBIN" />
+        </Data>
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/NPCS/LOWERORDER/LOWERORDERSTAND.SCENE.MBIN" />
+        </Data>
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/NPCS/LOWERORDER/LOWERORDERSTAND.SCENE.MBIN" />
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcSelectableObjectList">
+      <Property name="Name" value="NPCWARRIORSTAND" />
+      <Data name="Race" template="GcAlienRace">
+        <Property name="AlienRace" value="Warriors" />
+      </Data>
+      <Property name="Options">
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/NPCS/WARRIOR/WARRIORSTAND.SCENE.MBIN" />
+        </Data>
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/NPCS/WARRIOR/WARRIORSTAND.SCENE.MBIN" />
+        </Data>
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/NPCS/WARRIOR/WARRIORSTAND.SCENE.MBIN" />
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcSelectableObjectList">
+      <Property name="Name" value="PROPWAITCHAIR" />
+      <Data name="Race" template="GcAlienRace">
+        <Property name="AlienRace" value="None" />
+      </Data>
+      <Property name="Options">
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/PROPS/CHAIRS/WAITINGROOMCHAIR.SCENE.MBIN" />
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcSelectableObjectList">
+      <Property name="Name" value="PROPSMALL" />
+      <Data name="Race" template="GcAlienRace">
+        <Property name="AlienRace" value="None" />
+      </Data>
+      <Property name="Options">
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/PROPS/SMALLPROPS/SMALLPROPC.SCENE.MBIN" />
+        </Data>
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/PROPS/SMALLPROPS/SMALLPROPB.SCENE.MBIN" />
+        </Data>
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/PROPS/SMALLPROPS/SMALLPROPA.SCENE.MBIN" />
+        </Data>
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/PROPS/SMALLPROPS/SMALLPROPPAD.SCENE.MBIN" />
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcSelectableObjectList">
+      <Property name="Name" value="ATLASORB" />
+      <Data name="Race" template="GcAlienRace">
+        <Property name="AlienRace" value="None" />
+      </Data>
+      <Property name="Options">
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/SPACE/ATLASSTATION/MODULARPARTS/INTERIOR/INTERACTIONSTONE/INTERACTIONSTONE_1.SCENE.MBIN" />
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcSelectableObjectList">
+      <Property name="Name" value="PATHORB" />
+      <Data name="Race" template="GcAlienRace">
+        <Property name="AlienRace" value="None" />
+      </Data>
+      <Property name="Options">
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/SPACE/ATLASSTATION/MODULARPARTS/INTERIOR/PATHORB/PATHORB.SCENE.MBIN" />
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcSelectableObjectList">
+      <Property name="Name" value="PATHDISK" />
+      <Data name="Race" template="GcAlienRace">
+        <Property name="AlienRace" value="None" />
+      </Data>
+      <Property name="Options">
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/SPACE/ATLASSTATION/MODULARPARTS/INTERIOR/PATHDISK.SCENE.MBIN" />
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcSelectableObjectList">
+      <Property name="Name" value="DISKFAKE" />
+      <Data name="Race" template="GcAlienRace">
+        <Property name="AlienRace" value="None" />
+      </Data>
+      <Property name="Options">
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/SPACE/ATLASSTATION/MODULARPARTS/INTERIOR/PATHDISK_DUMMY.SCENE.MBIN" />
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcSelectableObjectList">
+      <Property name="Name" value="ORBFAKE" />
+      <Data name="Race" template="GcAlienRace">
+        <Property name="AlienRace" value="None" />
+      </Data>
+      <Property name="Options">
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/SPACE/ATLASSTATION/MODULARPARTS/INTERIOR/PATHORB/PATHORB_DUMMY.SCENE.MBIN" />
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcSelectableObjectList">
+      <Property name="Name" value="WORDSTONE" />
+      <Data name="Race" template="GcAlienRace">
+        <Property name="AlienRace" value="None" />
+      </Data>
+      <Property name="Options">
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/PARTS/RUINPARTS/WORDSTONE.SCENE.MBIN" />
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcSelectableObjectList">
+      <Property name="Name" value="CAVEEGG" />
+      <Data name="Race" template="GcAlienRace">
+        <Property name="AlienRace" value="None" />
+      </Data>
+      <Property name="Options">
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/RARERESOURCE/CAVE/EGGRESOURCE.SCENE.MBIN" />
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcSelectableObjectList">
+      <Property name="Name" value="PROPROCKMEDIUM" />
+      <Data name="Race" template="GcAlienRace">
+        <Property name="AlienRace" value="None" />
+      </Data>
+      <Property name="Options">
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/ROCKS/MEDIUM/MEDIUMROCK.SCENE.MBIN" />
+        </Data>
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/ROCKS/MEDIUM/MEDIUMROCK.SCENE.MBIN" />
+        </Data>
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/ROCKS/MEDIUM/MEDIUMROCK.SCENE.MBIN" />
+        </Data>
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/ROCKS/MEDIUM/MEDIUMROCK.SCENE.MBIN" />
+        </Data>
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/ROCKS/MEDIUM/MEDIUMROCK.SCENE.MBIN" />
+        </Data>
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/ROCKS/MEDIUM/MEDIUMROCK.SCENE.MBIN" />
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcSelectableObjectList">
+      <Property name="Name" value="PROPROCKFRAGMEN" />
+      <Data name="Race" template="GcAlienRace">
+        <Property name="AlienRace" value="None" />
+      </Data>
+      <Property name="Options">
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/ROCKS/SMALL/FRAGMENTS.SCENE.MBIN" />
+        </Data>
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/ROCKS/SMALL/FRAGMENTS.SCENE.MBIN" />
+        </Data>
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/ROCKS/SMALL/FRAGMENTS.SCENE.MBIN" />
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcSelectableObjectList">
+      <Property name="Name" value="PROPGRASS" />
+      <Data name="Race" template="GcAlienRace">
+        <Property name="AlienRace" value="None" />
+      </Data>
+      <Property name="Options">
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/GRASS/CROSSGRASS.SCENE.MBIN" />
+        </Data>
+      </Property>
+    </Data>
+    <Data template="GcSelectableObjectList">
+      <Property name="Name" value="PROPJUNKCRATE" />
+      <Data name="Race" template="GcAlienRace">
+        <Property name="AlienRace" value="None" />
+      </Data>
+      <Property name="Options">
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/PROPS/WORKSHOP/SMALLJUNKCRATE.SCENE.MBIN" />
+        </Data>
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/PROPS/WORKSHOP/SMALLJUNKCRATE.SCENE.MBIN" />
+        </Data>
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/PROPS/WORKSHOP/SMALLJUNKCRATE.SCENE.MBIN" />
+        </Data>
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/PROPS/WORKSHOP/SMALLJUNKCRATE.SCENE.MBIN" />
+        </Data>
+        <Data template="GcSelectableObjectData">
+          <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/PROPS/WORKSHOP/SMALLJUNKCRATE.SCENE.MBIN" />
+        </Data>
+      </Property>
+    </Data>
+  </Property>
+</Data>

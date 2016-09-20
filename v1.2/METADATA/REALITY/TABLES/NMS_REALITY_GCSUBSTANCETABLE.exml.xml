@@ -1,0 +1,1006 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data_root template="GcSubstanceTable">
+  <Property_Table>
+    <Data_root template="GcSubstanceData">
+      <Property_Name>TECH1_NAME</Property_Name>
+      <Property_NameLower>TECH1_NAME_L</Property_NameLower>
+      <Property_Id>TECH1</Property_Id>
+      <Property_Symbol>TECH1_SYMBOL</Property_Symbol>
+      <Data_Icon template="TkTextureResource">
+        <Property_Filename>TEXTURES/UI/FRONTEND/ICONS/SUBSTANCES/SUBSTANCE.TECH.COMMON1.DDS</Property_Filename>
+      </Data_Icon>
+      <Data_Debris template="TkModelResource">
+        <Property_Filename>MODELS/EFFECTS/DEBRIS/TECHDEBRIS.SCENE.MBIN</Property_Filename>
+      </Data_Debris>
+      <Data_Subtitle template="VariableSizeString">
+        <Property_Value>TECH1_SUBTITLE</Property_Value>
+      </Data_Subtitle>
+      <Data_Description template="VariableSizeString">
+        <Property_Value>TECH1_DESCRIPTION</Property_Value>
+      </Data_Description>
+      <Data_Colour template="Colour">
+        <Property_R>0.003921569</Property_R>
+        <Property_G>0.2862745</Property_G>
+        <Property_B>0.6392157</Property_B>
+        <Property_A>1</Property_A>
+      </Data_Colour>
+      <Data_WorldColour template="Colour">
+        <Property_R>0.1176471</Property_R>
+        <Property_G>0.6392157</Property_G>
+        <Property_B>0.9333333</Property_B>
+        <Property_A>1</Property_A>
+      </Data_WorldColour>
+      <Property_BaseValue>20</Property_BaseValue>
+      <Data_SubstanceCategory template="GcRealitySubstanceCategory">
+        <Property_SubstanceCategory>Technology</Property_SubstanceCategory>
+      </Data_SubstanceCategory>
+      <Data_Rarity template="GcRarity">
+        <Property_Rarity>Common</Property_Rarity>
+      </Data_Rarity>
+      <Data_Legality template="GcLegality">
+        <Property_Legality>Legal</Property_Legality>
+      </Data_Legality>
+      <Property_ChargeValue>1</Property_ChargeValue>
+      <Data_Cost template="GcItemPriceModifiers">
+        <Property_SpaceStationMarkup>0</Property_SpaceStationMarkup>
+        <Property_LowPriceMod>0.25</Property_LowPriceMod>
+        <Property_HighPriceMod>0.5</Property_HighPriceMod>
+        <Property_BuyBaseMarkup>0.25</Property_BuyBaseMarkup>
+        <Property_BuyMarkupMod>0</Property_BuyMarkupMod>
+      </Data_Cost>
+      <Property_NormalisedValueOnWorld>0.00030003</Property_NormalisedValueOnWorld>
+      <Property_NormalisedValueOffWorld>0.00030003</Property_NormalisedValueOffWorld>
+    </Data_root>
+    <Data_root template="GcSubstanceData">
+      <Property_Name>TECHUNCOMMON1_NAME</Property_Name>
+      <Property_NameLower>TECHUNCOMMON1_NAME_L</Property_NameLower>
+      <Property_Id>TECHUNCOMMON1</Property_Id>
+      <Property_Symbol>TECHUNCOMMON1_SYMBOL</Property_Symbol>
+      <Data_Icon template="TkTextureResource">
+        <Property_Filename>TEXTURES/UI/FRONTEND/ICONS/SUBSTANCES/SUBSTANCE.TECH.UNCOMMON1.DDS</Property_Filename>
+      </Data_Icon>
+      <Data_Debris template="TkModelResource">
+        <Property_Filename>MODELS/EFFECTS/DEBRIS/TECHDEBRIS.SCENE.MBIN</Property_Filename>
+      </Data_Debris>
+      <Data_Subtitle template="VariableSizeString">
+        <Property_Value>TECHUNCOMMON1_SUBTITLE</Property_Value>
+      </Data_Subtitle>
+      <Data_Description template="VariableSizeString">
+        <Property_Value>TECHUNCOMMON1_DESCRIPTION</Property_Value>
+      </Data_Description>
+      <Data_Colour template="Colour">
+        <Property_R>0.003921569</Property_R>
+        <Property_G>0.2862745</Property_G>
+        <Property_B>0.6392157</Property_B>
+        <Property_A>1</Property_A>
+      </Data_Colour>
+      <Data_WorldColour template="Colour">
+        <Property_R>0.1176471</Property_R>
+        <Property_G>0.6392157</Property_G>
+        <Property_B>0.9333333</Property_B>
+        <Property_A>1</Property_A>
+      </Data_WorldColour>
+      <Property_BaseValue>40</Property_BaseValue>
+      <Data_SubstanceCategory template="GcRealitySubstanceCategory">
+        <Property_SubstanceCategory>Technology</Property_SubstanceCategory>
+      </Data_SubstanceCategory>
+      <Data_Rarity template="GcRarity">
+        <Property_Rarity>Uncommon</Property_Rarity>
+      </Data_Rarity>
+      <Data_Legality template="GcLegality">
+        <Property_Legality>Legal</Property_Legality>
+      </Data_Legality>
+      <Property_ChargeValue>2</Property_ChargeValue>
+      <Data_Cost template="GcItemPriceModifiers">
+        <Property_SpaceStationMarkup>0</Property_SpaceStationMarkup>
+        <Property_LowPriceMod>0.25</Property_LowPriceMod>
+        <Property_HighPriceMod>0.5</Property_HighPriceMod>
+        <Property_BuyBaseMarkup>0.25</Property_BuyBaseMarkup>
+        <Property_BuyMarkupMod>0</Property_BuyMarkupMod>
+      </Data_Cost>
+      <Property_NormalisedValueOnWorld>0.00070007</Property_NormalisedValueOnWorld>
+      <Property_NormalisedValueOffWorld>0.00070007</Property_NormalisedValueOffWorld>
+    </Data_root>
+    <Data_root template="GcSubstanceData">
+      <Property_Name>TECHRARE1_NAME</Property_Name>
+      <Property_NameLower>TECHRARE1_NAME_L</Property_NameLower>
+      <Property_Id>TECHRARE1</Property_Id>
+      <Property_Symbol>TECHRARE1_SYMBOL</Property_Symbol>
+      <Data_Icon template="TkTextureResource">
+        <Property_Filename>TEXTURES/UI/FRONTEND/ICONS/SUBSTANCES/SUBSTANCE.TECH.RARE1.DDS</Property_Filename>
+      </Data_Icon>
+      <Data_Debris template="TkModelResource">
+        <Property_Filename>MODELS/EFFECTS/DEBRIS/TECHDEBRIS.SCENE.MBIN</Property_Filename>
+      </Data_Debris>
+      <Data_Subtitle template="VariableSizeString">
+        <Property_Value>TECHRARE1_SUBTITLE</Property_Value>
+      </Data_Subtitle>
+      <Data_Description template="VariableSizeString">
+        <Property_Value>TECHRARE1_DESCRIPTION</Property_Value>
+      </Data_Description>
+      <Data_Colour template="Colour">
+        <Property_R>0.003921569</Property_R>
+        <Property_G>0.2862745</Property_G>
+        <Property_B>0.6392157</Property_B>
+        <Property_A>1</Property_A>
+      </Data_Colour>
+      <Data_WorldColour template="Colour">
+        <Property_R>0.1176471</Property_R>
+        <Property_G>0.6392157</Property_G>
+        <Property_B>0.9333333</Property_B>
+        <Property_A>1</Property_A>
+      </Data_WorldColour>
+      <Property_BaseValue>60</Property_BaseValue>
+      <Data_SubstanceCategory template="GcRealitySubstanceCategory">
+        <Property_SubstanceCategory>Technology</Property_SubstanceCategory>
+      </Data_SubstanceCategory>
+      <Data_Rarity template="GcRarity">
+        <Property_Rarity>Rare</Property_Rarity>
+      </Data_Rarity>
+      <Data_Legality template="GcLegality">
+        <Property_Legality>Legal</Property_Legality>
+      </Data_Legality>
+      <Property_ChargeValue>3</Property_ChargeValue>
+      <Data_Cost template="GcItemPriceModifiers">
+        <Property_SpaceStationMarkup>0</Property_SpaceStationMarkup>
+        <Property_LowPriceMod>0.25</Property_LowPriceMod>
+        <Property_HighPriceMod>0.5</Property_HighPriceMod>
+        <Property_BuyBaseMarkup>0.25</Property_BuyBaseMarkup>
+        <Property_BuyMarkupMod>0</Property_BuyMarkupMod>
+      </Data_Cost>
+      <Property_NormalisedValueOnWorld>0.00110011</Property_NormalisedValueOnWorld>
+      <Property_NormalisedValueOffWorld>0.00110011</Property_NormalisedValueOffWorld>
+    </Data_root>
+    <Data_root template="GcSubstanceData">
+      <Property_Name>COM1_NAME</Property_Name>
+      <Property_NameLower>COM1_NAME_L</Property_NameLower>
+      <Property_Id>COM1</Property_Id>
+      <Property_Symbol>COM1_SYMBOL</Property_Symbol>
+      <Data_Icon template="TkTextureResource">
+        <Property_Filename>TEXTURES/UI/FRONTEND/ICONS/SUBSTANCES/SUBSTANCE.COMMODITY.COMMON1.DDS</Property_Filename>
+      </Data_Icon>
+      <Data_Debris template="TkModelResource">
+        <Property_Filename>MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN</Property_Filename>
+      </Data_Debris>
+      <Data_Subtitle template="VariableSizeString">
+        <Property_Value>COM1_SUBTITLE</Property_Value>
+      </Data_Subtitle>
+      <Data_Description template="VariableSizeString">
+        <Property_Value>COM1_DESCRIPTION</Property_Value>
+      </Data_Description>
+      <Data_Colour template="Colour">
+        <Property_R>1</Property_R>
+        <Property_G>0.7647059</Property_G>
+        <Property_B>0.3372549</Property_B>
+        <Property_A>1</Property_A>
+      </Data_Colour>
+      <Data_WorldColour template="Colour">
+        <Property_R>0.5607843</Property_R>
+        <Property_G>0.5686275</Property_G>
+        <Property_B>0.5803922</Property_B>
+        <Property_A>1</Property_A>
+      </Data_WorldColour>
+      <Property_BaseValue>10</Property_BaseValue>
+      <Data_SubstanceCategory template="GcRealitySubstanceCategory">
+        <Property_SubstanceCategory>Commodity</Property_SubstanceCategory>
+      </Data_SubstanceCategory>
+      <Data_Rarity template="GcRarity">
+        <Property_Rarity>Common</Property_Rarity>
+      </Data_Rarity>
+      <Data_Legality template="GcLegality">
+        <Property_Legality>Legal</Property_Legality>
+      </Data_Legality>
+      <Property_ChargeValue>1</Property_ChargeValue>
+      <Data_Cost template="GcItemPriceModifiers">
+        <Property_SpaceStationMarkup>0</Property_SpaceStationMarkup>
+        <Property_LowPriceMod>0.25</Property_LowPriceMod>
+        <Property_HighPriceMod>0.5</Property_HighPriceMod>
+        <Property_BuyBaseMarkup>0.25</Property_BuyBaseMarkup>
+        <Property_BuyMarkupMod>0</Property_BuyMarkupMod>
+      </Data_Cost>
+      <Property_NormalisedValueOnWorld>0.00010001</Property_NormalisedValueOnWorld>
+      <Property_NormalisedValueOffWorld>0.00010001</Property_NormalisedValueOffWorld>
+    </Data_root>
+    <Data_root template="GcSubstanceData">
+      <Property_Name>COMUNCOMMON1_NAME</Property_Name>
+      <Property_NameLower>COMUNCOMMON1_NAME_L</Property_NameLower>
+      <Property_Id>COMUNCOMMON1</Property_Id>
+      <Property_Symbol>COMUNCOMMON1_SYMBOL</Property_Symbol>
+      <Data_Icon template="TkTextureResource">
+        <Property_Filename>TEXTURES/UI/FRONTEND/ICONS/SUBSTANCES/SUBSTANCE.COMMODITY.UNCOMMON1.DDS</Property_Filename>
+      </Data_Icon>
+      <Data_Debris template="TkModelResource">
+        <Property_Filename>MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN</Property_Filename>
+      </Data_Debris>
+      <Data_Subtitle template="VariableSizeString">
+        <Property_Value>COMUNCOMMON1_SUBTITLE</Property_Value>
+      </Data_Subtitle>
+      <Data_Description template="VariableSizeString">
+        <Property_Value>COMUNCOMMON1_DESCRIPTION</Property_Value>
+      </Data_Description>
+      <Data_Colour template="Colour">
+        <Property_R>1</Property_R>
+        <Property_G>0.7647059</Property_G>
+        <Property_B>0.3372549</Property_B>
+        <Property_A>1</Property_A>
+      </Data_Colour>
+      <Data_WorldColour template="Colour">
+        <Property_R>0.5411765</Property_R>
+        <Property_G>0.4980392</Property_G>
+        <Property_B>0.4470588</Property_B>
+        <Property_A>1</Property_A>
+      </Data_WorldColour>
+      <Property_BaseValue>30</Property_BaseValue>
+      <Data_SubstanceCategory template="GcRealitySubstanceCategory">
+        <Property_SubstanceCategory>Commodity</Property_SubstanceCategory>
+      </Data_SubstanceCategory>
+      <Data_Rarity template="GcRarity">
+        <Property_Rarity>Uncommon</Property_Rarity>
+      </Data_Rarity>
+      <Data_Legality template="GcLegality">
+        <Property_Legality>Legal</Property_Legality>
+      </Data_Legality>
+      <Property_ChargeValue>2</Property_ChargeValue>
+      <Data_Cost template="GcItemPriceModifiers">
+        <Property_SpaceStationMarkup>0</Property_SpaceStationMarkup>
+        <Property_LowPriceMod>0.25</Property_LowPriceMod>
+        <Property_HighPriceMod>0.5</Property_HighPriceMod>
+        <Property_BuyBaseMarkup>0.25</Property_BuyBaseMarkup>
+        <Property_BuyMarkupMod>0</Property_BuyMarkupMod>
+      </Data_Cost>
+      <Property_NormalisedValueOnWorld>0.00050005</Property_NormalisedValueOnWorld>
+      <Property_NormalisedValueOffWorld>0.00050005</Property_NormalisedValueOffWorld>
+    </Data_root>
+    <Data_root template="GcSubstanceData">
+      <Property_Name>COMRARE1_NAME</Property_Name>
+      <Property_NameLower>COMRARE1_NAME_L</Property_NameLower>
+      <Property_Id>COMRARE1</Property_Id>
+      <Property_Symbol>COMRARE1_SYMBOL</Property_Symbol>
+      <Data_Icon template="TkTextureResource">
+        <Property_Filename>TEXTURES/UI/FRONTEND/ICONS/SUBSTANCES/SUBSTANCE.COMMODITY.RARE1.DDS</Property_Filename>
+      </Data_Icon>
+      <Data_Debris template="TkModelResource">
+        <Property_Filename>MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN</Property_Filename>
+      </Data_Debris>
+      <Data_Subtitle template="VariableSizeString">
+        <Property_Value>COMRARE1_SUBTITLE</Property_Value>
+      </Data_Subtitle>
+      <Data_Description template="VariableSizeString">
+        <Property_Value>COMRARE1_DESCRIPTION</Property_Value>
+      </Data_Description>
+      <Data_Colour template="Colour">
+        <Property_R>1</Property_R>
+        <Property_G>0.7647059</Property_G>
+        <Property_B>0.3372549</Property_B>
+        <Property_A>1</Property_A>
+      </Data_Colour>
+      <Data_WorldColour template="Colour">
+        <Property_R>0.5411765</Property_R>
+        <Property_G>0.4980392</Property_G>
+        <Property_B>0.4470588</Property_B>
+        <Property_A>1</Property_A>
+      </Data_WorldColour>
+      <Property_BaseValue>45</Property_BaseValue>
+      <Data_SubstanceCategory template="GcRealitySubstanceCategory">
+        <Property_SubstanceCategory>Commodity</Property_SubstanceCategory>
+      </Data_SubstanceCategory>
+      <Data_Rarity template="GcRarity">
+        <Property_Rarity>Rare</Property_Rarity>
+      </Data_Rarity>
+      <Data_Legality template="GcLegality">
+        <Property_Legality>Legal</Property_Legality>
+      </Data_Legality>
+      <Property_ChargeValue>2</Property_ChargeValue>
+      <Data_Cost template="GcItemPriceModifiers">
+        <Property_SpaceStationMarkup>0</Property_SpaceStationMarkup>
+        <Property_LowPriceMod>0.25</Property_LowPriceMod>
+        <Property_HighPriceMod>0.5</Property_HighPriceMod>
+        <Property_BuyBaseMarkup>0.25</Property_BuyBaseMarkup>
+        <Property_BuyMarkupMod>0</Property_BuyMarkupMod>
+      </Data_Cost>
+      <Property_NormalisedValueOnWorld>0.00080008</Property_NormalisedValueOnWorld>
+      <Property_NormalisedValueOffWorld>0.00080008</Property_NormalisedValueOffWorld>
+    </Data_root>
+    <Data_root template="GcSubstanceData">
+      <Property_Name>FUEL1_NAME</Property_Name>
+      <Property_NameLower>FUEL1_NAME_L</Property_NameLower>
+      <Property_Id>FUEL1</Property_Id>
+      <Property_Symbol>FUEL1_SYMBOL</Property_Symbol>
+      <Data_Icon template="TkTextureResource">
+        <Property_Filename>TEXTURES/UI/FRONTEND/ICONS/SUBSTANCES/SUBSTANCE.FUEL.COMMON1.DDS</Property_Filename>
+      </Data_Icon>
+      <Data_Debris template="TkModelResource">
+        <Property_Filename>MODELS/EFFECTS/DEBRIS/RESOURCEDEBRIS.SCENE.MBIN</Property_Filename>
+      </Data_Debris>
+      <Data_Subtitle template="VariableSizeString">
+        <Property_Value>FUEL1_SUBTITLE</Property_Value>
+      </Data_Subtitle>
+      <Data_Description template="VariableSizeString">
+        <Property_Value>FUEL1_DESCRIPTION</Property_Value>
+      </Data_Description>
+      <Data_Colour template="Colour">
+        <Property_R>0.7333333</Property_R>
+        <Property_G>0.2196078</Property_G>
+        <Property_B>0.1882353</Property_B>
+        <Property_A>1</Property_A>
+      </Data_Colour>
+      <Data_WorldColour template="Colour">
+        <Property_R>0.7333333</Property_R>
+        <Property_G>0.2196078</Property_G>
+        <Property_B>0.1882353</Property_B>
+        <Property_A>1</Property_A>
+      </Data_WorldColour>
+      <Property_BaseValue>5</Property_BaseValue>
+      <Data_SubstanceCategory template="GcRealitySubstanceCategory">
+        <Property_SubstanceCategory>Fuel</Property_SubstanceCategory>
+      </Data_SubstanceCategory>
+      <Data_Rarity template="GcRarity">
+        <Property_Rarity>Common</Property_Rarity>
+      </Data_Rarity>
+      <Data_Legality template="GcLegality">
+        <Property_Legality>Legal</Property_Legality>
+      </Data_Legality>
+      <Property_ChargeValue>1</Property_ChargeValue>
+      <Data_Cost template="GcItemPriceModifiers">
+        <Property_SpaceStationMarkup>0</Property_SpaceStationMarkup>
+        <Property_LowPriceMod>0.25</Property_LowPriceMod>
+        <Property_HighPriceMod>0.5</Property_HighPriceMod>
+        <Property_BuyBaseMarkup>0.25</Property_BuyBaseMarkup>
+        <Property_BuyMarkupMod>0</Property_BuyMarkupMod>
+      </Data_Cost>
+      <Property_NormalisedValueOnWorld>0</Property_NormalisedValueOnWorld>
+      <Property_NormalisedValueOffWorld>0</Property_NormalisedValueOffWorld>
+    </Data_root>
+    <Data_root template="GcSubstanceData">
+      <Property_Name>FUELUNCOMMON1_NAME</Property_Name>
+      <Property_NameLower>FUELUNCOMMON1_NAME_L</Property_NameLower>
+      <Property_Id>FUELUNCOMMON1</Property_Id>
+      <Property_Symbol>FUELUNCOMMON1_SYMBOL</Property_Symbol>
+      <Data_Icon template="TkTextureResource">
+        <Property_Filename>TEXTURES/UI/FRONTEND/ICONS/SUBSTANCES/SUBSTANCE.FUEL.UNCOMMON1.DDS</Property_Filename>
+      </Data_Icon>
+      <Data_Debris template="TkModelResource">
+        <Property_Filename>MODELS/EFFECTS/DEBRIS/RESOURCEDEBRIS.SCENE.MBIN</Property_Filename>
+      </Data_Debris>
+      <Data_Subtitle template="VariableSizeString">
+        <Property_Value>FUELUNCOMMON1_SUBTITLE</Property_Value>
+      </Data_Subtitle>
+      <Data_Description template="VariableSizeString">
+        <Property_Value>FUELUNCOMMON1_DESCRIPTION</Property_Value>
+      </Data_Description>
+      <Data_Colour template="Colour">
+        <Property_R>0.7333333</Property_R>
+        <Property_G>0.2196078</Property_G>
+        <Property_B>0.1882353</Property_B>
+        <Property_A>1</Property_A>
+      </Data_Colour>
+      <Data_WorldColour template="Colour">
+        <Property_R>0.7333333</Property_R>
+        <Property_G>0.2196078</Property_G>
+        <Property_B>0.1882353</Property_B>
+        <Property_A>1</Property_A>
+      </Data_WorldColour>
+      <Property_BaseValue>15</Property_BaseValue>
+      <Data_SubstanceCategory template="GcRealitySubstanceCategory">
+        <Property_SubstanceCategory>Fuel</Property_SubstanceCategory>
+      </Data_SubstanceCategory>
+      <Data_Rarity template="GcRarity">
+        <Property_Rarity>Uncommon</Property_Rarity>
+      </Data_Rarity>
+      <Data_Legality template="GcLegality">
+        <Property_Legality>Legal</Property_Legality>
+      </Data_Legality>
+      <Property_ChargeValue>2</Property_ChargeValue>
+      <Data_Cost template="GcItemPriceModifiers">
+        <Property_SpaceStationMarkup>0</Property_SpaceStationMarkup>
+        <Property_LowPriceMod>0.25</Property_LowPriceMod>
+        <Property_HighPriceMod>0.5</Property_HighPriceMod>
+        <Property_BuyBaseMarkup>0.25</Property_BuyBaseMarkup>
+        <Property_BuyMarkupMod>0</Property_BuyMarkupMod>
+      </Data_Cost>
+      <Property_NormalisedValueOnWorld>0.00020002</Property_NormalisedValueOnWorld>
+      <Property_NormalisedValueOffWorld>0.00020002</Property_NormalisedValueOffWorld>
+    </Data_root>
+    <Data_root template="GcSubstanceData">
+      <Property_Name>FUELRARE1_NAME</Property_Name>
+      <Property_NameLower>FUELRARE1_NAME_L</Property_NameLower>
+      <Property_Id>FUELRARE1</Property_Id>
+      <Property_Symbol>FUELRARE1_SYMBOL</Property_Symbol>
+      <Data_Icon template="TkTextureResource">
+        <Property_Filename>TEXTURES/UI/FRONTEND/ICONS/SUBSTANCES/SUBSTANCE.FUEL.RARE1.DDS</Property_Filename>
+      </Data_Icon>
+      <Data_Debris template="TkModelResource">
+        <Property_Filename>MODELS/EFFECTS/DEBRIS/RESOURCEDEBRIS.SCENE.MBIN</Property_Filename>
+      </Data_Debris>
+      <Data_Subtitle template="VariableSizeString">
+        <Property_Value>FUELRARE1_SUBTITLE</Property_Value>
+      </Data_Subtitle>
+      <Data_Description template="VariableSizeString">
+        <Property_Value>FUELRARE1_DESCRIPTION</Property_Value>
+      </Data_Description>
+      <Data_Colour template="Colour">
+        <Property_R>0.7333333</Property_R>
+        <Property_G>0.2196078</Property_G>
+        <Property_B>0.1882353</Property_B>
+        <Property_A>1</Property_A>
+      </Data_Colour>
+      <Data_WorldColour template="Colour">
+        <Property_R>0.7333333</Property_R>
+        <Property_G>0.2196078</Property_G>
+        <Property_B>0.1882353</Property_B>
+        <Property_A>1</Property_A>
+      </Data_WorldColour>
+      <Property_BaseValue>30</Property_BaseValue>
+      <Data_SubstanceCategory template="GcRealitySubstanceCategory">
+        <Property_SubstanceCategory>Fuel</Property_SubstanceCategory>
+      </Data_SubstanceCategory>
+      <Data_Rarity template="GcRarity">
+        <Property_Rarity>Rare</Property_Rarity>
+      </Data_Rarity>
+      <Data_Legality template="GcLegality">
+        <Property_Legality>Legal</Property_Legality>
+      </Data_Legality>
+      <Property_ChargeValue>3</Property_ChargeValue>
+      <Data_Cost template="GcItemPriceModifiers">
+        <Property_SpaceStationMarkup>0</Property_SpaceStationMarkup>
+        <Property_LowPriceMod>0.25</Property_LowPriceMod>
+        <Property_HighPriceMod>0.5</Property_HighPriceMod>
+        <Property_BuyBaseMarkup>0.25</Property_BuyBaseMarkup>
+        <Property_BuyMarkupMod>0</Property_BuyMarkupMod>
+      </Data_Cost>
+      <Property_NormalisedValueOnWorld>0.00050005</Property_NormalisedValueOnWorld>
+      <Property_NormalisedValueOffWorld>0.00050005</Property_NormalisedValueOffWorld>
+    </Data_root>
+    <Data_root template="GcSubstanceData">
+      <Property_Name>FUELLAUNCHER_NAME</Property_Name>
+      <Property_NameLower>FUELLAUNCHER_NAME_L</Property_NameLower>
+      <Property_Id>FUELLAUNCHER</Property_Id>
+      <Property_Symbol>FUELLAUNCHER_SYMBOL</Property_Symbol>
+      <Data_Icon template="TkTextureResource">
+        <Property_Filename>TEXTURES/UI/FRONTEND/ICONS/SUBSTANCES/SUBSTANCE.FUEL.LAUNCHER.DDS</Property_Filename>
+      </Data_Icon>
+      <Data_Debris template="TkModelResource">
+        <Property_Filename>MODELS/EFFECTS/DEBRIS/RESOURCEDEBRIS.SCENE.MBIN</Property_Filename>
+      </Data_Debris>
+      <Data_Subtitle template="VariableSizeString">
+        <Property_Value>FUELLAUNCHER_SUBTITLE</Property_Value>
+      </Data_Subtitle>
+      <Data_Description template="VariableSizeString">
+        <Property_Value>FUELLAUNCHER_DESCRIPTION</Property_Value>
+      </Data_Description>
+      <Data_Colour template="Colour">
+        <Property_R>0.7333333</Property_R>
+        <Property_G>0.2196078</Property_G>
+        <Property_B>0.1882353</Property_B>
+        <Property_A>1</Property_A>
+      </Data_Colour>
+      <Data_WorldColour template="Colour">
+        <Property_R>0.7333333</Property_R>
+        <Property_G>0.2196078</Property_G>
+        <Property_B>0.1882353</Property_B>
+        <Property_A>1</Property_A>
+      </Data_WorldColour>
+      <Property_BaseValue>30</Property_BaseValue>
+      <Data_SubstanceCategory template="GcRealitySubstanceCategory">
+        <Property_SubstanceCategory>Fuel</Property_SubstanceCategory>
+      </Data_SubstanceCategory>
+      <Data_Rarity template="GcRarity">
+        <Property_Rarity>Rare</Property_Rarity>
+      </Data_Rarity>
+      <Data_Legality template="GcLegality">
+        <Property_Legality>Illegal</Property_Legality>
+      </Data_Legality>
+      <Property_ChargeValue>3</Property_ChargeValue>
+      <Data_Cost template="GcItemPriceModifiers">
+        <Property_SpaceStationMarkup>0</Property_SpaceStationMarkup>
+        <Property_LowPriceMod>0.25</Property_LowPriceMod>
+        <Property_HighPriceMod>0.5</Property_HighPriceMod>
+        <Property_BuyBaseMarkup>0.25</Property_BuyBaseMarkup>
+        <Property_BuyMarkupMod>0</Property_BuyMarkupMod>
+      </Data_Cost>
+      <Property_NormalisedValueOnWorld>0.00050005</Property_NormalisedValueOnWorld>
+      <Property_NormalisedValueOffWorld>0.00050005</Property_NormalisedValueOffWorld>
+    </Data_root>
+    <Data_root template="GcSubstanceData">
+      <Property_Name>TRADEABLE1_NAME</Property_Name>
+      <Property_NameLower>TRADEABLE1_NAME_L</Property_NameLower>
+      <Property_Id>TRADEABLE1</Property_Id>
+      <Property_Symbol>TRADEABLE1_SYMBOL</Property_Symbol>
+      <Data_Icon template="TkTextureResource">
+        <Property_Filename>TEXTURES/UI/FRONTEND/ICONS/SUBSTANCES/SUBSTANCE.NEUTRAL.COMMON3.DDS</Property_Filename>
+      </Data_Icon>
+      <Data_Debris template="TkModelResource">
+        <Property_Filename>MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS2.SCENE.MBIN</Property_Filename>
+      </Data_Debris>
+      <Data_Subtitle template="VariableSizeString">
+        <Property_Value>TRADEABLE1_SUBTITLE</Property_Value>
+      </Data_Subtitle>
+      <Data_Description template="VariableSizeString">
+        <Property_Value>TRADEABLE1_DESCRIPTION</Property_Value>
+      </Data_Description>
+      <Data_Colour template="Colour">
+        <Property_R>0.372549</Property_R>
+        <Property_G>0.8</Property_G>
+        <Property_B>0.5764706</Property_B>
+        <Property_A>1</Property_A>
+      </Data_Colour>
+      <Data_WorldColour template="Colour">
+        <Property_R>0.9333333</Property_R>
+        <Property_G>0.2235294</Property_G>
+        <Property_B>0.145098</Property_B>
+        <Property_A>1</Property_A>
+      </Data_WorldColour>
+      <Property_BaseValue>70</Property_BaseValue>
+      <Data_SubstanceCategory template="GcRealitySubstanceCategory">
+        <Property_SubstanceCategory>Tradeable</Property_SubstanceCategory>
+      </Data_SubstanceCategory>
+      <Data_Rarity template="GcRarity">
+        <Property_Rarity>Common</Property_Rarity>
+      </Data_Rarity>
+      <Data_Legality template="GcLegality">
+        <Property_Legality>Legal</Property_Legality>
+      </Data_Legality>
+      <Property_ChargeValue>1</Property_ChargeValue>
+      <Data_Cost template="GcItemPriceModifiers">
+        <Property_SpaceStationMarkup>0</Property_SpaceStationMarkup>
+        <Property_LowPriceMod>0.25</Property_LowPriceMod>
+        <Property_HighPriceMod>0.5</Property_HighPriceMod>
+        <Property_BuyBaseMarkup>0.25</Property_BuyBaseMarkup>
+        <Property_BuyMarkupMod>0</Property_BuyMarkupMod>
+      </Data_Cost>
+      <Property_NormalisedValueOnWorld>0.00130013</Property_NormalisedValueOnWorld>
+      <Property_NormalisedValueOffWorld>0.00130013</Property_NormalisedValueOffWorld>
+    </Data_root>
+    <Data_root template="GcSubstanceData">
+      <Property_Name>TRADEABLE2_NAME</Property_Name>
+      <Property_NameLower>TRADEABLE2_NAME_L</Property_NameLower>
+      <Property_Id>TRADEABLE2</Property_Id>
+      <Property_Symbol>TRADEABLE2_SYMBOL</Property_Symbol>
+      <Data_Icon template="TkTextureResource">
+        <Property_Filename>TEXTURES/UI/FRONTEND/ICONS/SUBSTANCES/SUBSTANCE.NEUTRAL.COMMON1.DDS</Property_Filename>
+      </Data_Icon>
+      <Data_Debris template="TkModelResource">
+        <Property_Filename>MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS3.SCENE.MBIN</Property_Filename>
+      </Data_Debris>
+      <Data_Subtitle template="VariableSizeString">
+        <Property_Value>TRADEABLE2_SUBTITLE</Property_Value>
+      </Data_Subtitle>
+      <Data_Description template="VariableSizeString">
+        <Property_Value>TRADEABLE2_DESCRIPTION</Property_Value>
+      </Data_Description>
+      <Data_Colour template="Colour">
+        <Property_R>0.372549</Property_R>
+        <Property_G>0.8</Property_G>
+        <Property_B>0.5764706</Property_B>
+        <Property_A>1</Property_A>
+      </Data_Colour>
+      <Data_WorldColour template="Colour">
+        <Property_R>0.9137255</Property_R>
+        <Property_G>0.6352941</Property_G>
+        <Property_B>0.5372549</Property_B>
+        <Property_A>1</Property_A>
+      </Data_WorldColour>
+      <Property_BaseValue>80</Property_BaseValue>
+      <Data_SubstanceCategory template="GcRealitySubstanceCategory">
+        <Property_SubstanceCategory>Tradeable</Property_SubstanceCategory>
+      </Data_SubstanceCategory>
+      <Data_Rarity template="GcRarity">
+        <Property_Rarity>Common</Property_Rarity>
+      </Data_Rarity>
+      <Data_Legality template="GcLegality">
+        <Property_Legality>Legal</Property_Legality>
+      </Data_Legality>
+      <Property_ChargeValue>1</Property_ChargeValue>
+      <Data_Cost template="GcItemPriceModifiers">
+        <Property_SpaceStationMarkup>0</Property_SpaceStationMarkup>
+        <Property_LowPriceMod>0.25</Property_LowPriceMod>
+        <Property_HighPriceMod>0.5</Property_HighPriceMod>
+        <Property_BuyBaseMarkup>0.25</Property_BuyBaseMarkup>
+        <Property_BuyMarkupMod>0</Property_BuyMarkupMod>
+      </Data_Cost>
+      <Property_NormalisedValueOnWorld>0.00150015</Property_NormalisedValueOnWorld>
+      <Property_NormalisedValueOffWorld>0.00150015</Property_NormalisedValueOffWorld>
+    </Data_root>
+    <Data_root template="GcSubstanceData">
+      <Property_Name>TRADEABLE3_NAME</Property_Name>
+      <Property_NameLower>TRADEABLE3_NAME_L</Property_NameLower>
+      <Property_Id>TRADEABLE3</Property_Id>
+      <Property_Symbol>TRADEABLE3_SYMBOL</Property_Symbol>
+      <Data_Icon template="TkTextureResource">
+        <Property_Filename>TEXTURES/UI/FRONTEND/ICONS/SUBSTANCES/SUBSTANCE.NEUTRAL.COMMON2.DDS</Property_Filename>
+      </Data_Icon>
+      <Data_Debris template="TkModelResource">
+        <Property_Filename>MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS2.SCENE.MBIN</Property_Filename>
+      </Data_Debris>
+      <Data_Subtitle template="VariableSizeString">
+        <Property_Value>TRADEABLE3_SUBTITLE</Property_Value>
+      </Data_Subtitle>
+      <Data_Description template="VariableSizeString">
+        <Property_Value>TRADEABLE3_DESCRIPTION</Property_Value>
+      </Data_Description>
+      <Data_Colour template="Colour">
+        <Property_R>0.372549</Property_R>
+        <Property_G>0.8</Property_G>
+        <Property_B>0.5764706</Property_B>
+        <Property_A>1</Property_A>
+      </Data_Colour>
+      <Data_WorldColour template="Colour">
+        <Property_R>0.6588235</Property_R>
+        <Property_G>0.6078432</Property_G>
+        <Property_B>0.5254902</Property_B>
+        <Property_A>1</Property_A>
+      </Data_WorldColour>
+      <Property_BaseValue>100</Property_BaseValue>
+      <Data_SubstanceCategory template="GcRealitySubstanceCategory">
+        <Property_SubstanceCategory>Tradeable</Property_SubstanceCategory>
+      </Data_SubstanceCategory>
+      <Data_Rarity template="GcRarity">
+        <Property_Rarity>Common</Property_Rarity>
+      </Data_Rarity>
+      <Data_Legality template="GcLegality">
+        <Property_Legality>Legal</Property_Legality>
+      </Data_Legality>
+      <Property_ChargeValue>1</Property_ChargeValue>
+      <Data_Cost template="GcItemPriceModifiers">
+        <Property_SpaceStationMarkup>0</Property_SpaceStationMarkup>
+        <Property_LowPriceMod>0.25</Property_LowPriceMod>
+        <Property_HighPriceMod>0.5</Property_HighPriceMod>
+        <Property_BuyBaseMarkup>0.25</Property_BuyBaseMarkup>
+        <Property_BuyMarkupMod>0</Property_BuyMarkupMod>
+      </Data_Cost>
+      <Property_NormalisedValueOnWorld>0.00190019</Property_NormalisedValueOnWorld>
+      <Property_NormalisedValueOffWorld>0.00190019</Property_NormalisedValueOffWorld>
+    </Data_root>
+    <Data_root template="GcSubstanceData">
+      <Property_Name>TRADEABLE4_NAME</Property_Name>
+      <Property_NameLower>TRADEABLE4_NAME_L</Property_NameLower>
+      <Property_Id>TRADEABLE4</Property_Id>
+      <Property_Symbol>TRADEABLE4_SYMBOL</Property_Symbol>
+      <Data_Icon template="TkTextureResource">
+        <Property_Filename>TEXTURES/UI/FRONTEND/ICONS/SUBSTANCES/SUBSTANCE.NEUTRAL.UNCOMMON1.DDS</Property_Filename>
+      </Data_Icon>
+      <Data_Debris template="TkModelResource">
+        <Property_Filename>MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS2.SCENE.MBIN</Property_Filename>
+      </Data_Debris>
+      <Data_Subtitle template="VariableSizeString">
+        <Property_Value>TRADEABLE4_SUBTITLE</Property_Value>
+      </Data_Subtitle>
+      <Data_Description template="VariableSizeString">
+        <Property_Value>TRADEABLE4_DESCRIPTION</Property_Value>
+      </Data_Description>
+      <Data_Colour template="Colour">
+        <Property_R>0.372549</Property_R>
+        <Property_G>0.8</Property_G>
+        <Property_B>0.5764706</Property_B>
+        <Property_A>1</Property_A>
+      </Data_Colour>
+      <Data_WorldColour template="Colour">
+        <Property_R>0.9137255</Property_R>
+        <Property_G>0.9215686</Property_G>
+        <Property_B>0.9254902</Property_B>
+        <Property_A>1</Property_A>
+      </Data_WorldColour>
+      <Property_BaseValue>120</Property_BaseValue>
+      <Data_SubstanceCategory template="GcRealitySubstanceCategory">
+        <Property_SubstanceCategory>Tradeable</Property_SubstanceCategory>
+      </Data_SubstanceCategory>
+      <Data_Rarity template="GcRarity">
+        <Property_Rarity>Rare</Property_Rarity>
+      </Data_Rarity>
+      <Data_Legality template="GcLegality">
+        <Property_Legality>Legal</Property_Legality>
+      </Data_Legality>
+      <Property_ChargeValue>1</Property_ChargeValue>
+      <Data_Cost template="GcItemPriceModifiers">
+        <Property_SpaceStationMarkup>0</Property_SpaceStationMarkup>
+        <Property_LowPriceMod>0.25</Property_LowPriceMod>
+        <Property_HighPriceMod>0.5</Property_HighPriceMod>
+        <Property_BuyBaseMarkup>0.25</Property_BuyBaseMarkup>
+        <Property_BuyMarkupMod>0</Property_BuyMarkupMod>
+      </Data_Cost>
+      <Property_NormalisedValueOnWorld>0.00230023</Property_NormalisedValueOnWorld>
+      <Property_NormalisedValueOffWorld>0.00230023</Property_NormalisedValueOffWorld>
+    </Data_root>
+    <Data_root template="GcSubstanceData">
+      <Property_Name>TRADEABLE5_NAME</Property_Name>
+      <Property_NameLower>TRADEABLE5_NAME_L</Property_NameLower>
+      <Property_Id>TRADEABLE5</Property_Id>
+      <Property_Symbol>TRADEABLE5_SYMBOL</Property_Symbol>
+      <Data_Icon template="TkTextureResource">
+        <Property_Filename>TEXTURES/UI/FRONTEND/ICONS/SUBSTANCES/SUBSTANCE.NEUTRAL.UNCOMMON2.DDS</Property_Filename>
+      </Data_Icon>
+      <Data_Debris template="TkModelResource">
+        <Property_Filename>MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS1.SCENE.MBIN</Property_Filename>
+      </Data_Debris>
+      <Data_Subtitle template="VariableSizeString">
+        <Property_Value>TRADEABLE5_SUBTITLE</Property_Value>
+      </Data_Subtitle>
+      <Data_Description template="VariableSizeString">
+        <Property_Value>TRADEABLE5_DESCRIPTION</Property_Value>
+      </Data_Description>
+      <Data_Colour template="Colour">
+        <Property_R>0.372549</Property_R>
+        <Property_G>0.8</Property_G>
+        <Property_B>0.5764706</Property_B>
+        <Property_A>1</Property_A>
+      </Data_Colour>
+      <Data_WorldColour template="Colour">
+        <Property_R>1</Property_R>
+        <Property_G>0.7647059</Property_G>
+        <Property_B>0.3372549</Property_B>
+        <Property_A>1</Property_A>
+      </Data_WorldColour>
+      <Property_BaseValue>160</Property_BaseValue>
+      <Data_SubstanceCategory template="GcRealitySubstanceCategory">
+        <Property_SubstanceCategory>Tradeable</Property_SubstanceCategory>
+      </Data_SubstanceCategory>
+      <Data_Rarity template="GcRarity">
+        <Property_Rarity>Rare</Property_Rarity>
+      </Data_Rarity>
+      <Data_Legality template="GcLegality">
+        <Property_Legality>Legal</Property_Legality>
+      </Data_Legality>
+      <Property_ChargeValue>1</Property_ChargeValue>
+      <Data_Cost template="GcItemPriceModifiers">
+        <Property_SpaceStationMarkup>0</Property_SpaceStationMarkup>
+        <Property_LowPriceMod>0.25</Property_LowPriceMod>
+        <Property_HighPriceMod>0.5</Property_HighPriceMod>
+        <Property_BuyBaseMarkup>0.25</Property_BuyBaseMarkup>
+        <Property_BuyMarkupMod>0</Property_BuyMarkupMod>
+      </Data_Cost>
+      <Property_NormalisedValueOnWorld>0.00310031</Property_NormalisedValueOnWorld>
+      <Property_NormalisedValueOffWorld>0.00310031</Property_NormalisedValueOffWorld>
+    </Data_root>
+    <Data_root template="GcSubstanceData">
+      <Property_Name>TRADEABLE6_NAME</Property_Name>
+      <Property_NameLower>TRADEABLE6_NAME_L</Property_NameLower>
+      <Property_Id>TRADEABLE6</Property_Id>
+      <Property_Symbol>TRADEABLE6_SYMBOL</Property_Symbol>
+      <Data_Icon template="TkTextureResource">
+        <Property_Filename>TEXTURES/UI/FRONTEND/ICONS/SUBSTANCES/SUBSTANCE.NEUTRAL.RARE1.DDS</Property_Filename>
+      </Data_Icon>
+      <Data_Debris template="TkModelResource">
+        <Property_Filename>MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS2.SCENE.MBIN</Property_Filename>
+      </Data_Debris>
+      <Data_Subtitle template="VariableSizeString">
+        <Property_Value>TRADEABLE6_SUBTITLE</Property_Value>
+      </Data_Subtitle>
+      <Data_Description template="VariableSizeString">
+        <Property_Value>TRADEABLE6_DESCRIPTION</Property_Value>
+      </Data_Description>
+      <Data_Colour template="Colour">
+        <Property_R>0.372549</Property_R>
+        <Property_G>0.8</Property_G>
+        <Property_B>0.5764706</Property_B>
+        <Property_A>1</Property_A>
+      </Data_Colour>
+      <Data_WorldColour template="Colour">
+        <Property_R>0.7568628</Property_R>
+        <Property_G>1</Property_G>
+        <Property_B>0.3372549</Property_B>
+        <Property_A>1</Property_A>
+      </Data_WorldColour>
+      <Property_BaseValue>200</Property_BaseValue>
+      <Data_SubstanceCategory template="GcRealitySubstanceCategory">
+        <Property_SubstanceCategory>Tradeable</Property_SubstanceCategory>
+      </Data_SubstanceCategory>
+      <Data_Rarity template="GcRarity">
+        <Property_Rarity>Rare</Property_Rarity>
+      </Data_Rarity>
+      <Data_Legality template="GcLegality">
+        <Property_Legality>Legal</Property_Legality>
+      </Data_Legality>
+      <Property_ChargeValue>1</Property_ChargeValue>
+      <Data_Cost template="GcItemPriceModifiers">
+        <Property_SpaceStationMarkup>0</Property_SpaceStationMarkup>
+        <Property_LowPriceMod>0.25</Property_LowPriceMod>
+        <Property_HighPriceMod>0.5</Property_HighPriceMod>
+        <Property_BuyBaseMarkup>0.25</Property_BuyBaseMarkup>
+        <Property_BuyMarkupMod>0</Property_BuyMarkupMod>
+      </Data_Cost>
+      <Property_NormalisedValueOnWorld>0.00390039</Property_NormalisedValueOnWorld>
+      <Property_NormalisedValueOffWorld>0.00390039</Property_NormalisedValueOffWorld>
+    </Data_root>
+    <Data_root template="GcSubstanceData">
+      <Property_Name>NEWPROD8_NAME</Property_Name>
+      <Property_NameLower>NEWPROD8_NAME_L</Property_NameLower>
+      <Property_Id>TRADEABLE7</Property_Id>
+      <Property_Symbol>NEWPROD8_SYMBOL</Property_Symbol>
+      <Data_Icon template="TkTextureResource">
+        <Property_Filename>TEXTURES/UI/FRONTEND/ICONS/SUBSTANCES/SUBSTANCE.PRECIOUS.RARE2.DDS</Property_Filename>
+      </Data_Icon>
+      <Data_Debris template="TkModelResource">
+        <Property_Filename>MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS2.SCENE.MBIN</Property_Filename>
+      </Data_Debris>
+      <Data_Subtitle template="VariableSizeString">
+        <Property_Value>PRECIOUS_ELEMENT_SUBTITLE</Property_Value>
+      </Data_Subtitle>
+      <Data_Description template="VariableSizeString">
+        <Property_Value>NEWPROD8_DESC</Property_Value>
+      </Data_Description>
+      <Data_Colour template="Colour">
+        <Property_R>0.4431373</Property_R>
+        <Property_G>0.09411765</Property_G>
+        <Property_B>0.5019608</Property_B>
+        <Property_A>1</Property_A>
+      </Data_Colour>
+      <Data_WorldColour template="Colour">
+        <Property_R>0.8705882</Property_R>
+        <Property_G>0.8627451</Property_G>
+        <Property_B>0.8196079</Property_B>
+        <Property_A>1</Property_A>
+      </Data_WorldColour>
+      <Property_BaseValue>220</Property_BaseValue>
+      <Data_SubstanceCategory template="GcRealitySubstanceCategory">
+        <Property_SubstanceCategory>Special</Property_SubstanceCategory>
+      </Data_SubstanceCategory>
+      <Data_Rarity template="GcRarity">
+        <Property_Rarity>Rare</Property_Rarity>
+      </Data_Rarity>
+      <Data_Legality template="GcLegality">
+        <Property_Legality>Legal</Property_Legality>
+      </Data_Legality>
+      <Property_ChargeValue>1</Property_ChargeValue>
+      <Data_Cost template="GcItemPriceModifiers">
+        <Property_SpaceStationMarkup>0</Property_SpaceStationMarkup>
+        <Property_LowPriceMod>0.25</Property_LowPriceMod>
+        <Property_HighPriceMod>0.5</Property_HighPriceMod>
+        <Property_BuyBaseMarkup>0.25</Property_BuyBaseMarkup>
+        <Property_BuyMarkupMod>0</Property_BuyMarkupMod>
+      </Data_Cost>
+      <Property_NormalisedValueOnWorld>0.00430043</Property_NormalisedValueOnWorld>
+      <Property_NormalisedValueOffWorld>0.00430043</Property_NormalisedValueOffWorld>
+    </Data_root>
+    <Data_root template="GcSubstanceData">
+      <Property_Name>NEWPROD15_NAME</Property_Name>
+      <Property_NameLower>NEWPROD15_NAME_L</Property_NameLower>
+      <Property_Id>TRADEABLE8</Property_Id>
+      <Property_Symbol>NEWPROD15_SYMBOL</Property_Symbol>
+      <Data_Icon template="TkTextureResource">
+        <Property_Filename>TEXTURES/UI/FRONTEND/ICONS/SUBSTANCES/SUBSTANCE.PRECIOUS.RARE4.DDS</Property_Filename>
+      </Data_Icon>
+      <Data_Debris template="TkModelResource">
+        <Property_Filename>MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS2.SCENE.MBIN</Property_Filename>
+      </Data_Debris>
+      <Data_Subtitle template="VariableSizeString">
+        <Property_Value>PRECIOUS_ELEMENT_SUBTITLE</Property_Value>
+      </Data_Subtitle>
+      <Data_Description template="VariableSizeString">
+        <Property_Value>NEWPROD15_DESC</Property_Value>
+      </Data_Description>
+      <Data_Colour template="Colour">
+        <Property_R>0.4431373</Property_R>
+        <Property_G>0.09411765</Property_G>
+        <Property_B>0.5019608</Property_B>
+        <Property_A>1</Property_A>
+      </Data_Colour>
+      <Data_WorldColour template="Colour">
+        <Property_R>0.8705882</Property_R>
+        <Property_G>0.8627451</Property_G>
+        <Property_B>0.8196079</Property_B>
+        <Property_A>1</Property_A>
+      </Data_WorldColour>
+      <Property_BaseValue>210</Property_BaseValue>
+      <Data_SubstanceCategory template="GcRealitySubstanceCategory">
+        <Property_SubstanceCategory>Special</Property_SubstanceCategory>
+      </Data_SubstanceCategory>
+      <Data_Rarity template="GcRarity">
+        <Property_Rarity>Rare</Property_Rarity>
+      </Data_Rarity>
+      <Data_Legality template="GcLegality">
+        <Property_Legality>Legal</Property_Legality>
+      </Data_Legality>
+      <Property_ChargeValue>1</Property_ChargeValue>
+      <Data_Cost template="GcItemPriceModifiers">
+        <Property_SpaceStationMarkup>0</Property_SpaceStationMarkup>
+        <Property_LowPriceMod>0.25</Property_LowPriceMod>
+        <Property_HighPriceMod>0.5</Property_HighPriceMod>
+        <Property_BuyBaseMarkup>0.25</Property_BuyBaseMarkup>
+        <Property_BuyMarkupMod>0</Property_BuyMarkupMod>
+      </Data_Cost>
+      <Property_NormalisedValueOnWorld>0.00410041</Property_NormalisedValueOnWorld>
+      <Property_NormalisedValueOffWorld>0.00410041</Property_NormalisedValueOffWorld>
+    </Data_root>
+    <Data_root template="GcSubstanceData">
+      <Property_Name>NEWPROD9_NAME</Property_Name>
+      <Property_NameLower>NEWPROD9_NAME_L</Property_NameLower>
+      <Property_Id>TRADEABLE9</Property_Id>
+      <Property_Symbol>NEWPROD9_SYMBOL</Property_Symbol>
+      <Data_Icon template="TkTextureResource">
+        <Property_Filename>TEXTURES/UI/FRONTEND/ICONS/SUBSTANCES/SUBSTANCE.PRECIOUS.RARE3.DDS</Property_Filename>
+      </Data_Icon>
+      <Data_Debris template="TkModelResource">
+        <Property_Filename>MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS2.SCENE.MBIN</Property_Filename>
+      </Data_Debris>
+      <Data_Subtitle template="VariableSizeString">
+        <Property_Value>PRECIOUS_ELEMENT_SUBTITLE</Property_Value>
+      </Data_Subtitle>
+      <Data_Description template="VariableSizeString">
+        <Property_Value>NEWPROD9_DESC</Property_Value>
+      </Data_Description>
+      <Data_Colour template="Colour">
+        <Property_R>0.4431373</Property_R>
+        <Property_G>0.09411765</Property_G>
+        <Property_B>0.5019608</Property_B>
+        <Property_A>1</Property_A>
+      </Data_Colour>
+      <Data_WorldColour template="Colour">
+        <Property_R>0.8705882</Property_R>
+        <Property_G>0.8627451</Property_G>
+        <Property_B>0.8196079</Property_B>
+        <Property_A>1</Property_A>
+      </Data_WorldColour>
+      <Property_BaseValue>220</Property_BaseValue>
+      <Data_SubstanceCategory template="GcRealitySubstanceCategory">
+        <Property_SubstanceCategory>Special</Property_SubstanceCategory>
+      </Data_SubstanceCategory>
+      <Data_Rarity template="GcRarity">
+        <Property_Rarity>Rare</Property_Rarity>
+      </Data_Rarity>
+      <Data_Legality template="GcLegality">
+        <Property_Legality>Legal</Property_Legality>
+      </Data_Legality>
+      <Property_ChargeValue>1</Property_ChargeValue>
+      <Data_Cost template="GcItemPriceModifiers">
+        <Property_SpaceStationMarkup>0</Property_SpaceStationMarkup>
+        <Property_LowPriceMod>0.25</Property_LowPriceMod>
+        <Property_HighPriceMod>0.5</Property_HighPriceMod>
+        <Property_BuyBaseMarkup>0.25</Property_BuyBaseMarkup>
+        <Property_BuyMarkupMod>0</Property_BuyMarkupMod>
+      </Data_Cost>
+      <Property_NormalisedValueOnWorld>0.00430043</Property_NormalisedValueOnWorld>
+      <Property_NormalisedValueOffWorld>0.00430043</Property_NormalisedValueOffWorld>
+    </Data_root>
+    <Data_root template="GcSubstanceData">
+      <Property_Name>NEWPROD16_NAME</Property_Name>
+      <Property_NameLower>NEWPROD16_NAME_L</Property_NameLower>
+      <Property_Id>TRADEABLE10</Property_Id>
+      <Property_Symbol>NEWPROD16_SYMBOL</Property_Symbol>
+      <Data_Icon template="TkTextureResource">
+        <Property_Filename>TEXTURES/UI/FRONTEND/ICONS/SUBSTANCES/SUBSTANCE.PRECIOUS.RARE1.DDS</Property_Filename>
+      </Data_Icon>
+      <Data_Debris template="TkModelResource">
+        <Property_Filename>MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS2.SCENE.MBIN</Property_Filename>
+      </Data_Debris>
+      <Data_Subtitle template="VariableSizeString">
+        <Property_Value>PRECIOUS_ELEMENT_SUBTITLE</Property_Value>
+      </Data_Subtitle>
+      <Data_Description template="VariableSizeString">
+        <Property_Value>NEWPROD16_DESC</Property_Value>
+      </Data_Description>
+      <Data_Colour template="Colour">
+        <Property_R>0.4431373</Property_R>
+        <Property_G>0.09411765</Property_G>
+        <Property_B>0.5019608</Property_B>
+        <Property_A>1</Property_A>
+      </Data_Colour>
+      <Data_WorldColour template="Colour">
+        <Property_R>0.8705882</Property_R>
+        <Property_G>0.8627451</Property_G>
+        <Property_B>0.8196079</Property_B>
+        <Property_A>1</Property_A>
+      </Data_WorldColour>
+      <Property_BaseValue>225</Property_BaseValue>
+      <Data_SubstanceCategory template="GcRealitySubstanceCategory">
+        <Property_SubstanceCategory>Special</Property_SubstanceCategory>
+      </Data_SubstanceCategory>
+      <Data_Rarity template="GcRarity">
+        <Property_Rarity>Rare</Property_Rarity>
+      </Data_Rarity>
+      <Data_Legality template="GcLegality">
+        <Property_Legality>Legal</Property_Legality>
+      </Data_Legality>
+      <Property_ChargeValue>1</Property_ChargeValue>
+      <Data_Cost template="GcItemPriceModifiers">
+        <Property_SpaceStationMarkup>0</Property_SpaceStationMarkup>
+        <Property_LowPriceMod>0.25</Property_LowPriceMod>
+        <Property_HighPriceMod>0.5</Property_HighPriceMod>
+        <Property_BuyBaseMarkup>0.25</Property_BuyBaseMarkup>
+        <Property_BuyMarkupMod>0</Property_BuyMarkupMod>
+      </Data_Cost>
+      <Property_NormalisedValueOnWorld>0.00440044</Property_NormalisedValueOnWorld>
+      <Property_NormalisedValueOffWorld>0.00440044</Property_NormalisedValueOffWorld>
+    </Data_root>
+  </Property_Table>
+  <Property_Crafting />
+</Data_root>
