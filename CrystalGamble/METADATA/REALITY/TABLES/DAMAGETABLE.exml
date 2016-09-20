@@ -135,8 +135,8 @@
       </Property>
       <Property name="HitMessage" value="" />
       <Property name="CriticalHitMessage" value="NOTIFY_CRITIAL_HIT" />
-      <Property name="Damage" value="100" />
-      <Property name="PushForce" value="50" />
+      <Property name="Damage" value="50" />
+      <Property name="PushForce" value="20" />
       <Property name="CameraTurn" value="15" />
       <Property name="CameraShakeShield" value="SMALLPAINSHAKE" />
       <Property name="CameraShakeNoShield" value="BIGPAINSHAKE" />
