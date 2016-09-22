@@ -129,14 +129,14 @@
     </Property>
     <Property value="GcPlayerDamageData.xml">
       <Property name="Id" value="GAMBLE_DMG" />
-      <Property name="DeathMessage" value="DEATH_STANDSTONE" />
+      <Property name="DeathMessage" value="DEATH_GAMBLE" />				<!-- Needs added to language -->
       <Property name="HitIcon" value="TkTextureResource.xml">
         <Property name="Filename" value="" />
       </Property>
       <Property name="HitMessage" value="" />
       <Property name="CriticalHitMessage" value="NOTIFY_CRITIAL_HIT" />
       <Property name="Damage" value="100" />
-      <Property name="PushForce" value="50" />
+      <Property name="PushForce" value="20" />
       <Property name="CameraTurn" value="15" />
       <Property name="CameraShakeShield" value="SMALLPAINSHAKE" />
       <Property name="CameraShakeNoShield" value="BIGPAINSHAKE" />
@@ -149,8 +149,8 @@
       </Property>
       <Property name="HitMessage" value="" />
       <Property name="CriticalHitMessage" value="NOTIFY_CRITIAL_HIT" />
-      <Property name="Damage" value="3" />
-      <Property name="PushForce" value="0" />
+      <Property name="Damage" value="6" />
+      <Property name="PushForce" value="2" />
       <Property name="CameraTurn" value="0" />
       <Property name="CameraShakeShield" value="SMALLPAINSHAKE" />
       <Property name="CameraShakeNoShield" value="BIGPAINSHAKE" />
@@ -163,28 +163,14 @@
       </Property>
       <Property name="HitMessage" value="" />
       <Property name="CriticalHitMessage" value="NOTIFY_CRITIAL_HIT" />
-      <Property name="Damage" value="4" />
-      <Property name="PushForce" value="0" />
+      <Property name="Damage" value="8" />
+      <Property name="PushForce" value="2" />
       <Property name="CameraTurn" value="0" />
       <Property name="CameraShakeShield" value="SMALLPAINSHAKE" />
       <Property name="CameraShakeNoShield" value="BIGPAINSHAKE" />
     </Property>
     <Property value="GcPlayerDamageData.xml">
       <Property name="Id" value="SMLCREATUREDMG" />
-      <Property name="DeathMessage" value="DEATH_CREATURE" />
-      <Property name="HitIcon" value="TkTextureResource.xml">
-        <Property name="Filename" value="" />
-      </Property>
-      <Property name="HitMessage" value="" />
-      <Property name="CriticalHitMessage" value="NOTIFY_CRITIAL_HIT" />
-      <Property name="Damage" value="20" />
-      <Property name="PushForce" value="10" />
-      <Property name="CameraTurn" value="10" />
-      <Property name="CameraShakeShield" value="SMALLPAINSHAKE" />
-      <Property name="CameraShakeNoShield" value="BIGPAINSHAKE" />
-    </Property>
-    <Property value="GcPlayerDamageData.xml">
-      <Property name="Id" value="MEDCREATUREDMG" />
       <Property name="DeathMessage" value="DEATH_CREATURE" />
       <Property name="HitIcon" value="TkTextureResource.xml">
         <Property name="Filename" value="" />
@@ -198,6 +184,20 @@
       <Property name="CameraShakeNoShield" value="BIGPAINSHAKE" />
     </Property>
     <Property value="GcPlayerDamageData.xml">
+      <Property name="Id" value="MEDCREATUREDMG" />
+      <Property name="DeathMessage" value="DEATH_CREATURE" />
+      <Property name="HitIcon" value="TkTextureResource.xml">
+        <Property name="Filename" value="" />
+      </Property>
+      <Property name="HitMessage" value="" />
+      <Property name="CriticalHitMessage" value="NOTIFY_CRITIAL_HIT" />
+      <Property name="Damage" value="45" />
+      <Property name="PushForce" value="10" />
+      <Property name="CameraTurn" value="10" />
+      <Property name="CameraShakeShield" value="SMALLPAINSHAKE" />
+      <Property name="CameraShakeNoShield" value="BIGPAINSHAKE" />
+    </Property>
+    <Property value="GcPlayerDamageData.xml">
       <Property name="Id" value="LRGCREATUREDMG" />
       <Property name="DeathMessage" value="DEATH_CREATURE" />
       <Property name="HitIcon" value="TkTextureResource.xml">
@@ -205,7 +205,7 @@
       </Property>
       <Property name="HitMessage" value="" />
       <Property name="CriticalHitMessage" value="NOTIFY_CRITIAL_HIT" />
-      <Property name="Damage" value="50" />
+      <Property name="Damage" value="65" />
       <Property name="PushForce" value="15" />
       <Property name="CameraTurn" value="10" />
       <Property name="CameraShakeShield" value="BIGPAINSHAKE" />
@@ -219,7 +219,7 @@
       </Property>
       <Property name="HitMessage" value="" />
       <Property name="CriticalHitMessage" value="NOTIFY_CRITIAL_HIT" />
-      <Property name="Damage" value="80" />
+      <Property name="Damage" value="120" />
       <Property name="PushForce" value="15" />
       <Property name="CameraTurn" value="10" />
       <Property name="CameraShakeShield" value="SMALLPAINSHAKE" />
@@ -233,7 +233,7 @@
       </Property>
       <Property name="HitMessage" value="" />
       <Property name="CriticalHitMessage" value="NOTIFY_CRITIAL_HIT" />
-      <Property name="Damage" value="40" />
+      <Property name="Damage" value="60" />
       <Property name="PushForce" value="15" />
       <Property name="CameraTurn" value="10" />
       <Property name="CameraShakeShield" value="SMALLPAINSHAKE" />
@@ -247,8 +247,8 @@
       </Property>
       <Property name="HitMessage" value="" />
       <Property name="CriticalHitMessage" value="" />
-      <Property name="Damage" value="7" />
-      <Property name="PushForce" value="0" />
+      <Property name="Damage" value="30" />
+      <Property name="PushForce" value="10" />
       <Property name="CameraTurn" value="0" />
       <Property name="CameraShakeShield" value="SMALLPAINSHAKE" />
       <Property name="CameraShakeNoShield" value="BIGPAINSHAKE" />
