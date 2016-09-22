@@ -129,7 +129,7 @@
     </Property>
     <Property value="GcPlayerDamageData.xml">
       <Property name="Id" value="GAMBLE_DMG" />
-      <Property name="DeathMessage" value="DEATH_GAMBLE" />				<!-- Needs added to language -->
+      <Property name="DeathMessage" value="DEATH_GAMBLE" />
       <Property name="HitIcon" value="TkTextureResource.xml">
         <Property name="Filename" value="" />
       </Property>

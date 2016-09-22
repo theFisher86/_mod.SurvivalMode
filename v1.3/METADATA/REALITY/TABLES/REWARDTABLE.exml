@@ -1372,7 +1372,7 @@
             <Data name="Reward" template="GcRewardDamage">
               <Property name="PlayerDamage" value="GAMBLE_DMG" />
             </Data>
-            <Property name="LabelID" value="GAMBLE_DMG" />
+            <Property name="LabelID" value="GAMBLE_LABEL" />
           </Data>
           <Data template="GcRewardTableItem">
             <Property name="PercentageChance" value="25" />
@@ -1387,7 +1387,7 @@
 					<Property name="AmountMin" value="100" />
 					<Property name="AmountMax" value="200" />
 				</Data>
-            <Property name="LabelID" value="FUEL" />
+            <Property name="LabelID" value="GAMBLE_LABEL" />
           </Data>
         </Property>
       </Data>

@@ -49,7 +49,7 @@
       <Property name="TriggerAction" value="" />
       <Property name="BroadcastTriggerAction" value="False" />
       <Property name="Delay" value="0" />
-      <Property name="InteractIsCrime" value="False" />
+      <Property name="InteractIsCrime" value="True" />
       <Property name="InteractCrimeLevel" value="0" />
       <Data name="ActivationCost" template="GcInteractionActivationCost">
         <Property name="SubstanceId" value="" />
