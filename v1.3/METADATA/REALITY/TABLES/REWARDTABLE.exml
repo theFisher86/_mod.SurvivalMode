@@ -1365,7 +1365,7 @@
       <Data name="Common" template="GcRewardTableItemList">
         <Property name="EntitlementLinked" value="False" />
         <Property name="EntitlementId" value="" />
-        <Property name="RewardChoice" value="Select" />
+        <Property name="RewardChoice" value="TryEach" />
         <Property name="List">
           <Data template="GcRewardTableItem">
             <Property name="PercentageChance" value="75" />
@@ -1375,7 +1375,7 @@
             <Property name="LabelID" value="GAMBLE_LABEL" />
           </Data>
           <Data template="GcRewardTableItem">
-            <Property name="PercentageChance" value="25" />
+            <Property name="PercentageChance" value="50" />
 				<Data name="Reward" template="GcRewardSubstance">
 					<Data name="Category" template="GcRealitySubstanceCategory">
 					  <Property name="SubstanceCategory" value="Special" />
@@ -1384,7 +1384,7 @@
 					  <Property name="Rarity" value="Extraordinary" />
 					</Data>
 					<Property name="ItemLevel" value="1" />
-					<Property name="AmountMin" value="100" />
+					<Property name="AmountMin" value="75" />
 					<Property name="AmountMax" value="200" />
 				</Data>
             <Property name="LabelID" value="GAMBLE_LABEL" />
